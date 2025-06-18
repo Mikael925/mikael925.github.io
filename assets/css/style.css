@@ -12,9 +12,9 @@ header {
     padding: 20px 0;
 }
 
-/* Färg för namnet i headern */
-header h1 {
-    color: #e67e22; /* Mörk orange */
+header h1 a {
+    color: inherit; /* Länken ärver färgen från h1 (den orangea) */
+    text-decoration: none; /* Tar bort eventuell understrykning */
 }
 
 /* Stil för navigeringsmenyn */
