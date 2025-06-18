@@ -1,7 +1,12 @@
 ---
-layout: page
-title: Level Design
+layout: default
+title: Systems Design
 ---
+
+<div class="page">
+  <h1 class="page-title">Systems Design</h1>
+  <p>Här kommer du att visa dina projekt inom systems design.</p>
+</div>
 
 ## Projekt 1: [Projektnamn]
 
