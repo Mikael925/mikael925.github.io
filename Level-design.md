@@ -1,7 +1,12 @@
 ---
-layout: page
+layout: default
 title: Level Design
 ---
+
+<div class="page">
+  <h1 class="page-title">Level Design</h1>
+  <p>Här kommer du att visa dina projekt inom level design.</p>
+</div>
 
 ## Projekt 1: [Projektnamn]
 
