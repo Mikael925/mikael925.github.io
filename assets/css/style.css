@@ -8,8 +8,29 @@ body {
 
 /* Generell stil för header */
 header {
-    text-align: center; /* Centrerar texten i headern */
+    text-align: center;
     padding: 20px 0;
+    position: relative; /* Viktig för positionering av ikoner! */
+}
+
+/* Lådan som håller sociala ikoner */
+.social-icons {
+    position: absolute;
+    top: 25px; /* Justera avstånd från toppen */
+    right: 25px; /* Justera avstånd från höger */
+}
+
+/* Stil för ikon-länkarna */
+.social-icons a {
+    font-size: 1.8rem; /* Storlek på ikonen (ca 28px) */
+    color: #f39c12;   /* Samma ljusorangea färg som menyn */
+    margin-left: 15px;  /* Avstånd mellan ikoner om du har flera */
+    transition: color 0.2s ease-in-out; /* Snygg övergångseffekt */
+}
+
+/* Ändrar färg när muspekaren är över */
+.social-icons a:hover {
+    color: #ffffff; /* Blir vit */
 }
 
 header h1 a {
