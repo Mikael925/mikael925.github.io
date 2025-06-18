@@ -258,16 +258,16 @@ exclude:
   - README.md
   - CNAME
 
-#Navigation links
+# Navigation links
 navigation:
   - title: About Me
-  url: /
+    url: /
   - title: Level Design
-  url: /level-design
+    url: /level-design
   - title: Sound Design
-  url: /sound-design
+    url: /sound-design
   - title: System Design
-  url: /systems-design
+    url: /systems-design
   - title: Generalist
-  url: /generalist
+    url: /generalist
   
