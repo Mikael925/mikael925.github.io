@@ -1,3 +1,11 @@
+body {
+    background-color: #2c2c2c; /* Mörkgrå bakgrund */
+    color: #e0e0e0;           /* Mycket ljusgrå text */
+    font-family: sans-serif;  /* Ett rent, läsbart typsnitt */
+    margin: 0;
+    padding: 0;
+}
+
 /* Generell stil för header */
 header {
     text-align: center; /* Centrerar texten i headern */
