@@ -1,7 +1,12 @@
 ---
-layout: page
-title: Level Design
+layout: default
+title: Being a Generalist
 ---
+
+<div class="page">
+  <h1 class="page-title">Being a Generalist</h1>
+  <p>Här kommer du att beskriva dina färdigheter som generalist.</p>
+</div>
 
 ## Projekt 1: [Projektnamn]
 
