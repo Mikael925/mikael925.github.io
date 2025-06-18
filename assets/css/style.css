@@ -12,11 +12,16 @@ header {
     padding: 20px 0;
 }
 
+/* Färg för namnet i headern */
+header h1 {
+    color: #e67e22; /* Mörk orange */
+}
+
 /* Stil för navigeringsmenyn */
 nav {
     text-align: center; /* Centrerar menyn */
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
 }
 
 nav ul {
@@ -31,11 +36,12 @@ nav li {
 
 nav a {
     display: block;
-    padding: 15px 20px; /* Ger utrymme runt varje menyval */
-    text-decoration: none; /* Tar bort understrykning på länkar */
-    color: #333; /* Mörkgrå textfärg */
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #e0e0e0; /* Samma ljusgrå färg som resten av texten */
 }
 
 nav a:hover {
-    background-color: #f5f5f5; /* En ljusgrå färg när musen är över */
+    background-color: #444; /* En något ljusare mörkgrå */
+    color: #ffffff;         /* Vit text för att den ska sticka ut */
 }
