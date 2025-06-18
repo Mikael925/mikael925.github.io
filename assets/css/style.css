@@ -1,0 +1,33 @@
+/* Generell stil för header */
+header {
+    text-align: center; /* Centrerar texten i headern */
+    padding: 20px 0;
+}
+
+/* Stil för navigeringsmenyn */
+nav {
+    text-align: center; /* Centrerar menyn */
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none; /* Tar bort punkterna framför menyvalen */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block; /* Placerar menyvalen på en rad */
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px; /* Ger utrymme runt varje menyval */
+    text-decoration: none; /* Tar bort understrykning på länkar */
+    color: #333; /* Mörkgrå textfärg */
+}
+
+nav a:hover {
+    background-color: #f5f5f5; /* En ljusgrå färg när musen är över */
+}
