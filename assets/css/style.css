@@ -38,7 +38,7 @@ nav a {
     display: block;
     padding: 15px 20px;
     text-decoration: none;
-    color: #e0e0e0; /* Samma ljusgrå färg som resten av texten */
+    color: #f39c12; /* Ljusare orange */
 }
 
 nav a:hover {
