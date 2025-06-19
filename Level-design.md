@@ -9,14 +9,14 @@
         <summary>Read more about the design process</summary>
         <div class="details-content">
             <p>
-                Nu är det dags att fylla på med den djupgående informationen. Beskriv din process i detalj. Tänk på punkter som:
+                More Details.
             </p>
             <ul>
-                <li><strong>Design Goals:</strong> Vilken specifik spelkänsla eller utmaning ville du skapa? Hur designade du banan för att uppnå detta?</li>
-                <li><strong>Process from Start to Finish:</strong> Hur såg din arbetsprocess ut? (t.ex. pappersskisser, blockout i motorn, scripting, testning).</li>
-                <li><strong>Key Features or Sections:</strong> Finns det en specifik del av banan eller en mekanik du är extra stolt över? Beskriv varför.</li>
-                <li><strong>Challenges and Solutions:</strong> Vilka var de största utmaningarna (t.ex. tekniska, designmässiga)? Hur löste du dem?</li>
-                <li><strong>What I Learned:</strong> Vilka var dina viktigaste lärdomar från projektet?</li>
+                <li><strong>Design Goals:</strong> Explain Feelings</li>
+                <li><strong>Process from Start to Finish:</strong> Workprogress.</li>
+                <li><strong>Key Features or Sections:</strong> Mekaniks.</li>
+                <li><strong>Challenges and Solutions:</strong> Challange in dev?</li>
+                <li><strong>What I Learned:</strong> WHat did I learn?</li>
             </ul>
         </div>
     </details>
