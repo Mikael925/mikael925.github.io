@@ -66,3 +66,24 @@ nav a:hover {
     background-color: #444; /* En något ljusare mörkgrå */
     color: #ffffff;         /* Vit text för att den ska sticka ut */
 }
+
+/* Ny layout för projektkort */
+
+.project-flex-container {
+  display: flex;          /* Aktiverar Flexbox-layout */
+  align-items: flex-start;  /* Ser till att toppen på kolumnerna linjerar */
+  gap: 25px;              /* Skapar ett mellanrum mellan bild och text */
+}
+
+.project-image-column {
+  flex-basis: 300px;  /* Sätter en fast start-bredd för bilden */
+  flex-shrink: 0;     /* Förhindrar att bilden krymper */
+}
+
+.project-text-column {
+  flex-grow: 1;       /* Tillåter text-kolumnen att växa och ta upp resten av platsen */
+}
+
+.project-details-row {
+  margin-top: 1em;    /* Ger lite luft mellan kolumnerna och "Läs mer"-knappen */
+}
