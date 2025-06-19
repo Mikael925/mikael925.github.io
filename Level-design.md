@@ -38,11 +38,11 @@
                 Beskriv din process för detta narrativa projekt. Några förslag på punkter:
             </p>
             <ul>
-                <li><strong>Guiding the Player:</strong> Hur använde du ljus, ljud, komposition och andra ledtrådar för att guida spelaren och samtidigt bygga upp mystiken?</li>
-                <li><strong>Pacing & Narrative Flow:</strong> Hur arbetade du med tempot (pacing) mellan de tre platserna för att hålla berättelsen engagerande?</li>
-                <li><strong>Environmental Storytelling:</strong> Vilka specifika detaljer placerade du i miljön för att berätta historien utan att använda ord?</li>
-                <li><strong>Challenges and Solutions:</strong> Vilka unika utmaningar innebar detta projekt? Hur löste du dem?</li>
-                <li><strong>What I Learned:</strong> Vad lärde du dig om narrativ level design?</li>
+                <li><strong>Guiding the Player:</strong> how?</li>
+                <li><strong>Pacing & Narrative Flow:</strong> Flow?</li>
+                <li><strong>Environmental Storytelling:</strong> how?</li>
+                <li><strong>Challenges and Solutions:</strong> Challagnes?</li>
+                <li><strong>What I Learned:</strong> narrativ level design?</li>
             </ul>
         </div>
     </details>
