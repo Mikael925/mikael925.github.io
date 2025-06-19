@@ -23,3 +23,29 @@
 </div>
 
 <hr style="border-color: #555;">
+
+<div class="project-card">
+    <h3>Shattered Veil</h3>
+    
+    <img src="{{ '/Images/gp2small.png' | relative_url }}" alt="A screenshot from the game 'Shattered Veil'" style="width: 100%; max-width: 700px; height: auto; border-radius: 5px;">
+    
+    <p>This project was a narrative-driven experience designed to guide the player from point A to B. The level was crafted to build a sense of mystery along the way, captivating the player's interest in the unfolding story. The journey spans three distinct locations: a village, a church, and a final ritual site.</p>
+    
+    <details>
+        <summary>Read more about the design process</summary>
+        <div class="details-content">
+            <p>
+                Beskriv din process för detta narrativa projekt. Några förslag på punkter:
+            </p>
+            <ul>
+                <li><strong>Guiding the Player:</strong> Hur använde du ljus, ljud, komposition och andra ledtrådar för att guida spelaren och samtidigt bygga upp mystiken?</li>
+                <li><strong>Pacing & Narrative Flow:</strong> Hur arbetade du med tempot (pacing) mellan de tre platserna för att hålla berättelsen engagerande?</li>
+                <li><strong>Environmental Storytelling:</strong> Vilka specifika detaljer placerade du i miljön för att berätta historien utan att använda ord?</li>
+                <li><strong>Challenges and Solutions:</strong> Vilka unika utmaningar innebar detta projekt? Hur löste du dem?</li>
+                <li><strong>What I Learned:</strong> Vad lärde du dig om narrativ level design?</li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+<hr style="border-color: #555;">
