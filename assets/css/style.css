@@ -102,3 +102,28 @@ nav a:hover {
   height: 140px !important;
   border-radius: 50% !important;
 }
+
+/* Layout för About Me-sektionen */
+.about-container {
+  display: flex;
+  align-items: flex-start; /* Linjerar toppen av bild och text */
+  gap: 30px;             /* Avstånd mellan bild och text */
+}
+
+.about-image {
+  flex-basis: 300px; /* Bildens kolumn får en fast bredd */
+  flex-shrink: 0;    /* Förhindrar att bilden krymper */
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Mjukt rundade hörn */
+}
+
+/* Anpassning för mindre skärmar (t.ex. mobiler) */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Staplar bild och text vertikalt */
+  }
+}
