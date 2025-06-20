@@ -1,207 +1,63 @@
-/* Centrerar huvudinnehållet på sidan genom att styla .post-containern */
-.post {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 25px; /* Behåller skyddsmarginalen för mindre skärmar */
-}
-
+/* Grundläggande sidinställningar */
 body {
-    background-color: #2c2c2c; /* Mörkgrå bakgrund */
-    color: #e0e0e0;           /* Mycket ljusgrå text */
-    font-family: sans-serif;  /* Ett rent, läsbart typsnitt */
-    margin: 0;
-    padding: 0;
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Generell stil för header */
-header {
-    text-align: center;
-    padding: 20px 0;
-    position: relative; /* Viktig för positionering av ikoner! */
-}
-
-/* Lådan som håller sociala ikoner */
-.social-icons {
-    position: absolute;
-    top: 25px; /* Justera avstånd från toppen */
-    right: 25px; /* Justera avstånd från höger */
-}
-
-/* Stil för ikon-länkarna */
-.social-icons a {
-    font-size: 1.8rem; /* Storlek på ikonen (ca 28px) */
-    color: #f39c12;   /* Samma ljusorangea färg som menyn */
-    margin-left: 15px;  /* Avstånd mellan ikoner om du har flera */
-    transition: color 0.2s ease-in-out; /* Snygg övergångseffekt */
-}
-
-/* Ändrar färg när muspekaren är över */
-.social-icons a:hover {
-    color: #ffffff; /* Blir vit */
-}
-
-header h1 a {
-    color: inherit; /* Länken ärver färgen från h1 (den orangea) */
-    text-decoration: none; /* Tar bort eventuell understrykning */
-}
-
-/* Stil för navigeringsmenyn */
-nav {
-    text-align: center; /* Centrerar menyn */
-    border-top: 1px solid #555;
-    border-bottom: 1px solid #555;
-}
-
-nav ul {
-    list-style: none; /* Tar bort punkterna framför menyvalen */
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block; /* Placerar menyvalen på en rad */
-}
-
-nav a {
-    display: block;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: #f39c12; /* Ljusare orange */
-}
-
-nav a:hover {
-    background-color: #444; /* En något ljusare mörkgrå */
-    color: #ffffff;         /* Vit text för att den ska sticka ut */
-}
-
-/* Ny layout för projektkort */
-
-.project-flex-container {
-  display: flex;          /* Aktiverar Flexbox-layout */
-  align-items: flex-start;  /* Ser till att toppen på kolumnerna linjerar */
-  gap: 25px;              /* Skapar ett mellanrum mellan bild och text */
-}
-
-.project-image-column {
-  flex-basis: 300px;  /* Sätter en fast start-bredd för bilden */
-  flex-shrink: 0;     /* Förhindrar att bilden krymper */
-}
-
-.project-text-column {
-  flex-grow: 1;       /* Tillåter text-kolumnen att växa och ta upp resten av platsen */
-}
-
-.project-details-row {
-  margin-top: 1em;    /* Ger lite luft mellan kolumnerna och "Läs mer"-knappen */
-}
-
-/* Anpassad storlek för avatar */
+/* Sidhuvud & Avatar */
 .site-avatar img {
   width: 140px !important;
   height: 140px !important;
   border-radius: 50% !important;
 }
 
-/* Layout för About Me-sektionen */
-.about-container {
-  display: flex;
-  align-items: flex-start; /* Linjerar toppen av bild och text */
-  gap: 30px;             /* Avstånd mellan bild och text */
+/* Textinnehåll under bildbannern */
+.content-text {
+  max-width: 800px; /* Begränsar textens bredd för läsbarhet */
+  margin: 40px auto; /* Centrerar textblocket och ger luft upp/ner */
+  padding: 0 20px;
 }
 
-.about-image {
-  flex-basis: 300px; /* Bildens kolumn får en fast bredd */
-  flex-shrink: 0;    /* Förhindrar att bilden krymper */
-}
-
-.about-image img {
-  width: 90%; /* Justerad storlek */
-  height: auto;
-  border-radius: 8px;
-}
-
-/* Anpassning för mindre skärmar (t.ex. mobiler) */
-@media (max-width: 768px) {
-  .about-container {
-    flex-direction: column; /* Staplar bild och text vertikalt */
-  }
-}
-
-/* Bildgalleri Layout */
-.image-gallery {
-  display: flex;
-  flex-wrap: wrap; /* Tillåter bilder att hoppa ner på ny rad */
-  gap: 15px;       /* Avstånd mellan bilderna */
-  margin-top: 40px;/* Luft mellan 'About Me'-sektionen och galleriet */
-}
-
-.image-gallery img {
-  /* Skapar tre kolumner på stora skärmar */
-  width: calc(33.333% - 11px); 
-  /* Höjden blir nu automatisk och anpassar sig efter bredden */
-  border-radius: 8px;
-}
-
-/* Anpassning för surfplattor - Två kolumner */
-@media (max-width: 768px) {
-  .image-gallery img {
-    width: calc(50% - 8px);
-  }
-}
-
-/* Anpassning för mobiler - En kolumn */
-@media (max-width: 480px) {
-  .image-gallery img {
-    width: 100%;
-  }
-}
-
-/* Ny bildbanner högst upp */
+/* -------- BILD BANNER -------- */
 .image-banner {
-  display: flex; /* Lägger bilderna på en rad */
-  gap: 15px;       /* Avstånd mellan bilderna */
-  margin-bottom: 40px; /* Avstånd ner till texten under */
+  display: flex;
+  gap: 15px;
 }
 
 .image-banner img {
-  flex: 1; /* Gör att alla bilder delar på utrymmet och blir lika breda */
-  width: 100%; /* Nödvändigt för flex-beräkningen */
-  height: 250px; /* ALLA bilder får samma höjd. Justera vid behov. */
-  object-fit: cover; /* Detta är NYCKELN. Fyller ytan snyggt utan att sträckas ut. */
-  border-radius: 8px; /* Mjuka hörn */
+  flex: 1;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
-/* Enkel container för texten under bannern */
-.content-text {
-  /* Här kan vi lägga till styling för texten senare om det behövs */
-  padding: 0 10px; /* Lite extra luft på sidorna */
+/* Individuell justering av bilder i bannern */
+.image-banner img:nth-child(1) {
+  object-position: center 30%;
 }
 
-/* Anpassning för mobiler */
+.image-banner img:nth-child(3) {
+  object-position: center 10%;
+}
+
+.image-banner img:nth-child(4) {
+  object-position: center 10%;
+}
+
+
+/* -------- ANPASSNING FÖR MOBIL -------- */
 @media (max-width: 768px) {
+
   .image-banner {
     flex-direction: column; /* Staplar bilderna på höjden */
   }
 
   .image-banner img {
-    height: 200px; /* Lite lägre höjd på mobilen */
+    height: 200px; /* En annan höjd för mobilvyn */
   }
-}
 
-/* Justering för specifika bilder i bannern */
-
-/* Flyttar fokus på tredje bilden ner 10% från toppen */
-.image-banner img:nth-child(3) {
-  object-position: center 10%;
-}
-
-/* Flyttar fokus på fjärde bilden ner 10% från toppen */
-.image-banner img:nth-child(4) {
-  object-position: center 10%;
-}
-
-/* Justering för första bilden i bannern (med !important) */
-.image-banner img:nth-child(1) {
-  object-position: center 30% !important;
 }
