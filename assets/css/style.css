@@ -116,9 +116,9 @@ nav a:hover {
 }
 
 .about-image img {
-  width: 100%;
+  width: 90%; /* Justerad storlek */
   height: auto;
-  border-radius: 8px; /* Mjukt rundade hörn */
+  border-radius: 8px;
 }
 
 /* Anpassning för mindre skärmar (t.ex. mobiler) */
