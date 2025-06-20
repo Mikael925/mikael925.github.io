@@ -98,9 +98,7 @@ nav a:hover {
 
 /* Anpassad storlek för avatar */
 .site-avatar img {
-  width: 80px;  /* Ändra detta värde tills du är nöjd */
-  height: 80px; /* Ska vara samma som width för en jämn form */
-  
-  /* Valfritt: Gör bilden helt rund */
-  border-radius: 50%; 
+  width: 140px !important;
+  height: 140px !important;
+  border-radius: 50% !important;
 }
