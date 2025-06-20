@@ -95,3 +95,12 @@ nav a:hover {
 .project-details-row {
   margin-top: 1em;    /* Ger lite luft mellan kolumnerna och "Läs mer"-knappen */
 }
+
+/* Anpassad storlek för avatar */
+.site-avatar img {
+  width: 80px;  /* Ändra detta värde tills du är nöjd */
+  height: 80px; /* Ska vara samma som width för en jämn form */
+  
+  /* Valfritt: Gör bilden helt rund */
+  border-radius: 50%; 
+}
