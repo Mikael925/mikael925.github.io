@@ -139,8 +139,7 @@ nav a:hover {
 .image-gallery img {
   /* Skapar tre kolumner på stora skärmar */
   width: calc(33.333% - 11px); 
-  height: 200px; /* Ger alla bilder samma höjd */
-  object-fit: cover; /* Ser till att bilden fyller ytan utan att förvrängas */
+  /* Höjden blir nu automatisk och anpassar sig efter bredden */
   border-radius: 8px;
 }
 
