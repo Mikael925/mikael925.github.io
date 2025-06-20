@@ -1,6 +1,26 @@
 ---
 layout: default
 ---
+<div class="about-container"> <div class="about-image"> ... </div> 
+
+  <div class="about-text"> ... </div>
+
+  <div class="image-gallery"> ... </div>
+  
+</div> ```
+
+Eftersom galleriet ligger inuti `about-container`, som har `display: flex`, försöker webbläsaren göra det till en tredje kolumn.
+
+**Lösningen:**
+Galleriet måste flyttas ut och placeras *efter* att huvud-boxen har stängts.
+
+---
+
+### Gör så här:
+
+Ersätt **allt** du skickade till mig med den här korrigerade koden. Jag har bara flyttat på de sista två `</div>`-taggarna.
+
+```html
 <div class="about-container">
 
   <div class="about-image">
@@ -14,10 +34,8 @@ layout: default
     <p>Information.</p>
   </div>
 
-<div class="image-gallery">
-  <img src="/Images/AboutMeHike2.jpg">
-  <img src="/Images/SAF2.JPG">
-  <img src="/Images/AboutMeMC.JPG">
-  </div>
-  
+</div> <div class="image-gallery">
+  <img src="/Images/AboutMeHike2.jpg" alt="Beskrivande text för bilden">
+  <img src="/Images/SAF2.JPG" alt="Beskrivande text för bilden">
+  <img src="/Images/AboutMeMC.JPG" alt="Beskrivande text för bilden">
 </div>
