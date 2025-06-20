@@ -188,3 +188,15 @@ nav a:hover {
     height: 200px; /* Lite lägre höjd på mobilen */
   }
 }
+
+/* Justering för specifika bilder i bannern */
+
+/* Flyttar fokus på tredje bilden ner 10% från toppen */
+.image-banner img:nth-child(3) {
+  object-position: center 10%;
+}
+
+/* Flyttar fokus på fjärde bilden ner 10% från toppen */
+.image-banner img:nth-child(4) {
+  object-position: center 10%;
+}
