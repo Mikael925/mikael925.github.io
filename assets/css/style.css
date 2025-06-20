@@ -127,3 +127,33 @@ nav a:hover {
     flex-direction: column; /* Staplar bild och text vertikalt */
   }
 }
+
+/* Bildgalleri Layout */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap; /* Tillåter bilder att hoppa ner på ny rad */
+  gap: 15px;       /* Avstånd mellan bilderna */
+  margin-top: 40px;/* Luft mellan 'About Me'-sektionen och galleriet */
+}
+
+.image-gallery img {
+  /* Skapar tre kolumner på stora skärmar */
+  width: calc(33.333% - 11px); 
+  height: 200px; /* Ger alla bilder samma höjd */
+  object-fit: cover; /* Ser till att bilden fyller ytan utan att förvrängas */
+  border-radius: 8px;
+}
+
+/* Anpassning för surfplattor - Två kolumner */
+@media (max-width: 768px) {
+  .image-gallery img {
+    width: calc(50% - 8px);
+  }
+}
+
+/* Anpassning för mobiler - En kolumn */
+@media (max-width: 480px) {
+  .image-gallery img {
+    width: 100%;
+  }
+}
