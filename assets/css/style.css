@@ -156,3 +156,35 @@ nav a:hover {
     width: 100%;
   }
 }
+
+/* Ny bildbanner högst upp */
+.image-banner {
+  display: flex; /* Lägger bilderna på en rad */
+  gap: 15px;       /* Avstånd mellan bilderna */
+  margin-bottom: 40px; /* Avstånd ner till texten under */
+}
+
+.image-banner img {
+  flex: 1; /* Gör att alla bilder delar på utrymmet och blir lika breda */
+  width: 100%; /* Nödvändigt för flex-beräkningen */
+  height: 250px; /* ALLA bilder får samma höjd. Justera vid behov. */
+  object-fit: cover; /* Detta är NYCKELN. Fyller ytan snyggt utan att sträckas ut. */
+  border-radius: 8px; /* Mjuka hörn */
+}
+
+/* Enkel container för texten under bannern */
+.content-text {
+  /* Här kan vi lägga till styling för texten senare om det behövs */
+  padding: 0 10px; /* Lite extra luft på sidorna */
+}
+
+/* Anpassning för mobiler */
+@media (max-width: 768px) {
+  .image-banner {
+    flex-direction: column; /* Staplar bilderna på höjden */
+  }
+
+  .image-banner img {
+    height: 200px; /* Lite lägre höjd på mobilen */
+  }
+}
