@@ -57,11 +57,13 @@ header h1 a {
    Navigeringsmeny
    ========================================================================== */
 
-nav {
-  text-align: center;
-  border-top: 1px solid #555;
-  border-bottom: 1px solid #555;
-}
+ nav {
+      max-width: 1100px; /* Samma bredd som innehållet */
+      margin: 0 auto;    /* Centrerar hela menyn */
+      text-align: center;
+      border-top: 1px solid #555;
+      border-bottom: 1px solid #555;
+    }
 
 nav ul {
   list-style: none;
