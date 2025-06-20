@@ -201,7 +201,7 @@ nav a:hover {
   object-position: center 10%;
 }
 
-/* Justering för första bilden i bannern */
+/* Justering för första bilden i bannern (med !important) */
 .image-banner img:nth-child(1) {
-  object-position: center 30%; /* Prova detta startvärde */
+  object-position: center 30% !important;
 }
