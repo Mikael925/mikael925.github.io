@@ -87,6 +87,21 @@ nav a:hover {
   color: #ffffff;
 }
 
+.project-roles {
+  margin-top: 20px; /* Lite extra luft ovanför roll-blocket */
+  padding-top: 15px;
+  border-top: 1px solid #555; /* En tunn linje för att separera från texten */
+}
+
+.project-roles h4 {
+  margin-bottom: 10px; /* Luft mellan rubriken "My Roles" och listan */
+}
+
+.project-roles ul {
+  list-style-type: square; /* Eller 'disc'. Ändrar punkterna i listan */
+  padding-left: 20px; /* Justerar indraget på listan */
+  margin: 0;
+}
 /* =============================================================================
    Innehåll på "About Me"-sidan
    ========================================================================== */
