@@ -6,7 +6,7 @@
   
           <div class="project-image-column">
               <img src="{{ '/Images/Gp2Small.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
-              <a href="https://futuregames.itch.io/grimspire" class="itchio-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://futuregames.itch.io/shatteredveil" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
               </a>
           </div>
