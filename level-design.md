@@ -5,8 +5,8 @@
   
           <div class="project-image-column">
               <img src="{{ '/Images/Gp1Small.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
-              <a href="URL_TILL_DITT_ITCH_IO_PROJEKT" class="itchio-link" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-itch-io"></i> Play on Itch.io
+              <a href="[URL_TILL_DITT_ITCH_IO_PROJEKT](https://futuregames.itch.io/echoes-of-stella)" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> Link to Itch.io
               </a>
           </div>
   
