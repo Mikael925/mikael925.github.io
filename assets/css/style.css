@@ -93,6 +93,11 @@ header h1 a {
   color: #ffffff;
 }
 
+.contact-info a:hover {
+  color: #ffffff; /* Byt till vit vid hover för snygg kontrast */
+  text-decoration: underline;
+}
+
 /* =============================================================================
    Navigeringsmeny
    ========================================================================== */
