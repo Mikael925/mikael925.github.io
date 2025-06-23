@@ -7,7 +7,7 @@ title: Sound Design
       <div class="project-flex-container">
   
           <div class="project-image-column">
-              <img src="{{ '/Images/Gp2Small.png' | relative_url }}" alt="A screenshot from the game 'Grim Spire'" style="width: 100%; height: auto; border-radius: 5px;">
+              <img src="{{ '/Images/Gp3.png' | relative_url }}" alt="A screenshot from the game 'Grim Spire'" style="width: 100%; height: auto; border-radius: 5px;">
           </div>
   
           <div class="project-text-column">
