@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sound Design
+---
+
 <div class="page-content">
   <h1 class="page-title">Sound Design</h1>
    
