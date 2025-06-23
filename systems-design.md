@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Systems Design
 ---
 
-<div class="page">
+<div class="page-content">
   <h1 class="page-title">Systems Design</h1>
    
   <div class="project-card">
