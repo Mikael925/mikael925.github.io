@@ -128,6 +128,12 @@ nav a:hover {
   color: #ffffff;
 }
 
+/* Styling för den för tillfället aktiva fliken i menyn */
+nav a.active {
+  color: #ffffff; /* Gör texten vit (eller en annan stark färg) */
+  background-color: #444; /* Samma som din hover-effekt */
+}
+
 .project-roles {
   margin-top: 20px; /* Lite extra luft ovanför roll-blocket */
   padding-top: 15px;
