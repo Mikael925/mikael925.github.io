@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="page">
+<div class="page-content">
   <h1 class="page-title">The Generalist Advantage</h1>
   <p>My core strength is seeing the bigger picture. For me, being a generalist is about understanding the entirety of game development, which allows me to help the team find fitting solutions for whatever problems we encounter. I am a determined team player, focused on seeing every task through to the end. My loyalty is to the project and the team's success—a principle reinforced by my 8 years of service in the Swedish Armed Forces.</p>
 
