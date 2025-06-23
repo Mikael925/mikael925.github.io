@@ -82,15 +82,23 @@ body {
 }
 
 header {
-  text-align: center;
-  padding: 20px 0;
-  position: relative;
+  display: flex;             /* Aktiverar Flexbox */
+  justify-content: center; /* Centrerar hela gruppen (avatar + text) i sidled */
+  align-items: center;     /* Centrerar avatar och text i höjdled med varandra */
+  gap: 25px;                 /* Skapar ett mellanrum mellan avataren och textblocket */
+  
+  padding: 10px 0;           /* Vi kan minska luften nu när headern är mer kompakt */
+  position: relative;          /* Behåll denna */
 }
 
 .site-avatar img {
   width: 140px !important;
   height: 140px !important;
   border-radius: 50% !important;
+}
+
+.site-info {
+  text-align: left;
 }
 
 header h1 a {
