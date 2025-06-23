@@ -161,6 +161,7 @@ nav a:hover {
   position: sticky;
   top: 0;
   z-index: 1000;
+  background-color: #2c2c2c; /* LÄGG TILL DENNA RAD */
 }
 
 /* Du kan byta namn på denna sektion för att inkludera den nya regeln */
