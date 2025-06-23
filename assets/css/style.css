@@ -121,20 +121,14 @@ header h1 a {
    ========================================================================== */
 
 nav {
-  /* ---- NYA REGLER FÖR ATT GÖRA DEN "STICKY" ---- */
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #2c2c2c; /* Samma som din body-bakgrund */
-  width: 100%; /* Se till att den fyller hela bredden */
-  
-  /* ---- DINA GAMLA REGLER (med en liten ändring) ---- */
-  /* max-width tas bort för att den ska kunna fylla hela bredden */
+  /* REGLERNA FÖR STICKY ÄR BORTTAGNA HÄRIFRÅN */
+  background-color: #2c2c2c;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   border-top: 1px solid #555;
   border-bottom: 1px solid #555;
-  box-sizing: border-box; /* Bra att ha för att undvika problem med padding/border */
+  box-sizing: border-box;
 }
 
 nav ul {
@@ -159,6 +153,22 @@ nav a:hover {
   color: #ffffff;
 }
 
+/* =============================================================================
+   Header & Sticky Wrapper
+   ========================================================================== */
+
+.header-sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Du kan byta namn på denna sektion för att inkludera den nya regeln */
+header {
+  /* ...dina header-regler... */
+}
+
+/* ... etc ... */
 /* Styling för den för tillfället aktiva fliken i menyn */
 nav a.active {
   color: #ffffff; /* Gör texten vit (eller en annan stark färg) */
