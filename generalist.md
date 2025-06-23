@@ -8,8 +8,7 @@ layout: default
 
 I am a determined team player, focused on seeing every task through to the end. My loyalty is to the project and the team's success—a principle reinforced by my 8 years of service in the Swedish Armed Forces.
 
-Mina Styrkor som Generalist (Ditt Värde för Teamet)
-Använd underrubriker eller en punktlista. För varje punkt, beskriv styrkan och förklara sedan värdet för teamet/projektet.
+Strenghts as a  Generalist
 
 1. A Communication Hub and Translator
 
