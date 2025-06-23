@@ -10,6 +10,13 @@ body {
   padding: 0;
 }
 
+.contact-info a {
+  color: #f39c12; /* <--- Ändrad till din temafärg */
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.2s ease-in-out;
+}
+
 /* Styling för länk till Itch.io under projektbild */
 .itchio-link {
   display: block; /* Gör så att vi kan centrera den och ge den marginal */
