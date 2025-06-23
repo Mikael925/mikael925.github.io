@@ -1,5 +1,6 @@
-<div class="page-content">
-
+<div class="page">
+  <h1 class="page-title">Level Design</h1>
+   
   <div class="project-card">
       <div class="project-flex-container">
   
