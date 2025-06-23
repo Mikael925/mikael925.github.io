@@ -220,5 +220,5 @@ details > summary:hover {
   }
 
   .image-banner img:nth-child(2) {
-    object-position: center 20%; /* Justera även denna! */
+    object-position: center 5%; /* Justera även denna! */
   }
