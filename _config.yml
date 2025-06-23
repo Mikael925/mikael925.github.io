@@ -1,5 +1,5 @@
 # Site settings
-name: Mikael Johan Rosenhed
+name: Johan Rosenhed
 description: Game Designer Generalist
 avatar: /Images/Profile.JPG
 url: "https://Mikael925.github.io"
@@ -23,17 +23,17 @@ navigation:
 # Footer links
 footer-links:
   dribbble:
-  email:
+  email: Mikael925@gmail.com
   facebook:
   flickr:
-  github:
-  instagram:
-  linkedin:
+  github: https://github.com/Mikael925
+  instagram: 
+  linkedin: https://www.linkedin.com/in/mikael925/
   pinterest:
   rss:
   twitter:
   stackoverflow:
-  youtube:
+  youtube: https://www.youtube.com/@mikael925
   googleplus:
 
 # Build settings
