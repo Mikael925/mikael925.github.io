@@ -13,7 +13,6 @@
               <div class="project-roles">
     <h4>My Roles</h4>
     <ul>
-        <li>Product Owner</li>
         <li>Level Designer</li>
     </ul>
 </div>
