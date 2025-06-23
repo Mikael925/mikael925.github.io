@@ -89,13 +89,22 @@ header h1 a {
    Navigeringsmeny
    ========================================================================== */
 
- nav {
-      max-width: 1100px; /* Samma bredd som innehållet */
-      margin: 0 auto;    /* Centrerar hela menyn */
-      text-align: center;
-      border-top: 1px solid #555;
-      border-bottom: 1px solid #555;
-    }
+nav {
+  /* ---- NYA REGLER FÖR ATT GÖRA DEN "STICKY" ---- */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #2c2c2c; /* Samma som din body-bakgrund */
+  width: 100%; /* Se till att den fyller hela bredden */
+  
+  /* ---- DINA GAMLA REGLER (med en liten ändring) ---- */
+  /* max-width tas bort för att den ska kunna fylla hela bredden */
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  box-sizing: border-box; /* Bra att ha för att undvika problem med padding/border */
+}
 
 nav ul {
   list-style: none;
