@@ -217,6 +217,44 @@ details > summary:hover {
     text-decoration: underline;
 }
 
+/* Styling för listan med styrkor på Generalist-sidan */
+.strengths-list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.strength-item {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #555; /* Linje som separerar punkterna */
+}
+
+/* Tar bort linjen och marginalen för den sista punkten i listan */
+.strength-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.strength-item h3 {
+    color: #f39212; /* Din temafärg för rubrikerna */
+    margin-bottom: 15px;
+}
+
+/* Särskild styling för att lyfta fram "Värdet" för teamet */
+.strength-value {
+    background-color: rgba(0, 0, 0, 0.2); /* Mörk, lätt genomskinlig bakgrund */
+    border-left: 4px solid #f39212; /* Accentlinje i din temafärg */
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-style: italic;
+    color: #f0f0f0; /* Lite ljusare text för att sticka ut */
+}
+
+.summary-block h3 {
+    color: #f39212;
+}
+
 /* =============================================================================
    Anpassning för Mobil
    ========================================================================== */
