@@ -189,11 +189,14 @@ details > summary:hover {
    ========================================================================== */
 
 @media (max-width: 768px) {
+  /* Anpassning för bildbanner på mobil (Horisontell scroll) */
   .image-banner {
-    flex-direction: column;
+    overflow-x: auto; /* Tillåter scroll i sidled */
+    /* Vi tar bort flex-direction: column; */
   }
 
   .image-banner img {
+    flex: 0 0 75%; /* Varje bild tar 75% av skärmens bredd, krymper inte */
     height: 200px;
   }
 
