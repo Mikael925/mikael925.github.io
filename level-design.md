@@ -5,6 +5,9 @@
   
           <div class="project-image-column">
               <img src="{{ '/Images/Gp1Small.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
+              <a href="URL_TILL_DITT_ITCH_IO_PROJEKT" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> Play on Itch.io
+              </a>
           </div>
   
           <div class="project-text-column">
@@ -37,6 +40,9 @@
   
           <div class="project-image-column">
               <img src="{{ '/Images/Gp2Small.png' | relative_url }}" alt="A screenshot from the game 'Grim Spire'" style="width: 100%; height: auto; border-radius: 5px;">
+              <a href="URL_TILL_DITT_ITCH_IO_PROJEKT" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> Play on Itch.io
+              </a>
           </div>
   
           <div class="project-text-column">
