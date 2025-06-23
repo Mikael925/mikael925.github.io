@@ -75,6 +75,7 @@ header h1 a {
 }
 
 .social-icons a {
+  text-decoration: none; /* LÄGG TILL DENNA RAD */
   font-size: 1.8rem;
   color: #f39c12;
   margin-left: 15px;
