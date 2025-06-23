@@ -10,6 +10,30 @@ body {
   padding: 0;
 }
 
+/* Styling för länk till Itch.io under projektbild */
+.itchio-link {
+  display: block; /* Gör så att vi kan centrera den och ge den marginal */
+  text-align: center; /* Centrerar ikon och text */
+  margin-top: 15px; /* Luft mellan bilden och länken */
+  padding: 8px; /* Lite extra utrymme runt länken */
+  color: #e0e0e0; /* Samma färg som din brödtext */
+  text-decoration: none; /* Tar bort understrykningen */
+  border-radius: 5px; /* Samma rundning som dina bilder */
+  background-color: #3a3a3a; /* En något ljusare bakgrund för att sticka ut */
+  transition: all 0.2s ease-in-out; /* Snygg övergång vid hover */
+}
+
+.itchio-link:hover {
+  color: #ffffff; /* Vit text vid hover */
+  background-color: #f39c12; /* Byt färg till din temafärg */
+}
+
+/* Justering för själva ikonen */
+.itchio-link i {
+  margin-right: 8px; /* Lite luft mellan ikonen och texten */
+  font-size: 1.1em; /* Gör ikonen lite större än texten */
+}
+
 /* Denna regel gällde en gammal layout, men kan återanvändas.
    Behåll den för framtida bruk på projektsidor. */
 .post {
