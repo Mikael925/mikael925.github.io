@@ -32,15 +32,15 @@
     </div>
 
     <nav>
-      <ul>
-          <li><a href="{{ site.baseurl }}/">About Me</a></li>
-          <li><a href="{{ site.baseurl }}/narrative-design/">Narrative Design</a></li>
-          <li><a href="{{ site.baseurl }}/level-design/">Level Design</a></li>
-          <li><a href="{{ site.baseurl }}/sound-design/">Sound Design</a></li>
-          <li><a href="{{ site.baseurl }}/systems-design/">Systems Design</a></li>
-          <li><a href="{{ site.baseurl }}/generalist/">My Approach</a></li>
-      </ul>
-    </nav>
+  <ul>
+      <li><a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>About Me</a></li>
+      <li><a href="{{ site.baseurl }}/narrative-design/" {% if page.url == "/narrative-design/" %}class="active"{% endif %}>Narrative Design</a></li>
+      <li><a href="{{ site.baseurl }}/level-design/" {% if page.url == "/level-design/" %}class="active"{% endif %}>Level Design</a></li>
+      <li><a href="{{ site.baseurl }}/sound-design/" {% if page.url == "/sound-design/" %}class="active"{% endif %}>Sound Design</a></li>
+      <li><a href="{{ site.baseurl }}/systems-design/" {% if page.url == "/systems-design/" %}class="active"{% endif %}>Systems Design</a></li>
+      <li><a href="{{ site.baseurl }}/generalist/" {% if page.url == "/generalist/" %}class="active"{% endif %}>My Approach</a></li>
+  </ul>
+</nav>
 
     <div id="main" role="main" class="container">
       {{ content }}
