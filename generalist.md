@@ -30,8 +30,5 @@ layout: default
     <p>My goal as a generalist is to be a servant leader for the team—to provide support, structure, and clarity. I thrive on taking ownership of the process, ensuring all parts of the development machine work in harmony to deliver a high-quality game on schedule. I'm the team member who constantly asks 'What do we need to get this done?' and then helps make it happen.</p>
 </div>
 
-  
-
-</p>
 </div>
 
