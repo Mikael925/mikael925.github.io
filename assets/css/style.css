@@ -28,6 +28,14 @@ body {
   background-color: #f39c12; /* Byt färg till din temafärg */
 }
 
+/* Styling för huvudrubriken på en sida */
+.page-title {
+  text-align: center;
+  margin-bottom: 40px; /* Ger extra luft under rubriken, före första projektet */
+  font-size: 2.5em;    /* Frivilligt: Gör sidtiteln lite större och tydligare */
+  color: #f39c12;       /* Frivilligt: Använder din temafärg för att den ska sticka ut */
+}
+
 /* Justering för själva ikonen */
 .itchio-link i {
   margin-right: 8px; /* Lite luft mellan ikonen och texten */
