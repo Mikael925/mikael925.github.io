@@ -213,3 +213,12 @@ details > summary:hover {
     max-width: 100%; /* Låter bilden ta upp full bredd i den staplade vyn */
   }
 }
+
+/* Specifik bildjustering för mobil för att rädda ansikten */
+  .image-banner img:nth-child(1) {
+    object-position: center 50%; /* Justera denna siffra! Prova 40%, 60% etc. */
+  }
+
+  .image-banner img:nth-child(2) {
+    object-position: center 50%; /* Justera även denna! */
+  }
