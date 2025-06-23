@@ -1,4 +1,4 @@
-<div class="page">
+<div class="page-content">
   <h1 class="page-title">Level Design</h1>
    
   <div class="project-card">
