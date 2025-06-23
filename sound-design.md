@@ -10,7 +10,6 @@
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
               </a>
           </div>
-          </div>
   
           <div class="project-text-column">
               <h3>Game project 2: Grim Spire</h3>
@@ -45,7 +44,6 @@
               <a href="https://futuregames.itch.io/echoes-of-stella" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
               </a>
-          </div>
           </div>
   
           <div class="project-text-column">
