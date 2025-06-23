@@ -162,13 +162,10 @@ nav a:hover {
   object-position: center 10%;
 }
 
-/* Textinnehåll under bildbannern */
 .content-text {
   max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 0 auto 40px auto; /* Centrera textblocket och lägg marginal under */
 }
-
 /* =============================================================================
    Projektkort (Level Design, etc.)
    ========================================================================== */
