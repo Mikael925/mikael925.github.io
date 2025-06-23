@@ -216,7 +216,7 @@ details > summary:hover {
 
 /* Specifik bildjustering för mobil för att rädda ansikten */
   .image-banner img:nth-child(1) {
-    object-position: center 50%; /* Justera denna siffra! Prova 40%, 60% etc. */
+    object-position: center 58%; /* Justera denna siffra! Prova 40%, 60% etc. */
   }
 
   .image-banner img:nth-child(2) {
