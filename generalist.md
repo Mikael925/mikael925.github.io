@@ -29,7 +29,7 @@ In any project, small but critical tasks inevitably pop up that fall outside a s
 
 This prevents bottlenecks and keeps the project's momentum going. It frees up specialists to focus on their core, high-impact tasks, making the entire team more efficient. I act as a force multiplier, filling the gaps wherever needed to ensure we never lose our way forward.
 
-Summery:
+Summary:
 
 my goal as a generalist is to be a servant leader for the team—to provide support, structure, and clarity. I thrive on taking ownership of the process, ensuring all parts of the development machine work in harmony to deliver a high-quality game on schedule. I'm the team member who constantly asks 'What do we need to get this done?' and then helps make it happen.
 
