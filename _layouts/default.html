@@ -9,46 +9,46 @@
   </head>
   
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-            <div class="social-icons">
-              <a href="https://www.linkedin.com/in/mikael925/" target=" " title="Visit LinkedIn">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-              <a href="https://Mikael925.itch.io" target=" " title="Visit Itch.io">
-                <i class="fa-brands fa-itch-io"></i>
-              </a>
-              <a href="https://steamcommunity.com/id/Mikael925" target=" " title="Visit my Steam Profile">
-    <i class="fa-brands fa-steam"></i>          
-  </a>
-              <a href="mailto:mikael925@gmail.com" title="Send me an email">
-    <i class="fa-solid fa-envelope"></i>
-  </a>
+
+    <div class="header-sticky-wrapper"> 
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+            
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+              <p class="site-description">{{ site.description }}</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mikael925/" target=" " title="Visit LinkedIn">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://Mikael925.itch.io" target=" " title="Visit Itch.io">
+                  <i class="fa-brands fa-itch-io"></i>
+                </a>
+                <a href="https://steamcommunity.com/id/Mikael925" target=" " title="Visit my Steam Profile">
+                  <i class="fa-brands fa-steam"></i>
+                </a>
+                <a href="mailto:mikael925@gmail.com" title="Send me an email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </div>
             </div>
-          </div>
-
           </header>
+        </div>
       </div>
-    </div>
 
-    <nav>
-  <ul>
-      <li><a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>About Me</a></li>
-      <li><a href="{{ site.baseurl }}/narrative-design/" {% if page.url == "/narrative-design/" %}class="active"{% endif %}>Narrative Design</a></li>
-      <li><a href="{{ site.baseurl }}/level-design/" {% if page.url == "/level-design/" %}class="active"{% endif %}>Level Design</a></li>
-      <li><a href="{{ site.baseurl }}/sound-design/" {% if page.url == "/sound-design/" %}class="active"{% endif %}>Sound Design</a></li>
-      <li><a href="{{ site.baseurl }}/systems-design/" {% if page.url == "/systems-design/" %}class="active"{% endif %}>Systems Design</a></li>
-      <li><a href="{{ site.baseurl }}/generalist/" {% if page.url == "/generalist/" %}class="active"{% endif %}>My Approach</a></li>
-  </ul>
-</nav>
-
-    <div id="main" role="main" class="container">
+      <nav>
+        <ul>
+          <li><a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>About Me</a></li>
+          <li><a href="{{ site.baseurl }}/narrative-design/" {% if page.url == "/narrative-design/" %}class="active"{% endif %}>Narrative Design</a></li>
+          <li><a href="{{ site.baseurl }}/level-design/" {% if page.url == "/level-design/" %}class="active"{% endif %}>Level Design</a></li>
+          <li><a href="{{ site.baseurl }}/sound-design/" {% if page.url == "/sound-design/" %}class="active"{% endif %}>Sound Design</a></li>
+          <li><a href="{{ site.baseurl }}/systems-design/" {% if page.url == "/systems-design/" %}class="active"{% endif %}>Systems Design</a></li>
+          <li><a href="{{ site.baseurl }}/generalist/" {% if page.url == "/generalist/" %}class="active"{% endif %}>My Approach</a></li>
+        </ul>
+      </nav>
+    </div> <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
