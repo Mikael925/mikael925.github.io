@@ -1,4 +1,4 @@
-<div class="page">
+<div class="page-content">
   <h1 class="page-title">Sound Design</h1>
    
   <div class="project-card">
