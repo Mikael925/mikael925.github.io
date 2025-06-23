@@ -123,7 +123,11 @@ nav a:hover {
 
 /* Individuell justering av bilder i bannern */
 .image-banner img:nth-child(1) {
-  object-position: center 30%;
+  object-position: center 25%; /* Flyttar bilden uppåt */
+}
+
+.image-banner img:nth-child(2) {
+  object-position: center 70%; /* Flyttar bilden nedåt */
 }
 
 .image-banner img:nth-child(3) {
