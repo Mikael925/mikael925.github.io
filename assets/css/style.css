@@ -9,14 +9,37 @@ body {
   margin: 0;
   padding: 0;
 }
+/* =============================================================================
+   Sidfot (Footer)
+   ========================================================================== */
+.footer {
+  /* Denna regel behövs egentligen inte för centrering längre, 
+     men kan vara bra att ha kvar för annat innehåll i framtiden. */
+  text-align: center;
+  padding: 30px 0;
+}
 
+/* DENNA REGEL SAKNADES - LÄGG TILL DEN */
+.contact-info {
+  width: fit-content; /* Gör lådan precis så bred som sitt innehåll */
+  margin-left: auto;   /* Centrerar själva lådan horisontellt */
+  margin-right: auto;  /* Centrerar själva lådan horisontellt */
+  margin-top: 20px;      /* Ger luft ovanför länken */
+}
+
+/* Denna regel har du redan, men vi samlar den här */
 .contact-info a {
-  color: #f39c12; /* <--- Ändrad till din temafärg */
+  color: #f39c12;
   text-decoration: none;
   font-size: 1.1em;
   transition: color 0.2s ease-in-out;
 }
 
+/* Denna regel har du redan, men vi samlar den här */
+.contact-info a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
 /* Styling för länk till Itch.io under projektbild */
 .itchio-link {
   display: block; /* Gör så att vi kan centrera den och ge den marginal */
@@ -91,11 +114,6 @@ header h1 a {
 
 .social-icons a:hover {
   color: #ffffff;
-}
-
-.contact-info a:hover {
-  color: #ffffff; /* Byt till vit vid hover för snygg kontrast */
-  text-decoration: underline;
 }
 
 /* =============================================================================
