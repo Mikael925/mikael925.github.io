@@ -203,6 +203,11 @@ nav a.active {
    Innehåll på "About Me"-sidan
    ========================================================================== */
 
+.content-text p {
+  margin-bottom: 1.2em; /* Skapar ett mellanrum under varje stycke. 'em' anpassar sig efter textstorleken. */
+  line-height: 1.6;     /* Ökar radavståndet inuti varje stycke för bättre läsbarhet. */
+}
+
 /* Bildbanner */
 .image-banner {
   display: flex;
