@@ -12,6 +12,13 @@
       <div class="project-text-column">
         <h3>Project: Tom the dragon</h3>
         <p>In this group project, I pitched a platformer game where you play as a dragon escaping a volcanic eruption. With lava rising, the goal is to flee the area by climbing higher and higher. For the level design, my goal was to challenge the player while establishing a solid foundation for future development, resulting in a well-sized vertical slice.</p>
+<blockquote class="testimonial">
+  <p>"I want to give a big shoutout to our PO Johan Rosenhed. In my opinion Johan has been our MVP of this project. Especially in the last 2 weeks. All of you have put down hard work and delivered great things. But Johan did such a good job as PO, especially considering this is his first game project."</p>
+  
+  <p>"The role of PO is not an easy one, but Johan did a great job and I really appreciate that, I don't think this project could have been anything like it without him."</p>
+  
+  <cite>– Håvard Wullum, Producer</cite>
+</blockquote>
         <div class="project-roles">
           <h4>My Roles</h4>
           <ul>
