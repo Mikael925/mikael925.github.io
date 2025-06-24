@@ -122,7 +122,74 @@
           <details>
               <summary>Read more about the design process</summary>
               <div class="details-content">
-                  <p>
+                  <p> 
+                  <div class="process-stage">
+  <h3>Alpha Stage: Sketching, Iteration & Team Alignment</h3>
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+      <p class="gallery-label">Processbilder:</p>
+      <a href="/Images/20250121-095926-3.jpg" target="_blank" title="Klicka för att förstora">
+        <img src="/Images/20250121-095926-3.jpg" alt="Handritad skiss av level layout" class="gallery-thumbnail">
+      </a>
+      <a href="/Images/blockout.jpg" target="_blank" title="Klicka för att förstora">
+        <img src="/Images/blockout.jpg" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
+      </a>
+      <a href="/Images/gp1alpha2.jpg" target="_blank" title="Klicka för att förstora">
+        <img src="/Images/gp1alpha2.jpg" alt="Tidig 3D-blockout i spelmotorn" class="gallery-thumbnail">
+      </a>
+    </div>
+    <div class="stage-description">
+      <p>My process for this level began with a hand-drawn sketch to map out the overall player journey, key locations, and pacing. From this foundation, I created ten distinct blockout variations in the engine.</p>
+      <ul>
+        <li>This iterative approach was crucial for exploring different layouts quickly. I presented these variations to the entire design team.</li>
+        <li>Together, we held a feedback session to discuss the pros and cons of each version.</li>
+        <li>This collaborative process allowed us to choose a unified direction that the whole team felt confident in, ensuring we had a strong and agreed-upon foundation before moving forward.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="process-stage">
+  <h3>Beta Stage: Environment Art & Custom VFX</h3>
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+      <p class="gallery-label">Processbilder:</p>
+      <a href="/Images/gp2beta1.jpg" target="_blank" title="Klicka för att förstora">
+        <img src="/Images/gp2beta1.jpg" alt="Miljön börjar ta form med träd och norrsken" class="gallery-thumbnail">
+      </a>
+      <a href="/Images/gp2beta2.jpg" target="_blank" title="Klicka för att förstora">
+        <img src="/Images/gp2beta2.jpg" alt="Top-down vy av den texturerade miljön" class="gallery-thumbnail">
+      </a>
+    </div>
+    <div class="stage-description">
+      <p>With the layout locked in, my focus in the Beta phase shifted to breathing life into the environment and establishing the game's dark, mysterious atmosphere.</p>
+      <ul>
+        <li>I took the initiative to create custom visual effects (VFX) to enhance the mood. This included creating the aurora borealis (Northern Lights) in the sky to give the world a dynamic, eerie feel.</li>
+        <li>I also developed a distinct glowing red aura effect for key interactive objects, serving as a clear visual cue to guide the player's eye and highlight important elements.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="process-stage">
+  <h3>Gold Stage: Player Flow & Creative Problem-Solving</h3>
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+      <p class="gallery-label">Resultat & Detaljer:</p>
+      <a href="DITT_BILDNAMN_HÄR.jpg" target="_blank" title="Klicka för att förstora">
+        <img src="DITT_BILDNAMN_HÄR.jpg" alt="Snygg screenshot från den färdiga banan" class="gallery-thumbnail">
+      </a>
+    </div>
+    <div class="stage-description">
+      <p>The Gold stage was all about finalization and ensuring the best possible player experience, which came with some unique challenges.</p>
+      <ul>
+        <li>My primary focus was to refine the player flow, ensuring smooth transitions between areas and that the pacing from start to finish felt intentional.</li>
+        <li>A significant challenge was the limited number of art assets available. This forced me to be creative with the tools at hand.</li>
+        <li>Instead of building new unique areas, I focused on cleverly re-using, rotating, and re-contextualizing existing assets to build out the world. This was a valuable lesson in creative problem-solving under tight constraints, without sacrificing the intended atmosphere.</li>
+      </ul>
+    </div>
+  </div>
+</div>
                       </p>
               </div>
           </details>
