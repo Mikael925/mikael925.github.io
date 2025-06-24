@@ -183,8 +183,8 @@
   <div class="stage-content-flex">
     <div class="stage-gallery">
       <p class="gallery-label">Resultat & Detaljer:</p>
-      <a href="{{ '/Images/gp2gif1.gif' | relative_url }}" target="_blank" title="Visa animation">
-  <img src="{{ '/Images/gp2gif1.gif' | relative_url }}" alt="Animation av en polerad effekt i spelet" class="gallery-thumbnail">
+      <a href="{{ '/Images/gp2gif2.gif' | relative_url }}" target="_blank" title="Visa animation">
+  <img src="{{ '/Images/gp2gif2.gif' | relative_url }}" alt="Animation av en polerad effekt i spelet" class="gallery-thumbnail">
 </a>
     </div>
     <div class="stage-description">
