@@ -134,7 +134,7 @@
   <h3>Alpha Stage: Sketching, Iteration & Team Alignment</h3>
   <div class="stage-content-flex">
     <div class="stage-gallery">
-      <p class="gallery-label">Processbilder:</p>
+      <p class="gallery-label">Progress images:</p>
       <a href="/Images/20250121-095926-3.jpg" target="_blank" title="Klicka för att förstora">
         <img src="/Images/20250121-095926-3.jpg" alt="Handritad skiss av level layout" class="gallery-thumbnail">
       </a>
@@ -157,7 +157,7 @@
   <h3>Beta Stage: Environment Art & Custom VFX</h3>
   <div class="stage-content-flex">
     <div class="stage-gallery">
-      <p class="gallery-label">Processbilder:</p>
+      <p class="gallery-label">Progress images:</p>
       <a href="/Images/gp2alpha2.png" target="_blank" title="Klicka för att förstora">
         <img src="/Images/gp2alpha2.png" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
       </a>
@@ -182,7 +182,7 @@
   <h3>Gold Stage: Player Flow & Creative Problem-Solving</h3>
   <div class="stage-content-flex">
     <div class="stage-gallery">
-      <p class="gallery-label">Resultat & Detaljer:</p>
+      <p class="gallery-label">Results & Details:</p>
       <a href="{{ '/Images/gp2gif2.gif' | relative_url }}" target="_blank" title="Visa animation">
   <img src="{{ '/Images/gp2gif2.gif' | relative_url }}" alt="Animation av en polerad effekt i spelet" class="gallery-thumbnail">
 </a>
