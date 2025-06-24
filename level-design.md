@@ -18,11 +18,10 @@
           <li>Product Owner</li>
           <li>Level Designer</li>
         </ul>
-      </div>
+        </div>
     </div>
-  </div>
-  <div class="project-details-row">
-    <details>
+    <div class="project-details-row">
+      <details>
       <summary>Read more about the design process</summary>
       <div class="details-content">
         <div class="process-stage">
@@ -85,27 +84,20 @@
                  <li>I conducted several "polishing passes" where I adjusted lighting and small details to elevate the overall atmosphere.</li>
         <li>Actively participated in bug hunts, where I identified, reported, and sometimes fixed minor visual or layout-related bugs.</li>
         <li>Ensured that the gameplay experience was stable and consistent from start to finish.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
-    </details>
   </div>
-</div>
-</div>
   <hr style="border-color: #555;">
   
-  <div class="project-card">
-    <div class="project-flex-container">
-      <div class="project-image-column">
-        <img src="{{ '/Images/Gp2Small.png' | relative_url }}" alt="Shattered Veil poster">
-        <a href="https://futuregames.itch.io/shattered-veil" class="itchio-link" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-itch-io"></i> Go to Itch.io
-        </a>
-      </div>
-      <div class="project-text-column">
-        <h3>Project: Shattered Veil</h3>
+   <div class="project-card">
+      <div class="project-flex-container">
+          <div class="project-image-column">
+              <img src="{{ '/Images/gp2poster1.jpg' | relative_url }}" alt="A screenshot from the game 'Grim Spire'">
+              <a href="http://futuregames.itch.io/shattered-veil" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> Go to Itch.io
+              </a>
+          </div>
+          <div class="project-text-column">
+              <h3>Project: Shattered Veil</h3>
               <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>
               <div class="project-roles">
     <h4>My Roles</h4>
@@ -192,7 +184,7 @@
           </details>
       </div>
   </div>
-
+  
   <hr style="border-color: #555;">
 
 </div>
