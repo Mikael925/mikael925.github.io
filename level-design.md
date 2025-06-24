@@ -18,6 +18,9 @@
             <li>Product Owner</li>
             <li>Level Designer</li>
           </ul>
+          <div class="project-tools-summary">
+  <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span>
+  </div>
         </div>
       </div>
     </div>
@@ -111,6 +114,9 @@
         <li>Sound Designer</li>
         <li>Level Designer</li>
     </ul>
+                <div class="project-tools-summary">
+  <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span>
+  </div>
 </div>
           </div>
       </div> <div class="project-details-row">
