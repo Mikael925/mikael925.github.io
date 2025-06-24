@@ -429,6 +429,14 @@ details > summary:hover {
 details[open] > summary {
   border-radius: 5px 5px 0 0;
 }
+
+/* Ny regel för att standardisera projektbildernas höjd */
+.project-image-column img {
+  width: 100%;        /* Bilden ska fylla hela kolumnens bredd */
+  height: 450px;      /* SÄTT EN FAST HÖJD! Justera detta värde efter smak. */
+  object-fit: cover;  /* "Smart beskärning" för att undvika förvrängning */
+  border-radius: 5px; /* Samma rundning som du hade innan */
+}
 /* =============================================================================
    Anpassning för Mobil
    ========================================================================== */
