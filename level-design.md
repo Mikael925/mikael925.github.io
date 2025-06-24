@@ -5,7 +5,7 @@
       <div class="project-flex-container">
   
           <div class="project-image-column">
-              <img src="{{ '/Images/Gp1Small.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
+              <img src="{{ '/Images/Gp1poster2.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
               <a href="https://futuregames.itch.io/tomthedragon" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
               </a>
@@ -34,12 +34,12 @@
   
   <div class="stage-content-flex">
   <div class="stage-gallery">
-    <p class="gallery-label">Processbilder:</p>
+    <p class="gallery-label">Progress images:</p>
     <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank" title="Klicka för att förstora">
-      <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+      <img src="{{ '/Images/gp1alpha2.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
     </a>
     <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank" title="Klicka för att förstora">
-      <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
+      <img src="{{ '/Images/gp1alpha1.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
     </a>
 
   </div>
