@@ -86,6 +86,7 @@
         <li>Ensured that the gameplay experience was stable and consistent from start to finish.</li>
       </div>
   </div>
+                </div>
   <hr style="border-color: #555;">
   
    <div class="project-card">
