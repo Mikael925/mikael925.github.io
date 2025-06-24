@@ -19,7 +19,7 @@
             <li>Level Designer</li>
           </ul>
           <div class="project-tools-summary">
-  <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span>
+  <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-brands fa-blender"></i> Blender</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span>
   </div>
         </div>
       </div>
@@ -69,7 +69,6 @@
             <li>Analysis of the feedback revealed a major bottleneck in the church area, where players consistently missed a key exit. My solution was to iterate on the level's lighting and add new environmental cues to guide the player's eye. This change was implemented and then tested again in a smaller follow-up session.</li>
             <li>Through several iterative loops, the level's pacing and difficulty curve were significantly improved. The initial frustrating bottleneck was eliminated, resulting in a smoother and more intuitive player experience that better supported the game's narrative goals. The final beta version was more balanced, clear, and ultimately, more engaging.</li>
         </ul>
-              </ul>
             </div>
           </div>
         </div>
@@ -115,7 +114,7 @@
         <li>Level Designer</li>
     </ul>
                 <div class="project-tools-summary">
-  <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span>
+  <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span>
   </div>
 </div>
           </div>
