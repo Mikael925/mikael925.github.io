@@ -27,7 +27,7 @@ layout: default
 
 <div class="summary-block">
     <h3>Summary</h3>
-    <p>My goal as a generalist is to be a servant leader for the team—to provide support, structure, and clarity. I thrive on taking ownership of the process, ensuring all parts of the development machine work in harmony to deliver a high-quality game on schedule. I'm the team member who constantly asks 'What do we need to get this done?' and then helps make it happen.</p>
+    <p>My function as a generalist is to empower the team by providing support, structure, and clarity. I thrive on taking ownership of the development process, ensuring all disciplines work in harmony to deliver a high-quality game on schedule. At my core, I'm the proactive team member who constantly asks, 'What's needed to get this done?'—and then ensures it happens.</p>
 </div>
 
 </div>
