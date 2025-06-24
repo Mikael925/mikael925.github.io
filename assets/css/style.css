@@ -351,6 +351,11 @@ details > summary:hover {
   margin-bottom: 20px;
 }
 
+.stage-description li {
+  margin-bottom: 12px;
+  line-height: 1.6; /* Ökar avståndet mellan textraderna för bättre läsbarhet */
+}
+
 .stage-content-flex {
   display: flex;
   gap: 20px;
