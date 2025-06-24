@@ -2,105 +2,102 @@
   <h1 class="page-title">Level Design</h1>
    
   <div class="project-card">
-      <div class="project-flex-container">
-  
-          <div class="project-image-column">
-              <img src="{{ '/Images/gp1poster2.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
-              <a href="https://futuregames.itch.io/tomthedragon" class="itchio-link" target="_blank" rel="noopener noreferrer">
+  <div class="project-flex-container">
+    <div class="project-image-column">
+      <img src="{{ '/Images/gp1poster2.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
+      <a href="https://futuregames.itch.io/tomthedragon" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
-              </a>
-          </div>
-  
-          <div class="project-text-column">
-              <h3>Game project 1: Tom the dragon</h3>
-              <p>In this group project,  I ptiched a platformer game where you play as a dragon escaping a volcanic eruption. With lava rising, the goal is to flee the area by climbing higher and higher. For the level design, my goal was to challenge the player while establishing a solid foundation for future development, resulting in a well-sized vertical slice.</p>
-              <div class="project-roles">
-    <h4>My Roles</h4>
-    <ul>
-        <li>Product Owner</li>
-        <li>Level Designer</li>
-    </ul>
-</div>
-          </div>
-  
-      </div> <div class="project-details-row">
-          <details>
-              <summary>Read more about the design process</summary>
-              
-              <div class="details-content">
-              <div class="process-stage">
-  
-  <h3>Alpha Stage: Blockout & Core Gameplay</h3>
-<div class="stage-content-flex">
-    <div class="stage-gallery">
-        <p class="gallery-label">Progress images:</p>
-        <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank" title="Klicka för att förstora">
-            <img src="{{ '/Images/gp1alpha2.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
-        </a>
-        <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank" title="Klicka för att förstora">
-            <img src="{{ '/Images/gp1alpha1.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
-        </a>
-    </div>
-    <div class="stage-description">
-        <p></p>
-        <ul>
-            <li>The initial focus was on the environment's design. I created a complete blockout of the level using simple geometry to establish the fundamental layout, scale, and player flow. This allowed for early testing of sightlines and composition before any art assets were produced..</li>
-            <li>With the blockout in place, I moved on to technical validation and testing the core gameplay loop. This involved verifying that all critical paths were playable and that the environment supported the intended mechanics, such as cover-based combat and platforming sections. The goal was to ensure the design was functionally sound.</li>
-            <li>Finally, I gathered foundational feedback from my peers. These early sessions were not about polish, but about validating the core concept. The positive feedback on the level's flow and premise confirmed that our design was on the right track, giving us a solid and validated foundation to build upon for the Beta phase.</li>
-        </ul>
-    </div>
-</div>
-
-<h3>Beta Stage: Refinement & Playtesting</h3>
-<div class="stage-content-flex">
-    <div class="stage-gallery">
-        <p class="gallery-label">Progress images:</p>
-        <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-            <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
-        </a>
-        <a href="{{ '/Images/gp1alpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-            <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
-        </a>
-    </div>
-    <div class="stage-description">
-        <p></p>
-        <ul>
-            <li>The beta phase began with structured playtesting sessions focused on clarity and pacing. My primary goal was to identify areas of friction in the player's journey. By observing players and conducting post-session interviews, I gathered critical data on confusing level sections and unbalanced encounters.</li>
-            <li>Analysis of the feedback revealed a major bottleneck in the church area, where players consistently missed a key exit. My solution was to iterate on the level's lighting and add new environmental cues to guide the player's eye. This change was implemented and then tested again in a smaller follow-up session.</li>
-            <li>Through several iterative loops, the level's pacing and difficulty curve were significantly improved. The initial frustrating bottleneck was eliminated, resulting in a smoother and more intuitive player experience that better supported the game's narrative goals. The final beta version was more balanced, clear, and ultimately, more engaging.</li>
-        </ul>
-    </div>
-</div>
-&lt;/div>
-<div class="process-stage">
-  
-  <h3>Gold Stage: Final Polish & Bug Fixing</h3>
-  
-  <div class="stage-content-flex">
-    <div class="stage-gallery">
-      <p class="gallery-label">Results & Details:</p>
-       <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-            <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
-        </a>
-        <a href="{{ '/Images/gp1alpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-            <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
       </a>
     </div>
-    <div class="stage-description">
-      <p></p>
-      <ul>
-        <li>I conducted several "polishing passes" where I adjusted lighting and small details to elevate the overall atmosphere.</li>
-        <li>Actively participated in bug hunts, where I identified, reported, and sometimes fixed minor visual or layout-related bugs.</li>
-        <li>Ensured that the gameplay experience was stable and consistent from start to finish.</li>
-      </ul>
+    <div class="project-text-column">
+      <h3>Game project 1: Tom the dragon</h3>
+      <p>In this group project, I ptiched a platformer game where you play as a dragon escaping a volcanic eruption. With lava rising, the goal is to flee the area by climbing higher and higher. For the level design, my goal was to challenge the player while establishing a solid foundation for future development, resulting in a well-sized vertical slice.</p>
+      <div class="project-roles">
+        <h4>My Roles</h4>
+        <ul>
+          <li>Product Owner</li>
+          <li>Level Designer</li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
-</div>
-</details>
-</div>
-</div>
-</div>
+  <div class="project-details-row">
+    <details>
+      <summary>Read more about the design process</summary>
+      <div class="details-content">
+        <div class="process-stage">
+          <h3>Alpha Stage: Blockout & Core Gameplay</h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Progress images:</p>
+              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                  <img src="{{ '/Images/gp1alpha2.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+              </a>
+              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                  <img src="{{ '/Images/gp1alpha1.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
+              </a>
+            </div>
+            <div class="stage-description">
+              <p></p>
+              <ul>
+                  <li>The initial focus was on the environment's design...</li>
+                  <li>With the blockout in place, I moved on to technical validation...</li>
+                  <li>Finally, I gathered foundational feedback from my peers...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="process-stage">
+          <h3>Beta Stage: Refinement & Playtesting</h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Progress images:</p>
+              <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                  <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+              </a>
+              <a href="{{ '/Images/gp1alpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                  <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
+              </a>
+            </div>
+            <div class="stage-description">
+              <p></p>
+              <ul>
+                  <li>The beta phase began with structured playtesting sessions...</li>
+                  <li>Analysis of the feedback revealed a major bottleneck...</li>
+                  <li>Through several iterative loops, the level's pacing...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="process-stage">
+          <h3>Gold Stage: Final Polish & Bug Fixing</h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Results & Details:</p>
+              <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                  <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+              </a>
+              <a href="{{ '/Images/gp1alpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                  <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
+              </a>
+            </div>
+            <div class="stage-description">
+              <p></p>
+              <ul>
+                  <li>I conducted several "polishing passes"...</li>
+                  <li>Actively participated in bug hunts...</li>
+                  <li>Ensured that the gameplay experience was stable...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </details>
+  </div>
+</div> ```
+
   <hr style="border-color: #555;">
   
   <div class="project-card">
