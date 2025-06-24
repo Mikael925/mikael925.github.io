@@ -17,7 +17,7 @@
   
   <p>"The role of PO is not an easy one, but Johan did a great job and I really appreciate that, I don't think this project could have been anything like it without him."</p>
   
-  <cite>– Håvard Wullum, Producer</cite>
+  <cite>– <a href="https://www.linkedin.com/in/håvard-wullum/" target="_blank" rel="noopener noreferrer">Håvard Wullum</a>, Producer</cite>
 </blockquote>
         <div class="project-roles">
           <h4>My Roles</h4>
