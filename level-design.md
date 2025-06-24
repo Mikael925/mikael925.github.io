@@ -100,7 +100,7 @@
 </details>
 </div>
 </div>
-  
+</div>
   <hr style="border-color: #555;">
   
   <div class="project-card">
