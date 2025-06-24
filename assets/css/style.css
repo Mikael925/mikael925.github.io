@@ -466,6 +466,16 @@ details[open] > summary {
   margin-right: 6px;
   color: #f39c12; /* Din temafärg på ikonen */
 }
+/* Styling för länken i ett citat/testimonial */
+.testimonial cite a {
+  color: inherit; /* Ärver färgen från texten runt omkring (ljusgrå) */
+  text-decoration: underline; /* Lägger till en diskret understrykning för att visa att den är klickbar */
+  transition: color 0.2s ease-in-out;
+}
+
+.testimonial cite a:hover {
+  color: #f39c12; /* Din orangea temafärg när man för muspekaren över */
+}
 /* =============================================================================
    Anpassning för Mobil
    ========================================================================== */
