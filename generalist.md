@@ -27,7 +27,7 @@ layout: default
 
 <div class="summary-block">
     <h3>Summary</h3>
-    <p>My function as a generalist is to empower the team by providing support, structure, and clarity. I thrive on taking ownership of the development process, ensuring all disciplines work in harmony to deliver a high-quality game on schedule. At my core, I'm the proactive team member who constantly asks, 'What's needed to get this done?'—and then ensures it happens.</p>
+    <p>My function as a generalist is to empower the team by providing support, structure, and clarity. I thrive on taking ownership of the development process, ensuring all disciplines work in harmony to deliver a high-quality game on schedule. At my core, I'm the proactive team member who constantly asks, "What's needed to get this done?" and then ensures it happens.</p>
 </div>
 
 </div>
