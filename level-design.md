@@ -113,7 +113,6 @@
     </ul>
 </div>
           </div>
-  
       </div> <div class="project-details-row">
           <details>
               <summary>Read more about the design process</summary>
