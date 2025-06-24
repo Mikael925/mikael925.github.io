@@ -64,7 +64,9 @@
     </a>
 
   </div>
-  <div class="stage-description">
+ 
+</div>
+ <div class="stage-description">
     <p>Beta, Info?</p>
     <ul>
       <li>Playtesting: The beta phase began with structured playtesting sessions focused on clarity and pacing. My primary goal was to identify areas of friction in the player's journey. By observing players and conducting post-session interviews, I gathered critical data on confusing level sections and unbalanced encounters.</li>
@@ -72,7 +74,6 @@
       <li>Through several iterative loops, the level's pacing and difficulty curve were significantly improved. The initial frustrating bottleneck was eliminated, resulting in a smoother and more intuitive player experience that better supported the game's narrative goals. The final beta version was more balanced, clear, and ultimately, more engaging.</li>
     </ul>
   </div>
-</div>
 </div>
                   <p> 
                       </p>
