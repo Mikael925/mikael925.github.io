@@ -107,7 +107,7 @@
           </div>
   
           <div class="project-text-column">
-              <h3>Project 2: Shattered Veil</h3>
+              <h3>Project: Shattered Veil</h3>
               <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>
               <div class="project-roles">
     <h4>My Roles</h4>
