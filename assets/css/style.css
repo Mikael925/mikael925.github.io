@@ -389,6 +389,41 @@ details > summary:hover {
 .stage-description ul {
   padding-left: 20px;
 }
+
+/* Styling för innehållet inuti <details> drop-down */
+.details-content {
+  max-height: 70vh; /* Sätter en max-höjd till 70% av fönstrets höjd */
+  overflow-y: auto;  /* Lägger till en scrollbar om innehållet är högre än max-height */
+  
+  padding: 20px;
+  background-color: #252525; /* En något avvikande bakgrund för att visa att det är en egen yta */
+  border: 1px solid #555;
+  border-top: none; /* Kanten tas bort upptill för att smälta ihop med <summary> */
+  border-radius: 0 0 5px 5px; /* Runda nedre hörn */
+  margin-bottom: 10px;
+}
+
+details > summary {
+  cursor: pointer;
+  color: #f39c12;
+  font-weight: bold;
+
+  /* Nya regler för att få den att se ut som en knapp */
+  padding: 15px;
+  background-color: #3a3a3a;
+  border-radius: 5px; /* Runda alla hörn som standard */
+  transition: all 0.2s;
+  margin-top: 15px;
+}
+
+details > summary:hover {
+  background-color: #444;
+}
+
+/* Denna regel tar bort rundningen på nedre hörnen när drop-downen är ÖPPEN */
+details[open] > summary {
+  border-radius: 5px 5px 0 0;
+}
 /* =============================================================================
    Anpassning för Mobil
    ========================================================================== */
