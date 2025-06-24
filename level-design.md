@@ -52,11 +52,11 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Progress images:</p>
-              <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+              <a href="{{ '/Images/gp1beta1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                  <img src="{{ '/Images/gp1beta1.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
               </a>
-              <a href="{{ '/Images/gp1alpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
+              <a href="{{ '/Images/gp1beta2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                  <img src="{{ '/Images/gp1beta2.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
               </a>
             </div>
             <div class="stage-description">
