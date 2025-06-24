@@ -71,6 +71,7 @@
         </ul>
     </div>
 </div>
+&lt;/div>
 <div class="process-stage">
   
   <h3>Gold Stage: Final Polish & Bug Fixing</h3>
@@ -98,7 +99,7 @@
 </div>
 </details>
 </div>
-</div> ```
+</div>
   
   <hr style="border-color: #555;">
   
