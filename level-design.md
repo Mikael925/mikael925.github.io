@@ -134,9 +134,6 @@
       <a href="/Images/blockout.jpg" target="_blank" title="Klicka för att förstora">
         <img src="/Images/blockout.jpg" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
       </a>
-      <a href="/Images/gp1alpha2.jpg" target="_blank" title="Klicka för att förstora">
-        <img src="/Images/gp1alpha2.jpg" alt="Tidig 3D-blockout i spelmotorn" class="gallery-thumbnail">
-      </a>
     </div>
     <div class="stage-description">
       <p>My process for this level began with a hand-drawn sketch to map out the overall player journey, key locations, and pacing. From this foundation, I created ten distinct blockout variations in the engine.</p>
@@ -154,11 +151,11 @@
   <div class="stage-content-flex">
     <div class="stage-gallery">
       <p class="gallery-label">Processbilder:</p>
-      <a href="/Images/gp2beta1.jpg" target="_blank" title="Klicka för att förstora">
-        <img src="/Images/gp2beta1.jpg" alt="Miljön börjar ta form med träd och norrsken" class="gallery-thumbnail">
+      <a href="/Images/gp2beta1.png" target="_blank" title="Klicka för att förstora">
+        <img src="/Images/gp2beta1.png" alt="Miljön börjar ta form med träd och norrsken" class="gallery-thumbnail">
       </a>
-      <a href="/Images/gp2beta2.jpg" target="_blank" title="Klicka för att förstora">
-        <img src="/Images/gp2beta2.jpg" alt="Top-down vy av den texturerade miljön" class="gallery-thumbnail">
+      <a href="/Images/gp2beta2.png" target="_blank" title="Klicka för att förstora">
+        <img src="/Images/gp2beta2.png" alt="Top-down vy av den texturerade miljön" class="gallery-thumbnail">
       </a>
     </div>
     <div class="stage-description">
