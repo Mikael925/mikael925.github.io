@@ -78,9 +78,6 @@
               <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
                   <img src="{{ '/Images/phg.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
               </a>
-              <a href="{{ '/Images/gp1alpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/phg.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
-              </a>
             </div>
             <div class="stage-description">
               <p></p>
