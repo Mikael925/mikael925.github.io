@@ -5,7 +5,7 @@
       <div class="project-flex-container">
   
           <div class="project-image-column">
-              <img src="{{ '/Images/Gp1poster2.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
+              <img src="{{ '/Images/gp1poster2.png' | relative_url }}" alt="A screenshot from the game 'Tom the dragon'" style="width: 100%; height: auto; border-radius: 5px;">
               <a href="https://futuregames.itch.io/tomthedragon" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
               </a>
