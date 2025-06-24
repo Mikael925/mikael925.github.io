@@ -47,7 +47,6 @@
             </div>
           </div>
         </div>
-
         <div class="process-stage">
           <h3>Beta Stage: Refinement & Playtesting</h3>
           <div class="stage-content-flex">
@@ -70,7 +69,6 @@
             </div>
           </div>
         </div>
-
         <div class="process-stage">
           <h3>Gold Stage: Final Polish & Bug Fixing</h3>
           <div class="stage-content-flex">
@@ -96,7 +94,7 @@
       </div>
     </details>
   </div>
-</div> ```
+</div>
 
   <hr style="border-color: #555;">
   
