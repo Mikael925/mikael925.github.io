@@ -107,7 +107,7 @@
           </div>
   
           <div class="project-text-column">
-              <h3>Game project 2: Grim Spire</h3>
+              <h3>Game project 2: Shattered Veil</h3>
               <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>
               <div class="project-roles">
     <h4>My Roles</h4>
@@ -176,9 +176,9 @@
   <div class="stage-content-flex">
     <div class="stage-gallery">
       <p class="gallery-label">Resultat & Detaljer:</p>
-      <a href="DITT_BILDNAMN_HÄR.jpg" target="_blank" title="Klicka för att förstora">
-        <img src="DITT_BILDNAMN_HÄR.jpg" alt="Snygg screenshot från den färdiga banan" class="gallery-thumbnail">
-      </a>
+      <a href="{{ '/Images/gp2gif1.gif' | relative_url }}" target="_blank" title="Visa animation">
+  <img src="{{ '/Images/gp2gif1.gif' | relative_url }}" alt="Animation av en polerad effekt i spelet" class="gallery-thumbnail">
+</a>
     </div>
     <div class="stage-description">
       <p>The Gold stage was all about finalization and ensuring the best possible player experience, which came with some unique challenges.</p>
