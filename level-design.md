@@ -100,7 +100,7 @@
       <div class="project-flex-container">
   
           <div class="project-image-column">
-              <img src="{{ '/Images/Gp2Small.png' | relative_url }}" alt="A screenshot from the game 'Grim Spire'" style="width: 100%; height: auto; border-radius: 5px;">
+              <img src="{{ '/Images/gp2poster1.jpg' | relative_url }}" alt="A screenshot from the game 'Grim Spire'" style="width: 100%; height: auto; border-radius: 5px;">
               <a href="http://futuregames.itch.io/shattered-veil" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
               </a>
