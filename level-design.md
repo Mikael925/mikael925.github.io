@@ -69,24 +69,24 @@
             </div>
           </div>
         </div>
-        <div class="process-stage">
-          <h3>Gold Stage: Final Polish & Bug Fixing</h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Results & Details:</p>
-              <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/phg.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
-              </a>
-            </div>
-            <div class="stage-description">
-              <p></p>
-              <ul>
-                 <li>I conducted several "polishing passes" where I adjusted lighting and small details to elevate the overall atmosphere.</li>
-        <li>Actively participated in bug hunts, where I identified, reported, and sometimes fixed minor visual or layout-related bugs.</li>
-        <li>Ensured that the gameplay experience was stable and consistent from start to finish.</li>
-      </div>
-  </div>
-                </div>
+       <div class="process-stage">
+  <h3>Gold Stage: Final Polish & Bug Fixing</h3>
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+      <p class="gallery-label">Results & Details:</p>
+      <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
+          <img src="{{ '/Images/phg.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+      </a>
+    </div>
+    <div class="stage-description">
+      <p></p>
+      <ul>
+          <li>I conducted several "polishing passes" where I adjusted lighting and small details to elevate the overall atmosphere.</li>
+          <li>Actively participated in bug hunts, where I identified, reported, and sometimes fixed minor visual or layout-related bugs.</li>
+          <li>Ensured that the gameplay experience was stable and consistent from start to finish.</li>
+      </ul>
+    </div>
+  </div> </div>
   <hr style="border-color: #555;">
   
    <div class="project-card">
