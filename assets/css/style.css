@@ -441,6 +441,26 @@ details[open] > summary {
   object-fit: cover;  /* "Smart beskärning" för att undvika förvrängning */
   border-radius: 5px; /* Samma rundning som du hade innan */
 }
+/* Styling för verktygs-taggar på projektkortet */
+.project-tools-summary {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #555;
+}
+
+.tool-tag {
+  display: inline-block;
+  background-color: #3a3a3a;
+  color: #ccc;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+
+.tool-tag i {
+  margin-right: 6px;
+  color: #f39c12; /* Din temafärg på ikonen */
+}
 /* =============================================================================
    Anpassning för Mobil
    ========================================================================== */
