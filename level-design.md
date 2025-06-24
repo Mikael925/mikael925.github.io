@@ -134,6 +134,9 @@
       <a href="/Images/blockout.jpg" target="_blank" title="Klicka för att förstora">
         <img src="/Images/blockout.jpg" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
       </a>
+      <a href="/Images/gp2alpha2.png" target="_blank" title="Klicka för att förstora">
+        <img src="/Images/gp2alpha2.png" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
+      </a>
     </div>
     <div class="stage-description">
       <p>My process for this level began with a hand-drawn sketch to map out the overall player journey, key locations, and pacing. From this foundation, I created ten distinct blockout variations in the engine.</p>
