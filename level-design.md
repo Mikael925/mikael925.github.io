@@ -30,10 +30,10 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Progress images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank" title="Klicka för att förstora">
+              <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
                   <img src="{{ '/Images/gp1alpha2.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
               </a>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank" title="Klicka för att förstora">
+              <a href="{{ '/Images/gpalpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
                   <img src="{{ '/Images/gp1alpha1.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
               </a>
             </div>
