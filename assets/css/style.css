@@ -258,10 +258,11 @@ nav a.active {
 
 /* Styr bild-kolumnen i ett projektkort */
 /* Regel för projektbilderna */
+/* Ny, slutgiltig regel för projektbilderna */
 .project-image-column img {
   width: 100%;
-  height: auto;       /* ÄNDRA TILLBAKA TILL AUTO */
-  /* object-fit: cover;  <-- TA BORT DENNA RAD HELT */
+  height: 500px; /* Vi sätter en fast höjd för att rutorna ska vara lika höga */
+  object-fit: contain; /* VIKTIG ÄNDRING: Passar in hela bilden, ingen beskärning */
   border-radius: 5px;
 }
 
