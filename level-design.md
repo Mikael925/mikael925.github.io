@@ -26,8 +26,34 @@
       </div> <div class="project-details-row">
           <details>
               <summary>Read more about the design process</summary>
+              
               <div class="details-content">
-                  <p>
+              <div class="process-stage">
+  
+  <h3>Alpha Stage: Blockout & Core Gameplay</h3>
+  
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+      <p class="gallery-label">Processbilder:</p>
+      <a href="Images/ph.jpg" target="_blank" title="Klicka för att förstora">
+        <img src="Images/ph.jpg" alt="Tidig blockout av första rummet" class="gallery-thumbnail">
+      </a>
+      <a href="Images/ph.jpg" target="_blank" title="Klicka för att förstora">
+        <img src="Images/ph.jpg" alt="Papper-layout av banan" class="gallery-thumbnail">
+      </a>
+      </div>
+    <div class="stage-description">
+      <p>I Alpha, Info?"</p>
+      <ul>
+        <li>Testing.</li>
+        <li>Enviorment.</li>
+        <li>Feedback.</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+                  <p> 
                       </p>
               </div>
           </details>
