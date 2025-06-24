@@ -56,20 +56,45 @@
     <div class="stage-gallery">
         <p class="gallery-label">Progress images:</p>
         <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-            <img src="{{ '/Images/gp1alpha2.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+            <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
         </a>
         <a href="{{ '/Images/gp1alpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-            <img src="{{ '/Images/gp1alpha1.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
+            <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
         </a>
     </div>
     <div class="stage-description">
         <p>Här beskriver du vad som hände i Beta-stadiet, med fokus på "Refinement & Playtesting".</p>
         <ul>
-            <li>Steg 1: Strukturerad Playtesting...</li>
-            <li>Steg 2: Analys & Iterativ Design...</li>
-            <li>Steg 3: Balansering & UX...</li>
+            <li>The beta phase began with structured playtesting sessions focused on clarity and pacing. My primary goal was to identify areas of friction in the player's journey. By observing players and conducting post-session interviews, I gathered critical data on confusing level sections and unbalanced encounters.</li>
+            <li>Analysis of the feedback revealed a major bottleneck in the church area, where players consistently missed a key exit. My solution was to iterate on the level's lighting and add new environmental cues to guide the player's eye. This change was implemented and then tested again in a smaller follow-up session.</li>
+            <li>Through several iterative loops, the level's pacing and difficulty curve were significantly improved. The initial frustrating bottleneck was eliminated, resulting in a smoother and more intuitive player experience that better supported the game's narrative goals. The final beta version was more balanced, clear, and ultimately, more engaging.</li>
         </ul>
     </div>
+</div>
+<div class="process-stage">
+  
+  <h3>Gold Stage: Final Polish & Bug Fixing</h3>
+  
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+      <p class="gallery-label">Results & Details:</p>
+      <a href="URL_TILL_STOR_GOLDBILD_1.png" target="_blank" title="Click to enlarge">
+        <img src="URL_TILL_LITEN_GOLDBILD_1.png" alt="Polished screenshot from the final game" class="gallery-thumbnail">
+      </a>
+      <a href="URL_TILL_STOR_GOLDBILD_2.png" target="_blank" title="Click to enlarge">
+        <img src="URL_TILL_LITEN_GOLDBILD_2.png" alt="A cool detail or effect" class="gallery-thumbnail">
+      </a>
+    </div>
+    <div class="stage-description">
+      <p>In the Gold phase, all content was in place and the focus shifted entirely to polishing, bug fixing, and optimization to ensure a high-quality final product.</p>
+      <ul>
+        <li>I conducted several "polishing passes" where I adjusted lighting, sound effects, and small details to elevate the overall atmosphere.</li>
+        <li>Actively participated in bug hunts, where I identified, reported, and sometimes fixed minor visual or layout-related bugs.</li>
+        <li>Ensured that the gameplay experience was stable and consistent from start to finish.</li>
+      </ul>
+    </div>
+
+  </div>
 </div>
                   <p> 
                       </p>
