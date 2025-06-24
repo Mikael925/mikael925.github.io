@@ -320,6 +320,75 @@ details > summary:hover {
     color: #f39212;
 }
 
+.project-card {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #555;
+}
+
+/* Denna regel tar bort linjen och marginalen för det allra sista kortet på en sida */
+.project-card:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* Styling för process-stegen (Alpha, Beta, Gold) inuti en drop-down */
+
+.process-stage {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px dashed #555; /* Linje för att separera stegen */
+}
+
+.process-stage:first-child {
+  border-top: none; /* Ingen linje över det första steget */
+  padding-top: 10px;
+}
+
+.process-stage h3 {
+  color: #f39c12; /* Din temafärg */
+  margin-bottom: 20px;
+}
+
+.stage-content-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.stage-gallery {
+  flex: 0 0 40%; /* Bildkolumnen tar upp 40% av bredden */
+}
+
+.gallery-label {
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.gallery-thumbnail {
+  width: 100%;
+  height: auto;
+  border: 2px solid #555;
+  border-radius: 4px;
+  margin-bottom: 10px; /* Luft mellan bilderna i galleriet */
+  display: block;
+  transition: border-color 0.2s;
+}
+
+.gallery-thumbnail:hover {
+  border-color: #f39c12; /* Byt färg på ramen vid hover */
+  cursor: pointer;
+}
+
+.stage-description {
+  flex: 1; /* Textkolumnen tar upp resten av utrymmet */
+}
+
+.stage-description ul {
+  padding-left: 20px;
+}
 /* =============================================================================
    Anpassning för Mobil
    ========================================================================== */
