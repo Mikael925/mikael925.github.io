@@ -46,9 +46,9 @@
   <div class="stage-description">
     <p>Alpha, Info?</p>
     <ul>
-      <li>Testing.</li>
-      <li>Enviorment.</li>
-      <li>Feedback.</li>
+      <li>The initial focus was on the environment's design. I created a complete blockout of the level using simple geometry to establish the fundamental layout, scale, and player flow. This allowed for early testing of sightlines and composition before any art assets were produced..</li>
+      <li>With the blockout in place, I moved on to technical validation and testing the core gameplay loop. This involved verifying that all critical paths were playable and that the environment supported the intended mechanics, such as cover-based combat and platforming sections. The goal was to ensure the design was functionally sound.</li>
+      <li>Finally, I gathered foundational feedback from my peers. These early sessions were not about polish, but about validating the core concept. The positive feedback on the level's flow and premise confirmed that our design was on the right track, giving us a solid and validated foundation to build upon for the Beta phase.</li>
     </ul>
   </div>
   <h3>Beta Stage: Refinement & Playtesting</h3>
