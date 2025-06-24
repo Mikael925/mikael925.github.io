@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Level Design
+title:
 ---
 
 <div class="page-content">
