@@ -78,11 +78,11 @@
   <div class="stage-content-flex">
     <div class="stage-gallery">
       <p class="gallery-label">Results & Details:</p>
-      <a href="URL_TILL_STOR_GOLDBILD_1.png" target="_blank" title="Click to enlarge">
-        <img src="URL_TILL_LITEN_GOLDBILD_1.png" alt="Polished screenshot from the final game" class="gallery-thumbnail">
+      <a href="ph.jpg" target="_blank" title="Click to enlarge">
+        <img src="ph.jpg" alt="Polished screenshot from the final game" class="gallery-thumbnail">
       </a>
-      <a href="URL_TILL_STOR_GOLDBILD_2.png" target="_blank" title="Click to enlarge">
-        <img src="URL_TILL_LITEN_GOLDBILD_2.png" alt="A cool detail or effect" class="gallery-thumbnail">
+      <a href="ph.jpg" target="_blank" title="Click to enlarge">
+        <img src="ph.jpg" alt="A cool detail or effect" class="gallery-thumbnail">
       </a>
     </div>
     <div class="stage-description">
