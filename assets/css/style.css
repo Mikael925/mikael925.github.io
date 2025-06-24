@@ -257,9 +257,12 @@ nav a.active {
 }
 
 /* Styr bild-kolumnen i ett projektkort */
-.project-image-column {
-  flex: 0 0 35%; /* Sätter en fast bredd på 35%. */
-  max-width: 35%;
+/* Regel för projektbilderna */
+.project-image-column img {
+  width: 100%;
+  height: auto;       /* ÄNDRA TILLBAKA TILL AUTO */
+  /* object-fit: cover;  <-- TA BORT DENNA RAD HELT */
+  border-radius: 5px;
 }
 
 /* Styr text-kolumnen i ett projektkort */
