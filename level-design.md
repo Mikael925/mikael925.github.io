@@ -93,15 +93,12 @@
         <li>Ensured that the gameplay experience was stable and consistent from start to finish.</li>
       </ul>
     </div>
-
   </div>
 </div>
-                  <p> 
-                      </p>
-              </div>
-          </details>
-      </div>
-  </div>
+</div>
+</details>
+</div>
+</div> ```
   
   <hr style="border-color: #555;">
   
