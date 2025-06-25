@@ -70,6 +70,7 @@
                 <li>The beta phase began with structured playtesting sessions focused on clarity and pacing...</li>
                 <li>Analysis of the feedback revealed a major bottleneck...</li>
                 <li>Through several iterative loops, the level's pacing and difficulty curve were significantly improved...</li>
+                <li>Created my own smoke vfx, so that the player can really feel the lava is getting closer.</li>
               </ul>
             </div>
           </div>
@@ -86,9 +87,9 @@
             <div class="stage-description">
               <p></p>
               <ul>
-                <li>I conducted several "polishing passes"...</li>
-                <li>Actively participated in bug hunts...</li>
-                <li>Ensured that the gameplay experience was stable...</li>
+                <li>I conducted several "polishing passes", I helped in the c# code to get the main menu working as inteded and also the ingame timer to work.</li>
+                <li>Actively participated in bug hunts.</li>
+                <li>Ensured that the gameplay experience was stable.</li>
               </ul>
             </div>
           </div>
