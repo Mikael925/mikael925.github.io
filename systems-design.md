@@ -30,7 +30,7 @@
 
   <div class="project-details-row">
     <details>
-      <summary>Read more about the design process</summary>
+      <summary>Read more about the systems design process</summary>
       <div class="details-content">
         <div class="process-stage">
           <h3>Alpha Stage: </h3>
@@ -121,7 +121,7 @@
 
   <div class="project-details-row">
     <details>
-      <summary>Read more about the design process</summary>
+      <summary>Read more about the systems design process</summary>
       <div class="details-content">
         <div class="process-stage">
           <h3>Alpha Stage: </h3>
