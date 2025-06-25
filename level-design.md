@@ -1,108 +1,103 @@
-<div class="page-content">
-  <h1 class="page-title">Level Design</h1>
-
-  <div class="project-card">
-    <div class="project-flex-container">
-      <div class="project-image-column">
-        <img src="{{ '/Images/gp1poster2.png' | relative_url }}" alt="Tom the dragon poster">
-        <a href="https://futuregames.itch.io/tomthedragon" class="itchio-link" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-itch-io"></i> Go to Itch.io
-        </a>
-      </div>
-      <div class="project-text-column">
-        <h3>Project: Tom the dragon</h3>
-        <p>In this group project, I pitched a platformer game where you play as a dragon escaping a volcanic eruption. With lava rising, the goal is to flee the area by climbing higher and higher. For the level design, my goal was to challenge the player while establishing a solid foundation for future development, resulting in a well-sized vertical slice.</p>
-<blockquote class="testimonial">
-  <p>"I want to give a big shoutout to our PO Johan Rosenhed. In my opinion Johan has been our MVP of this project. Especially in the last 2 weeks. All of you have put down hard work and delivered great things. But Johan did such a good job as PO, especially considering this is his first game project."</p>
-  
-  <p>"The role of PO is not an easy one, but Johan did a great job and I really appreciate that, I don't think this project could have been anything like it without him."</p>
-  
-  <cite>– <a href="https://www.linkedin.com/in/håvard-wullum/" target="_blank" rel="noopener noreferrer">Håvard Wullum</a>, Producer</cite>
-</blockquote>
-        <div class="project-meta">
-    <ul>
-      <li><strong>Duration:</strong> 8 Weeks</li>
-<li><strong>Team Size:</strong> 15</li>
-      <li><strong>My Roles:</strong> Product Owner, Level Designer</li>
-    </ul>
-          </div>
-          <div class="project-tools-summary">
-  <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-brands fa-blender"></i> Blender</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
-  </div>
-        </div>
-      </div>
+<div class="project-card">
+  <div class="project-flex-container">
+    <div class="project-image-column">
+      <img src="{{ '/Images/gp1poster2.png' | relative_url }}" alt="Tom the dragon poster">
+      <a href="https://futuregames.itch.io/tomthedragon" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> Go to Itch.io
+      </a>
     </div>
-    <div class="project-details-row">
-      <details>
-        <summary>Read more about the design process</summary>
-        <div class="details-content">
-          <div class="process-stage">
-            <h3>Alpha Stage: Blockout & Core Gameplay</h3>
+    <div class="project-text-column">
+      <h3>Project: Tom the dragon</h3>
+      <div class="project-meta">
+        <ul>
+          <li><strong>Duration:</strong> 8 Weeks</li>
+          <li><strong>Team Size:</strong> 15</li>
+          <li><strong>My Roles:</strong> Product Owner, Level Designer</li>
+        </ul>
+      </div>
+      <div class="project-tools-summary">
+        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-brands fa-blender"></i> Blender</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
+      </div>
+      <p>In this group project, I pitched a platformer game where you play as a dragon escaping a volcanic eruption. With lava rising, the goal is to flee the area by climbing higher and higher. For the level design, my goal was to challenge the player while establishing a solid foundation for future development, resulting in a well-sized vertical slice.</p>
+      <blockquote class="testimonial">
+        <p>"I want to give a big shoutout to our PO Johan Rosenhed. In my opinion Johan has been our MVP of this project. Especially in the last 2 weeks. All of you have put down hard work and delivered great things. But Johan did such a good job as PO, especially considering this is his first game project."</p>
+        <p>"The role of PO is not an easy one, but Johan did a great job and I really appreciate that, I don't think this project could have been anything like it without him."</p>
+        <cite>– <a href="https://www.linkedin.com/in/håvard-wullum/" target="_blank" rel="noopener noreferrer">Håvard Wullum</a>, Producer</cite>
+      </blockquote>
+    </div>
+  </div>
+  <div class="project-details-row">
+    <details>
+      <summary>Read more about the design process</summary>
+      <div class="details-content">
+        <div class="process-stage">
+          <h3>Alpha Stage: Blockout & Core Gameplay</h3>
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Progress images:</p>
               <a href="{{ '/Images/gp1alpha2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/gp1alpha2.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+                <img src="{{ '/Images/gp1alpha2.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
               </a>
               <a href="{{ '/Images/gpalpha1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/gp1alpha1.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
+                <img src="{{ '/Images/gp1alpha1.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
               </a>
             </div>
             <div class="stage-description">
               <p></p>
               <ul>
-                  <li>The initial focus was on the environment's design. I created a complete blockout of the level using simple geometry to establish the fundamental layout, scale, and player flow. This allowed for early testing of sightlines and composition before any art assets were produced..</li>
-            <li>With the blockout in place, I moved on to technical validation and testing the core gameplay loop. This involved verifying that all critical paths were playable and that the environment supported the intended mechanics, such as cover-based combat and platforming sections. The goal was to ensure the design was functionally sound.</li>
-            <li>Finally, I gathered foundational feedback from my peers. These early sessions were not about polish, but about validating the core concept. The positive feedback on the level's flow and premise confirmed that our design was on the right track, giving us a solid and validated foundation to build upon for the Beta phase.</li>
+                <li>The initial focus was on the environment's design. I created a complete blockout of the level using simple geometry to establish the fundamental layout, scale, and player flow. This allowed for early testing of sightlines and composition before any art assets were produced..</li>
+                <li>With the blockout in place, I moved on to technical validation and testing the core gameplay loop. This involved verifying that all critical paths were playable and that the environment supported the intended mechanics, such as cover-based combat and platforming sections. The goal was to ensure the design was functionally sound.</li>
+                <li>Finally, I gathered foundational feedback from my peers. These early sessions were not about polish, but about validating the core concept. The positive feedback on the level's flow and premise confirmed that our design was on the right track, giving us a solid and validated foundation to build upon for the Beta phase.</li>
               </ul>
             </div>
           </div>
         </div>
-          <div class="process-stage">
-            <h3>Beta Stage: Refinement & Playtesting</h3>
+        <div class="process-stage">
+          <h3>Beta Stage: Refinement & Playtesting</h3>
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Progress images:</p>
               <a href="{{ '/Images/gp1beta1.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/gp1beta1.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+                <img src="{{ '/Images/gp1beta1.png' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
               </a>
               <a href="{{ '/Images/gp1beta2.png' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/gp1beta2.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
+                <img src="{{ '/Images/gp1beta2.png' | relative_url }}" alt="Papper-layout av banan" class="gallery-thumbnail">
               </a>
             </div>
             <div class="stage-description">
               <p></p>
               <ul>
-                 <li>The beta phase began with structured playtesting sessions focused on clarity and pacing. My primary goal was to identify areas of friction in the player's journey. By observing players and conducting post-session interviews, I gathered critical data on confusing level sections and unbalanced encounters.</li>
-            <li>Analysis of the feedback revealed a major bottleneck in the church area, where players consistently missed a key exit. My solution was to iterate on the level's lighting and add new environmental cues to guide the player's eye. This change was implemented and then tested again in a smaller follow-up session.</li>
-            <li>Through several iterative loops, the level's pacing and difficulty curve were significantly improved. The initial frustrating bottleneck was eliminated, resulting in a smoother and more intuitive player experience that better supported the game's narrative goals. The final beta version was more balanced, clear, and ultimately, more engaging.</li>
-        </ul>
+                <li>The beta phase began with structured playtesting sessions focused on clarity and pacing...</li>
+                <li>Analysis of the feedback revealed a major bottleneck...</li>
+                <li>Through several iterative loops, the level's pacing and difficulty curve were significantly improved...</li>
+              </ul>
             </div>
           </div>
         </div>
-          <div class="process-stage">
-            <h3>Gold Stage: Final Polish & Bug Fixing</h3>
+        <div class="process-stage">
+          <h3>Gold Stage: Final Polish & Bug Fixing</h3>
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Results & Details:</p>
               <a href="{{ '/Images/gp1gif2.gif' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                  <img src="{{ '/Images/gp1gif2.gif' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+                <img src="{{ '/Images/gp1gif2.gif' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
               </a>
             </div>
             <div class="stage-description">
               <p></p>
               <ul>
-                 <li>I conducted several "polishing passes" where I adjusted lighting and small details to elevate the overall atmosphere.</li>
-        <li>Actively participated in bug hunts, where I identified, reported, and sometimes fixed minor visual or layout-related bugs.</li>
-        <li>Ensured that the gameplay experience was stable and consistent from start to finish.</li>
+                <li>I conducted several "polishing passes"...</li>
+                <li>Actively participated in bug hunts...</li>
+                <li>Ensured that the gameplay experience was stable...</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </details>
-    </div>
-  </div> <hr style="border-color: #555;">
+  </div>
+</div>
+<hr style="border-color: #555;">
   
   <div class="project-card">
     <div class="project-flex-container">
