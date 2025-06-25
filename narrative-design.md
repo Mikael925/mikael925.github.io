@@ -70,21 +70,5 @@
             </div>
           </div>
         </div>
-        <div class="process-stage">
-          <h3>Post-Mortem: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Key Takeaway:</p>
-              <blockquote class="testimonial">
-                <p></p>
-              </blockquote>
-            </div>
-            <div class="stage-description">
-              <h4>What Went Well:</h4>
-              <ul><li></li></ul>
-              <h4>What Could Be Improved:</h4>
-              <ul><li></li></ul>
-            </div>
-          </div>
-        </div> </div>   </details>
+         </div>   </details>
   </div> <hr style="border-color: #555;">    </div>       
