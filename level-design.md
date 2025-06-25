@@ -80,9 +80,8 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Results & Details:</p>
-              <a href="{{ '/Images/gp1gif2.gif' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                <img src="{{ '/Images/gp1gif2.gif' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
-              </a>
+              <a href="{{ '/Images/gp1gif3.gif' | relative_url }}" target="_blank" title="Klicka för att förstora"> <img src="{{ '/Images/gp1gif3.gif' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp1gif2.gif' | relative_url }}" target="_blank" title="Klicka för att förstora"> <img src="{{ '/Images/gp1gif2.gif' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail"></a> 
             </div>
             <div class="stage-description">
               <p></p>
