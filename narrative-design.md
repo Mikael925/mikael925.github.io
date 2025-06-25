@@ -38,7 +38,7 @@
           <h3>Concept & Narrative Goal</h3>
           <div class="stage-content-flex">
             <div class="stage-gallery">
-              <p class="gallery-label">Process images:</p>
+              <p class="gallery-label">Ingame images:</p>
               <a href="{{ '/Images/py1gif1.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py1gif1.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
               <a href="{{ '/Images/py1gif2.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py1gif2.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
               <a href="{{ '/Images/py1gif3.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py1gif3.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
