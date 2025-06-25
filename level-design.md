@@ -24,6 +24,7 @@
       <li><strong>Duration:</strong> 8 Weeks/li>
       <li><strong>Team Size:</strong> 15
     </ul>
+          </div>
           <div class="project-tools-summary">
   <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-brands fa-blender"></i> Blender</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
   </div>
@@ -119,6 +120,7 @@
       <li><strong>Team Size:</strong> 20
       <li><strong>My Roles:</strong> Sound Designer, Level Designer</li>
     </ul>
+              </div>
                 <div class="project-tools-summary">
   <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-solid fa-cubes"></i> ProBuilder</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
   </div>
