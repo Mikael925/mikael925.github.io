@@ -13,7 +13,7 @@
         <ul>
           <li><strong>Duration:</strong> 5 Days </li>
           <li><strong>Team Size:</strong> Solo </li>
-          <li><strong>My Roles:</strong> Narrative Design, Level Design, Sound Design </li>
+          <li><strong>My Roles:</strong> Game Developer </li>
         </ul>
       </div> 
       <div class="project-tools-summary">
