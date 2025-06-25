@@ -123,120 +123,69 @@
 </div>
 <hr style="border-color: #555;">
   
-  <div class="project-card">
-    <div class="project-flex-container">
-      <div class="project-image-column">
-        <img src="{{ '/Images/gp2poster1.jpg' | relative_url }}" alt="Shattered Veil poster">
-        <a href="https://futuregames.itch.io/shattered-veil" class="itchio-link" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-itch-io"></i> Go to Itch.io
-        </a>
+<div class="project-card">
+  <div class="project-flex-container">
+    <div class="project-image-column">
+      <img src="{{ '/Images/gp2poster1.jpg' | relative_url }}" alt="Shattered Veil poster">
+      <a href="https://futuregames.itch.io/shattered-veil" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> Go to Itch.io
+      </a>
+    </div>
+    <div class="project-text-column">
+      <h3>Project: Shattered Veil</h3>
+      <div class="project-meta">
+        <ul>
+          <li><strong>Duration:</strong> 8 Weeks</li>
+          <li><strong>Team Size:</strong> 20</li>
+          <li><strong>My Roles:</strong> Sound Designer, Level Designer</li>
+        </ul>
       </div>
-      <div class="project-text-column">
-        <h3>Project: Shattered Veil</h3>
-              <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>
-              <div class="project-meta">
-    <ul>
-      <li><strong>Duration:</strong> 8 Weeks</li>
-      <li><strong>Team Size:</strong> 20</li>
-      <li><strong>My Roles:</strong> Sound Designer, Level Designer</li>
-    </ul>
+      <div class="project-tools-summary">
+        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-solid fa-cubes"></i> ProBuilder</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
+      </div>
+      <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>
+      <div class="project-details-row">
+        <details>
+          <summary>Read more about the design process</summary>
+          <div class="details-content">
+            <div class="process-stage">
+              <h3>Alpha Stage: Sketching, Iteration & Team Alignment</h3>
+              <div class="stage-content-flex">
+                <div class="stage-gallery">
+                  <p class="gallery-label">Progress images:</p>
+                  <a href="/Images/20250121-095926-3.jpg" target="_blank" title="Klicka för att förstora">
+                    <img src="/Images/20250121-095926-3.jpg" alt="Handritad skiss av level layout" class="gallery-thumbnail">
+                  </a>
+                  <a href="/Images/blockout.jpg" target="_blank" title="Klicka för att förstora">
+                    <img src="/Images/blockout.jpg" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
+                  </a>
+                </div>
+                <div class="stage-description">
+                  <p>My process for this level began with a hand-drawn sketch...</p>
+                  <ul>
+                    <li>This iterative approach was crucial...</li>
+                    <li>Together, we held a feedback session...</li>
+                    <li>This collaborative process allowed us to choose a unified direction...</li>
+                  </ul>
+                </div>
               </div>
-                <div class="project-tools-summary">
-  <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-solid fa-cubes"></i> ProBuilder</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
-  </div>
-</div>
+            </div>
+            <div class="process-stage">
+              <h3>Beta Stage: Environment Art & Custom VFX</h3>
+              <div class="stage-content-flex">
+                 </div>
+            </div>
+            <div class="process-stage">
+              <h3>Gold Stage: Player Flow & Creative Problem-Solving</h3>
+              <div class="stage-content-flex">
+                 </div>
+            </div>
+            <div class="process-stage">
+              <h3>Post-Mortem: Reflections & Key Learnings</h3>
+              <div class="stage-content-flex">
+                </div>
+            </div>
           </div>
-      </div> <div class="project-details-row">
-          <details>
-              <summary>Read more about the design process</summary>
-              <div class="details-content">
-                  <p> 
-                  <div class="process-stage">
-  <h3>Alpha Stage: Sketching, Iteration & Team Alignment</h3>
-  <div class="stage-content-flex">
-    <div class="stage-gallery">
-      <p class="gallery-label">Progress images:</p>
-      <a href="/Images/20250121-095926-3.jpg" target="_blank" title="Klicka för att förstora">
-        <img src="/Images/20250121-095926-3.jpg" alt="Handritad skiss av level layout" class="gallery-thumbnail">
-      </a>
-      <a href="/Images/blockout.jpg" target="_blank" title="Klicka för att förstora">
-        <img src="/Images/blockout.jpg" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
-      </a>
-    </div>
-    <div class="stage-description">
-      <p>My process for this level began with a hand-drawn sketch to map out the overall player journey, key locations, and pacing. From this foundation, I created ten distinct blockout variations in the engine.</p>
-      <ul>
-        <li>This iterative approach was crucial for exploring different layouts quickly. I presented these variations to the entire design team.</li>
-        <li>Together, we held a feedback session to discuss the pros and cons of each version.</li>
-        <li>This collaborative process allowed us to choose a unified direction that the whole team felt confident in, ensuring we had a strong and agreed-upon foundation before moving forward.</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="process-stage">
-  <h3>Beta Stage: Environment Art & Custom VFX</h3>
-  <div class="stage-content-flex">
-    <div class="stage-gallery">
-      <p class="gallery-label">Progress images:</p>
-      <a href="/Images/gp2alpha2.png" target="_blank" title="Klicka för att förstora">
-        <img src="/Images/gp2alpha2.png" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
-      </a>
-      <a href="/Images/gp2beta1.png" target="_blank" title="Klicka för att förstora">
-        <img src="/Images/gp2beta1.png" alt="Miljön börjar ta form med träd och norrsken" class="gallery-thumbnail">
-      </a>
-      <a href="/Images/gp2beta2.png" target="_blank" title="Klicka för att förstora">
-        <img src="/Images/gp2beta2.png" alt="Top-down vy av den texturerade miljön" class="gallery-thumbnail">
-      </a>
-    </div>
-    <div class="stage-description">
-      <p>With the layout locked in, my focus in the Beta phase shifted to breathing life into the environment and establishing the game's dark, mysterious atmosphere.</p>
-      <ul>
-        <li>I took the initiative to create custom visual effects (VFX) to enhance the mood. This included creating the aurora borealis (Northern Lights) in the sky to give the world a dynamic, eerie feel.</li>
-        <li>I also developed a distinct glowing red aura effect for key interactive objects, serving as a clear visual cue to guide the player's eye and highlight important elements.</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="process-stage">
-  <h3>Gold Stage: Player Flow & Creative Problem-Solving</h3>
-  <div class="stage-content-flex">
-    <div class="stage-gallery">
-      <p class="gallery-label">Results & Details:</p>
-      <a href="{{ '/Images/gp2gif2.gif' | relative_url }}" target="_blank" title="Visa animation">
-  <img src="{{ '/Images/gp2gif2.gif' | relative_url }}" alt="Animation av en polerad effekt i spelet" class="gallery-thumbnail">
-</a>
-    </div>
-    <div class="stage-description">
-      <p>The Gold stage was all about finalization and ensuring the best possible player experience, which came with some unique challenges.</p>
-      <ul>
-        <li>My primary focus was to refine the player flow, ensuring smooth transitions between areas and that the pacing from start to finish felt intentional.</li>
-        <li>A significant challenge was the limited number of art assets available. This forced me to be creative with the tools at hand.</li>
-        <li>Instead of building new unique areas, I focused on cleverly re-using, rotating, and re-contextualizing existing assets to build out the world. This was a valuable lesson in creative problem-solving under tight constraints, without sacrificing the intended atmosphere.</li>
-      </ul>
-    </div>   
-  </div>
-</div>
-      <div class="process-stage">
-  <h3>Post-Mortem: Reflections & Key Learnings</h3>
-  <div class="stage-content-flex">
-    <div class="stage-gallery">
-       <p class="gallery-label">Key Takeaway:</p>
-       <blockquote class="testimonial">
-      <h4>What Went Well:</h4>
-      <ul>
-        <li>I'm especially proud of the close collaboration with our Narrative Designer. We worked in tight sync to ensure the level layout directly supported the story's emotional beats, using environmental storytelling and spatial pacing to build tension and guide the player through the intended narrative arc.</li>
-      </ul>
-      <h4>What Could Be Improved:</h4>
-      <ul>
-        <li>One of the most valuable lessons from this project came from an initial production challenge. After some overlapping work caused unforeseen delays, I learned firsthand how vital clear communication and defined responsibilities are. Moving forward, I always make it a priority to establish clear ownership of work areas before beginning a task, a practice that has made me a more efficient and reliable teammate.</li>
-      </ul>
-    </div>
-  </div>
-</div>
-          </details>
-  </div>
-  
-  <hr style="border-color: #555;">
- </div>
+        </details>
+      </div>
+    </div> </div> </div>
