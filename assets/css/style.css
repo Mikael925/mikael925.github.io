@@ -273,11 +273,6 @@ nav a.active {
   white-space: nowrap; /* Hindrar texten från att brytas */
 }
 
-.tool-tag i {
-  margin-right: 6px;
-  color: #f39c12; /* Din temafärg på ikonen */
-}
-
 .project-meta ul {
   list-style: none;
   padding: 0;
