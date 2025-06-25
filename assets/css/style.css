@@ -295,7 +295,7 @@ nav a.active {
 }
 
 /* Används för att centrera innehållet på sidor som Level Design */
-.page-content {
+#main.container {
   max-width: 1100px; /* Samma som din .post-klass för enhetlighet */
   margin: 40px auto; /* Centrerar blocket och ger marginal uppe/nere */
   padding: 0 25px;   /* Samma som din .post-klass för att linjera med headern */
