@@ -94,7 +94,7 @@
           </div>
         </div>
       </div>
-    
+    </details>
   </div>
 </div>
 <hr style="border-color: #555;">
