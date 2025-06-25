@@ -253,7 +253,6 @@
       </ul>
       <h4>What Could Be Improved:</h4>
       <ul>
-        <li>In hindsight, we should have allocated more time for audio implementation in the planning phase. This led to a stressful final week for sound integration.</li>
         <li>I learned that I need to be better at asking for help from artists earlier, instead of trying to solve visual problems on my own for too long.</li>
       </ul>
     </div>
