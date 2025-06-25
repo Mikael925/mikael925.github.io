@@ -247,6 +247,36 @@ nav a.active {
 /* =============================================================================
    Projektkort (Level Design, etc.)
    ========================================================================== */
+/* Styling för faktarutan i ett projektkort */
+.project-meta {
+  background-color: rgba(0,0,0,0.2); /* Mörk, diskret bakgrund */
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.project-meta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Lägger punkterna på en rad */
+  flex-wrap: wrap; /* Gör att de byter rad snyggt på små skärmar */
+  gap: 10px 25px; /* 10px mellanrum vertikalt, 25px horisontellt */
+}
+
+.project-meta li {
+  font-size: 0.9em;
+  color: #ccc;
+  margin: 0; /* Tar bort den extra marginalen vi lade till på andra listor */
+  line-height: 1.4; /* Samma här */
+}
+
+/* Gör etiketten (t.ex. "Engine:") vit och tydlig */
+.project-meta strong {
+  color: #ffffff;
+}
+
 /* Används för att centrera innehållet på sidor som Level Design */
 .page-content {
   max-width: 1100px; /* Samma som din .post-klass för enhetlighet */
