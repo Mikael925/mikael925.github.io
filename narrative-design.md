@@ -50,16 +50,11 @@
               <ul>
                 <li>
     <strong>Concept & Narrative Goal:</strong> The concept for 'Junkbot and Dog' originated from an old painting by my sister, which sparked the idea for a silent story about companionship. I immediately began outlining the narrative beats and core mechanics in a Game Design Document (GDD). When our 5-day rapid prototyping course began, this concept was a perfect fit for the main objective: to create a complete narrative prototype where the story was told exclusively through character animation and interaction, without any dialogue.
-  </li>
-                <li>
-    <strong>Design & Prototyping Process:</strong> TBA..
-  </li>
+  </li> 
   <li>
-    <strong>Outcome & Reflection:</strong> TBA..
+    <strong>Outcome & Reflection:</strong> My key learning from this project was that strict design constraints are not limitations, but powerful creative drivers. The 'no localization' rule forced me to find smarter, more universal design solutions that I will carry with me to future projects.
   </li>
-<li>
-            <strong>Establishing Motivation:</strong> I designed the initial gameplay loop around a clear player need—the robot's low battery—which naturally guides the player to the charging station and facilitates the first meeting with the dog.
-        </li>
+<li><strong>Diegetic UI & Motivation:</strong> To provide a clear, immediate objective, I designed a diegetic UI for the robot's battery level, visible on both its chest and back. This built-in visual indicator of a low battery creates a natural sense of urgency, motivating the player to seek out the charging station where the core narrative begins.</li>
         <li>
             <strong>Conveying Emotion through Animation:</strong> Every story beat was prototyped through character movement. This included the dog's trusting animations as it guides the player, the robot's visible effort when lifting the trap, and the final, desperate sequence of trying to revive its injured friend.
         </li>
