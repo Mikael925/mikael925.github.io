@@ -183,7 +183,7 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp2gif4.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp2gif4.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p></p>
