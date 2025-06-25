@@ -1,40 +1,91 @@
----
-layout: default
----
+<div class="project-card">
 
-<div class="page-content">
-  <h1 class="page-title">Systems Design</h1>
-   
-  <div class="project-card">
-      <div class="project-flex-container">
-  
-          <div class="project-image-column">
-              <img src="{{ '/Images/Gp3.jpg' | relative_url }}" alt="A screenshot from the game 'Echoes of Stella'" style="width: 100%; height: auto; border-radius: 5px;">
-          </div>
-  
-          <div class="project-text-column">
-              <h3>Game project 3: Echoes of Stella</h3>
-              <p>This project focesed heavly on horror, we tried to make a mysterious yet scary horror game where you take the role of a little girl getting draged into her past where she has to play hide & seek with an old friend.</p>
-              <div class="project-roles">
-    <h4>My Roles</h4>
-    <ul>
-        <li>Sound Designer</li>
-        <li>3C's Designer</li>
-    </ul>
-</div>
-          </div>
-  
-      </div> <div class="project-details-row">
-          <details>
-              <summary>Read more about the design process</summary>
-              <div class="details-content">
-                  <p>
-                      </p>
-              </div>
-          </details>
-      </div>
+  <div class="project-flex-container">
+    <div class="project-image-column">
+      <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="">
+      <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> Go to Itch.io
+      </a>
+    </div>
+    <div class="project-text-column">
+      <h3>Project: </h3>
+      <div class="project-meta">
+        <ul>
+          <li><strong>Duration:</strong> </li>
+          <li><strong>Team Size:</strong> </li>
+          <li><strong>My Roles:</strong> </li>
+        </ul>
+      </div> 
+      <div class="project-tools-summary">
+        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> 
+        <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span>
+      </div>
+      <p></p>  
+      <blockquote class="testimonial">
+        <p>""</p>
+        <cite>– </cite>
+      </blockquote>
+    </div>
   </div>
-  
-  <hr style="border-color: #555;">
 
-</div>
+  <div class="project-details-row">
+    <details>
+      <summary>Read more about the design process</summary>
+      <div class="details-content">
+        <div class="process-stage">
+          <h3>Alpha Stage: </h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Process images:</p>
+              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+            </div>
+            <div class="stage-description">
+              <p></p>
+              <ul>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="process-stage">
+          <h3>Beta Stage: </h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Process images:</p>
+              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+            </div>
+            <div class="stage-description">
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="process-stage">
+          <h3>Gold Stage: </h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Results & Details:</p>
+              <a href="{{ '/Images/phg.png' | relative_url }}" target="_blank"><img src="{{ '/Images/phg.png' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+            </div>
+            <div class="stage-description">
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="process-stage">
+          <h3>Post-Mortem: </h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Key Takeaway:</p>
+              <blockquote class="testimonial">
+                <p></p>
+              </blockquote>
+            </div>
+            <div class="stage-description">
+              <h4>What Went Well:</h4>
+              <ul><li></li></ul>
+              <h4>What Could Be Improved:</h4>
+              <ul><li></li></ul>
+            </div>
+          </div>
+        </div> </div>   </details>
+  </div> <hr style="border-color: #555;">    </div>       
