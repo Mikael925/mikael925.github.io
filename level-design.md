@@ -93,6 +93,29 @@
             </div>
           </div>
         </div>
+        <div class="process-stage">
+  <h3>Post-Mortem: Reflections & Key Learnings</h3>
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+       <p class="gallery-label">Key Takeaway:</p>
+       <blockquote class="testimonial">
+         <p>"My biggest lesson from this project was the importance of creative problem-solving under pressure."</p>
+       </blockquote>
+    </div>
+    <div class="stage-description">
+      <h4>What Went Well:</h4>
+      <ul>
+        <li>Our team communication, using Jira and daily standups, was excellent and kept everyone aligned.</li>
+        <li>I'm proud of the custom VFX I created, as they significantly enhanced the game's atmosphere on a tight schedule.</li>
+      </ul>
+      <h4>What Could Be Improved:</h4>
+      <ul>
+        <li>In hindsight, we should have allocated more time for audio implementation in the planning phase. This led to a stressful final week for sound integration.</li>
+        <li>I learned that I need to be better at asking for help from artists earlier, instead of trying to solve visual problems on my own for too long.</li>
+      </ul>
+    </div>
+  </div>
+</div>
       </div>
     </details>
   </div>
@@ -191,11 +214,51 @@
         <li>A significant challenge was the limited number of art assets available. This forced me to be creative with the tools at hand.</li>
         <li>Instead of building new unique areas, I focused on cleverly re-using, rotating, and re-contextualizing existing assets to build out the world. This was a valuable lesson in creative problem-solving under tight constraints, without sacrificing the intended atmosphere.</li>
       </ul>
-    </div>
-    
+    </div>   
   </div>
 </div>
-                      </p>
+<div class="process-stage">
+          <h3>Gold Stage: Final Polish & Bug Fixing</h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Results & Details:</p>
+              <a href="{{ '/Images/gp2gif2.gif' | relative_url }}" target="_blank" title="Klicka för att förstora">
+                <img src="{{ '/Images/gp2gif2.gif' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
+              </a>
+            </div>
+            <div class="stage-description">
+              <p></p>
+              <ul>
+                <li>I conducted several "polishing passes"...</li>
+                <li>Actively participated in bug hunts...</li>
+                <li>Ensured that the gameplay experience was stable...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="process-stage">
+  <h3>Post-Mortem: Reflections & Key Learnings</h3>
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+       <p class="gallery-label">Key Takeaway:</p>
+       <blockquote class="testimonial">
+         <p>"My biggest lesson from this project was the importance of creative problem-solving under pressure."</p>
+       </blockquote>
+    </div>
+    <div class="stage-description">
+      <h4>What Went Well:</h4>
+      <ul>
+        <li>Our team communication, using Jira and daily standups, was excellent and kept everyone aligned.</li>
+        <li>I'm proud of the custom VFX I created, as they significantly enhanced the game's atmosphere on a tight schedule.</li>
+      </ul>
+      <h4>What Could Be Improved:</h4>
+      <ul>
+        <li>In hindsight, we should have allocated more time for audio implementation in the planning phase. This led to a stressful final week for sound integration.</li>
+        <li>I learned that I need to be better at asking for help from artists earlier, instead of trying to solve visual problems on my own for too long.</li>
+      </ul>
+    </div>
+  </div>
+</div>
           </details>
   </div>
   
