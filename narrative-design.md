@@ -17,7 +17,7 @@
         </ul>
       </div> 
       <div class="project-tools-summary">
-        <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine</span> 
+        <span class="tool-tag"><i class="fa-brands fa-unrealengine"></i> Unreal Engine</span> 
         <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
         <span class="tool-tag"><i class="fa-solid fa-film"></i> Sequenser</span>
         <span class="tool-tag"><i class="fa-solid fa-person-running"></i> Mixamo</span>
