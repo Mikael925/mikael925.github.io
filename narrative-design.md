@@ -1,7 +1,7 @@
 <div class="project-card">
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/py1gif1' | relative_url }}" alt="Konceptbild av Junkbot and Dog">
+      <img src="{{ '/Images/py1gif1.gif' | relative_url }}" alt="Konceptbild av Junkbot and Dog">
       </div>
     <div class="project-text-column">
       <h3>Project: Junkbot and Dog</h3>   
