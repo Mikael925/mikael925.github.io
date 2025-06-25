@@ -320,9 +320,10 @@ nav a.active {
 
 /* Styr text-kolumnen i ett projektkort */
 .project-text-column {
-  flex: 1; /* Tar upp resten av det tillgängliga utrymmet */
+  flex: 1;
+  display: flex;           /* LÄGG TILL: Aktiverar flexbox inuti kolumnen */
+  flex-direction: column;  /* LÄGG TILL: Säger åt innehållet att staplas vertikalt */
 }
-
 /* Justering för drop-down menyn */
 /* Justering för drop-down menyn */
 .project-details-row {
