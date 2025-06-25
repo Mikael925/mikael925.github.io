@@ -21,8 +21,8 @@
 </blockquote>
         <div class="project-meta">
     <ul>
-      <li><strong>Duration:</strong> 8 Weeks/li>
-      <li><strong>Team Size:</strong> 15/li>
+      <li><strong>Duration:</strong> 8 Weeks</li>
+<li><strong>Team Size:</strong> 15</li>
     </ul>
           </div>
           <div class="project-tools-summary">
@@ -116,8 +116,8 @@
               <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>
               <div class="project-meta">
     <ul>
-      <li><strong>Duration:</strong> 8 Weeks/li>
-      <li><strong>Team Size:</strong> 20/li>
+      <li><strong>Duration:</strong> 8 Weeks</li>
+      <li><strong>Team Size:</strong> 20</li>
       <li><strong>My Roles:</strong> Sound Designer, Level Designer</li>
     </ul>
               </div>
