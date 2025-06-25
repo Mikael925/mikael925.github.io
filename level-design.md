@@ -127,7 +127,7 @@
 
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/gp2poster2.jpg' | relative_url }}" alt="Shattered Veil poster">
+      <img src="{{ '/Images/gp2poster2.png' | relative_url }}" alt="Shattered Veil poster">
       <a href="https://futuregames.itch.io/shattered-veil" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
       </a>
