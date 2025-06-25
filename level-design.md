@@ -249,12 +249,11 @@
     <div class="stage-description">
       <h4>What Went Well:</h4>
       <ul>
-        <li>Our team communication, using Jira and daily standups, was excellent and kept everyone aligned.</li>
-        <li>I'm proud of the custom VFX I created, as they significantly enhanced the game's atmosphere on a tight schedule.</li>
+        <li>I'm especially proud of the close collaboration with our Narrative Designer. We worked in tight sync to ensure the level layout directly supported the story's emotional beats, using environmental storytelling and spatial pacing to build tension and guide the player through the intended narrative arc.</li>
       </ul>
       <h4>What Could Be Improved:</h4>
       <ul>
-        <li>I learned that I need to be better at asking for help from artists earlier, instead of trying to solve visual problems on my own for too long.</li>
+        <li>One of the most valuable lessons from this project came from an initial production challenge. After some overlapping work caused unforeseen delays, I learned firsthand how vital clear communication and defined responsibilities are. Moving forward, I always make it a priority to establish clear ownership of work areas before beginning a task, a practice that has made me a more efficient and reliable teammate.</li>
       </ul>
     </div>
   </div>
