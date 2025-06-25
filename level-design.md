@@ -201,7 +201,8 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Results & Details:</p>
-              <a href="{{ '/Images/gp2gif1.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp2gif1.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp2gif2.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp2gif2.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp2gif5.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp2gif5.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p></p>
