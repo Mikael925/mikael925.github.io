@@ -127,7 +127,7 @@
 
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/gp2poster1.jpg' | relative_url }}" alt="Shattered Veil poster">
+      <img src="{{ '/Images/gp2poster2.jpg' | relative_url }}" alt="Shattered Veil poster">
       <a href="https://futuregames.itch.io/shattered-veil" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
       </a>
@@ -147,7 +147,7 @@
       <p>As both Level and Sound Designer, my goal was to lead the player through three distinct areas: a village, a church, and a ritual site. My focus within these areas was to build tension and tell a story without relying on explicit text.</p>  
       <blockquote class="testimonial">
         <p>""</p>
-        <cite>– </cite>
+        <cite></cite>
       </blockquote>
     </div>
   </div>
