@@ -212,12 +212,7 @@
               <ul><li></li></ul>
             </div>
           </div>
-        </div>
-      </div>
-    </details>
-  </div>
-</div>
-        </details>
-      </div>
-    </div> </div> </div>
+        </div> </div>   </details>
+  </div>     </div>       <hr style="border-color: #555;">
 
+</div>
