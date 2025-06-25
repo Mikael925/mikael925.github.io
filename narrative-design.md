@@ -1,7 +1,7 @@
 <div class="project-card">
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/py1img1.jpg' | relative_url }}" alt="Konceptbild av Junkbot and Dog">
+      <img src="{{ '/Images/py1gif1' | relative_url }}" alt="Konceptbild av Junkbot and Dog">
       </div>
     <div class="project-text-column">
       <h3>Project: Junkbot and Dog</h3>   
@@ -42,7 +42,7 @@
   <div class="stage-content-flex">
     <div class="stage-gallery">
       <p class="gallery-label">Sketches & Process:</p>
-      <a href="{{ '/Images/py1img1.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/py1img1.jpg' | relative_url }}" alt="Första konceptskissen" class="gallery-thumbnail"></a>
+      <a href="{{ '/Images/py1img1.png' | relative_url }}" target="_blank"><img src="{{ '/Images/py1img1.png' | relative_url }}" alt="Första konceptskissen" class="gallery-thumbnail"></a>
     </div>
     <div class="stage-description">
       <p></p>
