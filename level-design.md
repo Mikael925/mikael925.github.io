@@ -219,33 +219,6 @@
   </div>
 </div>
 <div class="process-stage">
-          <h3>Gold Stage: Final Polish & Bug Fixing</h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Results & Details:</p>
-              <a href="{{ '/Images/gp2gif2.gif' | relative_url }}" target="_blank" title="Klicka för att förstora">
-                <img src="{{ '/Images/gp2gif2.gif' | relative_url }}" alt="En placeholder-bild" class="gallery-thumbnail">
-              </a>
-            </div>
-            <div class="stage-description">
-              <p></p>
-              <ul>
-                <li>I conducted several "polishing passes"...</li>
-                <li>Actively participated in bug hunts...</li>
-                <li>Ensured that the gameplay experience was stable...</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="process-stage">
-  <h3>Post-Mortem: Reflections & Key Learnings</h3>
-  <div class="stage-content-flex">
-    <div class="stage-gallery">
-       <p class="gallery-label">Key Takeaway:</p>
-       <blockquote class="testimonial">
-         <p>"My biggest lesson from this project was the importance of creative problem-solving under pressure."</p>
-       </blockquote>
-    </div>
     <div class="stage-description">
       <h4>What Went Well:</h4>
       <ul>
