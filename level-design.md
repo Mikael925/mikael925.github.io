@@ -192,11 +192,11 @@
         <li>Instead of building new unique areas, I focused on cleverly re-using, rotating, and re-contextualizing existing assets to build out the world. This was a valuable lesson in creative problem-solving under tight constraints, without sacrificing the intended atmosphere.</li>
       </ul>
     </div>
-    </details>
+    
   </div>
 </div>
                       </p>
-          
+          </details>
   </div>
   
   <hr style="border-color: #555;">
