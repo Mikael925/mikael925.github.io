@@ -22,7 +22,7 @@
         <div class="project-meta">
     <ul>
       <li><strong>Duration:</strong> 8 Weeks/li>
-      <li><strong>Team Size:</strong> 15
+      <li><strong>Team Size:</strong> 15/li>
     </ul>
           </div>
           <div class="project-tools-summary">
@@ -117,7 +117,7 @@
               <div class="project-meta">
     <ul>
       <li><strong>Duration:</strong> 8 Weeks/li>
-      <li><strong>Team Size:</strong> 20
+      <li><strong>Team Size:</strong> 20/li>
       <li><strong>My Roles:</strong> Sound Designer, Level Designer</li>
     </ul>
               </div>
