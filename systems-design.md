@@ -17,8 +17,8 @@
         </ul>
       </div> 
       <div class="project-tools-summary">
-        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> 
-        <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span>
+        <span class="tool-tag"><i class="fa-solid fa-gamepad"></i></i> Unity</span> 
+        <span class="tool-tag"><i class="fa-solid fa-puzzle-piece"></i></i> C#</span>
       </div>
       <p></p>  
       <blockquote class="testimonial">
