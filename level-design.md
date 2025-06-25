@@ -19,12 +19,11 @@
   
   <cite>– <a href="https://www.linkedin.com/in/håvard-wullum/" target="_blank" rel="noopener noreferrer">Håvard Wullum</a>, Producer</cite>
 </blockquote>
-        <div class="project-roles">
-          <h4>My Roles</h4>
-          <ul>
-            <li>Product Owner</li>
-            <li>Level Designer</li>
-          </ul>
+        <div class="project-meta">
+    <ul>
+      <li><strong>Duration:</strong> 8 Weeks/li>
+      <li><strong>Team Size:</strong> 15
+    </ul>
           <div class="project-tools-summary">
   <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-brands fa-blender"></i> Blender</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
   </div>
@@ -114,11 +113,11 @@
       <div class="project-text-column">
         <h3>Project: Shattered Veil</h3>
               <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>
-              <div class="project-roles">
-    <h4>My Roles</h4>
+              <div class="project-meta">
     <ul>
-        <li>Sound Designer</li>
-        <li>Level Designer</li>
+      <li><strong>Duration:</strong> 8 Weeks/li>
+      <li><strong>Team Size:</strong> 20
+      <li><strong>My Roles:</strong> Sound Designer, Level Designer</li>
     </ul>
                 <div class="project-tools-summary">
   <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-solid fa-cubes"></i> ProBuilder</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
