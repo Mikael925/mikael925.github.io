@@ -126,8 +126,8 @@
 <div class="project-card">
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/gp2poster1.jpg' | relative_url }}" alt="Shattered Veil poster">
-      <a href="https://futuregames.itch.io/shattered-veil" class="itchio-link" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/Images/gp1poster2.png' | relative_url }}" alt="Tom the dragon poster">
+      <a href="https://futuregames.itch.io/tomthedragon" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
       </a>
     </div>
@@ -136,58 +136,26 @@
       <div class="project-meta">
         <ul>
           <li><strong>Duration:</strong> 8 Weeks</li>
-          <li><strong>Team Size:</strong> 20</li>
-          <li><strong>My Roles:</strong> Sound Designer, Level Designer</li>
+          <li><strong>Team Size:</strong> 15</li>
+          <li><strong>My Roles:</strong> Product Owner, Level Designer</li>
         </ul>
       </div>
       <div class="project-tools-summary">
-        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-solid fa-cubes"></i> ProBuilder</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
+        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-brands fa-blender"></i> Blender</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
       </div>
-      <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>
+      <p>Summary.</p>
+      <blockquote class="testimonial">
+        <p>""</p>
+        <p>""</p>
+        <cite>– <a href="https://www.linkedin.com/in/håvard-wullum/" target="_blank" rel="noopener noreferrer">Håvard Wullum</a>, Producer</cite>
+      </blockquote>
       <div class="project-details-row">
         <details>
           <summary>Read more about the design process</summary>
           <div class="details-content">
-            <div class="process-stage">
-              <h3>Alpha Stage: Sketching, Iteration & Team Alignment</h3>
-              <div class="stage-content-flex">
-                <div class="stage-gallery">
-                  <p class="gallery-label">Progress images:</p>
-                  <a href="/Images/20250121-095926-3.jpg" target="_blank" title="Klicka för att förstora">
-                    <img src="/Images/20250121-095926-3.jpg" alt="Handritad skiss av level layout" class="gallery-thumbnail">
-                  </a>
-                  <a href="/Images/blockout.jpg" target="_blank" title="Klicka för att förstora">
-                    <img src="/Images/blockout.jpg" alt="Collage av olika blockout-iterationer" class="gallery-thumbnail">
-                  </a>
-                </div>
-                <div class="stage-description">
-                  <p>My process for this level began with a hand-drawn sketch...</p>
-                  <ul>
-                    <li>This iterative approach was crucial...</li>
-                    <li>Together, we held a feedback session...</li>
-                    <li>This collaborative process allowed us to choose a unified direction...</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="process-stage">
-              <h3>Beta Stage: Environment Art & Custom VFX</h3>
-              <div class="stage-content-flex">
-                 </div>
-            </div>
-            <div class="process-stage">
-              <h3>Gold Stage: Player Flow & Creative Problem-Solving</h3>
-              <div class="stage-content-flex">
-                 </div>
-            </div>
-            <div class="process-stage">
-              <h3>Post-Mortem: Reflections & Key Learnings</h3>
-              <div class="stage-content-flex">
-                </div>
-            </div>
+            <p>Process.</p>
           </div>
         </details>
       </div>
     </div> </div> </div>
-
 
