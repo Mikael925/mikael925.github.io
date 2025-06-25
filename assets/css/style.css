@@ -256,6 +256,28 @@ nav a.active {
   margin-bottom: 20px;
 }
 
+/* Styling för verktyg-taggarna */
+.project-tools-summary {
+  margin-top: 20px;
+}
+
+.tool-tag {
+  display: inline-block;
+  background-color: #333;
+  color: #ccc;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-bottom: 8px; /* För att hantera radbyte snyggt */
+  font-size: 0.85em;
+  white-space: nowrap; /* Hindrar texten från att brytas */
+}
+
+.tool-tag i {
+  margin-right: 6px;
+  color: #f39c12; /* Din temafärg på ikonen */
+}
+
 .project-meta ul {
   list-style: none;
   padding: 0;
