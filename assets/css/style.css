@@ -324,8 +324,9 @@ nav a.active {
 }
 
 /* Justering för drop-down menyn */
+/* Justering för drop-down menyn */
 .project-details-row {
-    margin-top: 15px; /* Lite luft ovanför "Read more" */
+  margin-top: 30px; /* Skapar ett tydligt mellanrum uppåt */
 }
 
 details > summary {
@@ -398,8 +399,9 @@ details > summary:hover {
 }
 
 .process-stage:first-child {
-  border-top: none; /* Ingen linje över det första steget */
+  border-top: none;
   padding-top: 10px;
+  margin-top: 20px; /* LÄGG TILL DENNA RAD för luft inuti */
 }
 
 .process-stage h3 {
