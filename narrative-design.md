@@ -61,6 +61,9 @@
         <li>
             <strong>Environmental Storytelling:</strong> To support the main narrative, I placed key environmental cues for the player to discover, such as the old trap that foreshadows danger and the subsequent blood trail that creates a sense of urgency and drives the final act of the story.
         </li>
+<li>
+ <strong>From insperation to blueprint:</strong>I believe that a strong game concept can be sparked by anything—even a single image. This exercise showcases how I translate that initial spark of inspiration directly into a design blueprint. By analyzing a visual, I can quickly prototype core ideas, from player objectives and environmental storytelling to potential challenges and core mechanics.
+</li>
               </ul>
             </div>
           </div>
