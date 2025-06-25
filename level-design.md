@@ -146,7 +146,7 @@
       </div>
       <p>As both Level and Sound Designer, my goal was to lead the player through three distinct areas: a village, a church, and a ritual site. My focus within these areas was to build tension and tell a story without relying on explicit text.</p>  
       <blockquote class="testimonial">
-        <p>""</p>
+        <p></p>
         <cite></cite>
       </blockquote>
     </div>
