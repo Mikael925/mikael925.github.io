@@ -219,14 +219,14 @@
             <div class="stage-gallery">
               <p class="gallery-label">Key Takeaway:</p>
               <blockquote class="testimonial">
-                <p></p>
+                <p>This project solidified my understanding that clear communication and defined ownership aren't just 'management-speak'—they are the most critical tools a team has to prevent costly delays and enable true creative collaboration.</p>
               </blockquote>
             </div>
             <div class="stage-description">
               <h4>What Went Well:</h4>
-              <ul><li></li></ul>
+              <ul><li>I'm especially proud of the close collaboration with our Narrative Designer. We worked in tight sync to ensure the level layout directly supported the story's emotional beats, using environmental storytelling and spatial pacing to build tension and guide the player through the intended narrative arc.</li></ul>
               <h4>What Could Be Improved:</h4>
-              <ul><li></li></ul>
+              <ul><li>One of the most valuable lessons from this project came from an initial production challenge. After some overlapping work caused unforeseen delays, I learned firsthand how vital clear communication and defined responsibilities are. Moving forward, I always make it a priority to establish clear ownership of work areas before beginning a task, a practice that has made me a more efficient and reliable teammate.</li></ul>
             </div>
           </div>
         </div> </div>   </details>
