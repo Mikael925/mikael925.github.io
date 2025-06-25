@@ -21,7 +21,7 @@
         <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
         <span class="tool-tag"><i class="fa-solid fa-film"></i> Sequenser</span>
         <span class="tool-tag"><i class="fa-solid fa-person-running"></i> Mixamo</span>
-        <span class="tool-tag"><i class="fa-solid fa-cubes"></i> Synthy Polygon Assets</span>
+        <span class="tool-tag"><i class="fa-solid fa-cubes"></i> Synty Polygon Assets</span>
       </div>
       <p>This solo project was a 5-day rapid prototyping challenge with a core constraint: tell a complete, emotional story using only character animation and environmental cues, with no dialogue. The result is 'Junkbot and Dog,' a narrative experience exploring an unlikely friendship, a tragic accident, and a permanent, robotic solution to loss.</p>  
       <blockquote class="testimonial">
