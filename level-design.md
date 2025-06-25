@@ -195,9 +195,7 @@
   </div>
 </div>
                       </p>
-              </div>
-          </details>
-      </div>
+          
   </div>
   
   <hr style="border-color: #555;">
