@@ -18,7 +18,7 @@
       <div class="project-tools-summary">
         <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-brands fa-blender"></i> Blender</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
       </div>
-      <p>In this group project, I pitched a platformer game where you play as a dragon escaping a volcanic eruption. With lava rising, the goal is to flee the area by climbing higher and higher. For the level design, my goal was to challenge the player while establishing a solid foundation for future development, resulting in a well-sized vertical slice.</p>
+      <p>In this project, I took on the dual responsibilities of Product Owner and Level Designer to bring my original pitch to life: a frantic vertical platformer about an escaping dragon. My primary design challenge was to create a compelling sense of urgency, balancing a constantly rising lava threat with challenging-but-fair platforming that always guided the player upwards.</p>
       <blockquote class="testimonial">
         <p>"I want to give a big shoutout to our PO Johan Rosenhed. In my opinion Johan has been our MVP of this project. Especially in the last 2 weeks. All of you have put down hard work and delivered great things. But Johan did such a good job as PO, especially considering this is his first game project."</p>
         <p>"The role of PO is not an easy one, but Johan did a great job and I really appreciate that, I don't think this project could have been anything like it without him."</p>
@@ -144,7 +144,7 @@
      <div class="project-tools-summary">
         <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span> <span class="tool-tag"><i class="fa-solid fa-cubes"></i> ProBuilder</span> <span class="tool-tag"><i class="fa-solid fa-sliders"></i> FMOD</span> <span class="tool-tag"><i class="fa-brands fa-jira"></i> Jira</span> <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Miro</span>
       </div>
-      <p>In this project, our team focused on designing a linear, narrative-driven game. It was built to guide the player through a complete mission, taking them from a set starting point to a final objective. The level features three distinct areas: the Village, the Church, and the Ritual Site.</p>  
+      <p>As both Level and Sound Designer, my goal was to lead the player through three distinct areas: a village, a church, and a ritual site. My focus within these areas was to build tension and tell a story without relying on explicit text.</p>  
       <blockquote class="testimonial">
         <p>""</p>
         <cite>– </cite>
