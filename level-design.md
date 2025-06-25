@@ -218,8 +218,12 @@
     </div>   
   </div>
 </div>
-<div class="process-stage">
-    <div class="stage-description">
+      <div class="process-stage">
+  <h3>Post-Mortem: Reflections & Key Learnings</h3>
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+       <p class="gallery-label">Key Takeaway:</p>
+       <blockquote class="testimonial">
       <h4>What Went Well:</h4>
       <ul>
         <li>I'm especially proud of the close collaboration with our Narrative Designer. We worked in tight sync to ensure the level layout directly supported the story's emotional beats, using environmental storytelling and spatial pacing to build tension and guide the player through the intended narrative arc.</li>
