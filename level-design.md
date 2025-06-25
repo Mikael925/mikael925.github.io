@@ -213,6 +213,4 @@
             </div>
           </div>
         </div> </div>   </details>
-  </div>     </div>       <hr style="border-color: #555;">
-
-</div>
+  </div> <hr style="border-color: #555;">    </div>       
