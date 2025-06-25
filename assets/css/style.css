@@ -312,10 +312,10 @@ nav a.active {
 /* Regel för projektbilderna */
 /* Ny, slutgiltig regel för projektbilderna */
 .project-image-column img {
-  width: 100%;
-  height: 500px; /* Vi sätter en fast höjd för att rutorna ska vara lika höga */
-  object-fit: contain; /* VIKTIG ÄNDRING: Passar in hela bilden, ingen beskärning */
-  border-radius: 5px;
+  width: 100%;       /* Fyller kolumnens bredd */
+  max-height: 350px; /* Sätter en max-höjd (justera vid behov) */
+  object-fit: cover; /* Ser till att bilden fyller ytan snyggt utan att förvrängas */
+  object-position: center; /* Centrerar bilden i ramen */
 }
 
 /* Styr text-kolumnen i ett projektkort */
