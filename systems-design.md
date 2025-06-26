@@ -56,14 +56,16 @@
           </div>
         </div>
         <div class="process-stage">
-          <h3>Beta Stage: Full Implementation & Voice-Over Production: </h3>
+          <h3>Systems Design: From Proof-of-Concept to Gameplay Loops</h3>
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Process images:</p>
               <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
-              <p>Systems Design: From Proof-of-Concept to Gameplay Loops</p>
+              <p>As a systems designer on this project, I was responsible for several key interactive elements that shaped the core gameplay.
+
+My most significant contribution was prototyping the central "echo mechanic". The initial idea was met with some skepticism about its technical feasibility. To prove its potential, I independently developed a proof-of-concept in a few days. This working prototype successfully demonstrated the mechanic's value, was instrumental in getting full team buy-in, and became a cornerstone of the final game's puzzle and exploration loops.</p>
               <ul>
   <li>
     <strong>The "Echo Mechanic" (Proof-of-Concept):</strong> My most significant contribution was prototyping the central "echo mechanic". When the initial idea was met with skepticism regarding its technical feasibility, I independently developed a proof-of-concept in just a few days. This working prototype successfully demonstrated the mechanic's value, was instrumental in getting team buy-in, and became a cornerstone of the game's puzzle and exploration loops.
