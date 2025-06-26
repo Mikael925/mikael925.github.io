@@ -175,7 +175,7 @@ My most significant contribution was prototyping the central "echo mechanic". Th
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/py2gif8.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py2gif8' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/py2gif8.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py2gif8.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p> <p>This prototype is an ongoing effort and the foundation for what I envision as my graduation project. The immediate next steps in the design process include:</p>
