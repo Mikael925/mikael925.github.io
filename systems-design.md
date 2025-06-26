@@ -17,9 +17,12 @@
         </ul>
       </div> 
       <div class="project-tools-summary">
-        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> 
-        <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span>
-      </div>
+  <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine 5</span>
+  <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
+  <span class="tool-tag"><i class="fa-solid fa-wave-square"></i> Metasounds</span>
+  <span class="tool-tag"><i class="fa-solid fa-wave-square"></i> Audacity</span>
+  <span class="tool-tag"><i class="fa-solid fa-film"></i> Sequencer</span>
+</div>
       <p></p>  
       <blockquote class="testimonial">
         <p>""</p>
@@ -92,9 +95,6 @@ My most significant contribution was prototyping the central "echo mechanic". Th
     <div class="stage-description">
       <h4>What Went Well:</h4>
       <ul>
-        <li>
-          <strong>Successful Silent Storytelling:</strong> I was very happy with the result of telling a narrative purely through animation and environmental cues. It proved to be a powerful way to build emotion without a single word of dialogue.
-        </li>
         <li>
           <strong>The Value of Prototyping:</strong> This project reinforced my belief that prototypes are the best communication tool. Being able to show a playable version of an idea is far more effective at conveying a vision and getting feedback than a design document alone.
         </li>
