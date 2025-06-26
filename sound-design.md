@@ -3,7 +3,7 @@
   <div class="project-flex-container">
     <div class="project-image-column">
       <img src="{{ '/Images/Gp3.jpg' | relative_url }}" alt="">
-      <a href="" class="(https://futuregames.itch.io/echoes-of-stella)" target="_blank" rel="noopener noreferrer">
+      <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
       </a>
     </div>
@@ -11,9 +11,9 @@
       <h3>Project: Echoes of Stella</h3>
       <div class="project-meta">
         <ul>
-          <li><strong>Duration:</strong> </li>
+          <li><strong>Duration: 6 weeks </strong> </li>
           <li><strong>Team Size: 14 </strong> </li>
-          <li><strong>My Roles: Sound Design, Narrative Design, 3C's</strong> </li>
+          <li><strong>My Roles: Sound Design, Narrative Design, 3C's Design (Character, Controls, Camera)</strong> </li>
         </ul>
       </div> 
       <div class="project-tools-summary">
