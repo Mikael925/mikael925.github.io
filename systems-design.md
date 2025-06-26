@@ -81,7 +81,7 @@ My most significant contribution was prototyping the central "echo mechanic". Th
           </div>
         </div>
         <div class="process-stage">
-  <h3>Post-Mortem: Reflections from a 5-Day Prototype</h3>
+  <h3>Post-Mortem: Reflections from a Prototype</h3>
   <div class="stage-content-flex">
     <div class="stage-gallery">
       <p class="gallery-label">Key Takeaway:</p>
