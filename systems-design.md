@@ -172,6 +172,7 @@ My most significant contribution was prototyping the central "echo mechanic". Th
       </li>
     </ul>
             </div>
+</div>
         <div class="process-stage">
           <h3>Future Development & Vision</h3>
           <div class="stage-content-flex">
