@@ -166,9 +166,6 @@ My most significant contribution was prototyping the central "echo mechanic". Th
       <li>
         <strong>Dynamic Damage Model:</strong> The prototype features different hit-zone checks. A weapon's damage output and the resulting sound, splatter effect vary depending on whether a shot hits an armored or unarmored surface.
       </li>
-      <li>
-        <strong>Stealth & Traversal Mechanics:</strong> To support tactical gameplay, I designed and implemented systems for hide spots and secret passages, giving the player more strategic movement options.
-      </li>
     </ul>
             </div>
           </div>
