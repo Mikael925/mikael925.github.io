@@ -11,9 +11,9 @@
       <h3>Project: Echoes of Stella</h3>
       <div class="project-meta">
         <ul>
-          <li><strong>Duration: 6 weeks </strong> </li>
-          <li><strong>Team Size: 14 </strong> </li>
-          <li><strong>My Roles: Sound Design, Narrative Design, 3C's Design (Character, Controls, Camera)</strong> </li>
+          <li><strong>Duration:</strong> 6 weeks </li>
+          <li><strong>Team Size:</strong> 14 </li>
+          <li><strong>My Roles:</strong> Sound Design, Narrative Design, 3C's Design (Character, Controls, Camera) </li>
         </ul>
       </div> 
       <div class="project-tools-summary">
