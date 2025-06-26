@@ -71,9 +71,6 @@ My most significant contribution was prototyping the central "echo mechanic". Th
     <strong>The "Echo Mechanic" (Proof-of-Concept):</strong> My most significant contribution was prototyping the central "echo mechanic". When the initial idea was met with skepticism regarding its technical feasibility, I independently developed a proof-of-concept in just a few days. This working prototype successfully demonstrated the mechanic's value, was instrumental in getting team buy-in, and became a cornerstone of the game's puzzle and exploration loops.
   </li>
   <li>
-    <strong>Interactive Narrative Objects:</strong> I created the system for objects that, when interacted with, would trigger specific voice lines to deliver story beats and environmental lore.
-  </li>
-  <li>
     <strong>Tension-Based Door Mechanics:</strong> I designed the behavior for all doors in the game, focusing on creating suspense with slow opening speeds and deliberate audio cues.
   </li>
   <li>
