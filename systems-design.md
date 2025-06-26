@@ -186,4 +186,4 @@ My most significant contribution was prototyping the central "echo mechanic". Th
       <li>Implementing a stamina system that affects the player's ability to Aim Down Sights (ADS) for extended periods, adding another layer of tactical decision-making.</li>
       <li>Continuously iterating to find the perfect balance between challenging, tactical gameplay and a fun, engaging player experience.</li>
     </ul>
-             <hr style="border-color: #555;">    </div>       
+             <hr style="border-color: #555;">    
