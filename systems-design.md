@@ -155,6 +155,9 @@ My most significant contribution was prototyping the central "echo mechanic". Th
             <div class="stage-description">
               <p></p>
                <ul>
+                 <li>
+    <strong>Data-Driven Architecture (Data Tables & Structs):</strong> The entire weapon system is built on a data-driven foundation using Unreal Engine's Structures and Data Tables. I designed a master 'Weapon Data' Struct to hold every variable—from damage and recoil stats to the assets themselves, including weapon models, animation sets, muzzle flash FX, and impact sounds. This makes the system highly modular and scalable; new weapons can be created and balanced entirely within the Data Table.
+  </li>
       <li>
         <strong>Modular Two-Slot Inventory:</strong> The player can carry two weapons at a time. The system is built to be modular, allowing for easy expansion. Players can drop, throw, and pick up weapons dynamically from the environment.
       </li>
