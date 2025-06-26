@@ -1,182 +1,67 @@
 <div class="project-card">
-
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="">
-      <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-itch-io"></i> Go to Itch.io
-      </a>
+      <img src="{{ '/Images/py3img2.jpg' | relative_url }}" alt="First-person view of the diegetic UI">
     </div>
     <div class="project-text-column">
-      <h3>Project: </h3>
+      <h3>Project: Diegetic UI Prototype</h3>
       <div class="project-meta">
         <ul>
           <li><strong>Duration:</strong> </li>
-          <li><strong>Team Size:</strong> </li>
-          <li><strong>My Roles:</strong> </li>
+          <li><strong>Team Size:</strong> Solo Project</li>
+          <li><strong>My Roles:</strong> UI/UX Designer, Systems Designer</li>
         </ul>
       </div> 
       <div class="project-tools-summary">
-        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> 
-        <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span>
+        <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine</span> 
+        <span class="tool-tag"><i class="fa-solid fa-mobile-screen"></i> UMG</span>
+        <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
       </div>
-      <p></p>  
-      <blockquote class="testimonial">
-        <p>""</p>
-        <cite>– </cite>
-      </blockquote>
-    </div>
+      <p>This prototype explores the power of diegetic UI to create a more immersive player experience. The goal was to remove traditional on-screen HUD elements and instead integrate all essential information—like navigation, health, and team status—directly onto devices the player character carries and wears in the game world.</p>      
+      <div class="project-details-row">
+        <details>
+          <summary>Read more about the implemented systems</summary>
+          <div class="details-content">
+            <div class="process-stage">
+  <h3>Project Goal & Design Philosophy</h3>
+  <div class="stage-description">
+    <p>The core philosophy behind this project was to completely eliminate traditional, 'pasted-on' UI. My goal was to prove that all necessary player information could be delivered through in-world objects, strengthening immersion and making the player feel truly present in the game's environment. The challenge was to make this information clear and readable without sacrificing realism.</p>
   </div>
+</div>
 
-  <div class="project-details-row">
-    <details>
-      <summary>Read more about the UI/UX design process</summary>
-      <div class="details-content">
-        <div class="process-stage">
-          <h3>Alpha Stage: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
-            </div>
-            <div class="stage-description">
-              <p></p>
-              <ul>
-                <li></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="process-stage">
-          <h3>Beta Stage: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
-            </div>
-            <div class="stage-description">
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="process-stage">
-          <h3>Gold Stage: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Results & Details:</p>
-              <a href="{{ '/Images/phg.png' | relative_url }}" target="_blank"><img src="{{ '/Images/phg.png' | relative_url }}" alt="" class="gallery-thumbnail"></a>
-            </div>
-            <div class="stage-description">
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="process-stage">
-          <h3>Post-Mortem: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Key Takeaway:</p>
-              <blockquote class="testimonial">
-                <p></p>
-              </blockquote>
-            </div>
-            <div class="stage-description">
-              <h4>What Went Well:</h4>
-              <ul><li></li></ul>
-              <h4>What Could Be Improved:</h4>
-              <ul><li></li></ul>
-            </div>
-          </div>
-        </div> </div>   </details>
-  </div> <hr style="border-color: #555;">    </div>       
-<div class="project-card">
-
-  <div class="project-flex-container">
-    <div class="project-image-column">
-      <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="">
-      <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-itch-io"></i> Go to Itch.io
-      </a>
+<div class="process-stage">
+  <h3>Key Features Implemented</h3>
+  <div class="stage-content-flex">
+    <div class="stage-gallery">
+      <p class="gallery-label">In-game examples:</p>
+      <a href="{{ '/Images/py3img1.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/py3img1.jpg' | relative_url }}" alt="The multi-function watch UI" class="gallery-thumbnail"></a>
+      <a href="{{ '/Images/py3img3.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/py3img3.jpg' | relative_url }}" alt="The SATCOM tablet menu" class="gallery-thumbnail"></a>
     </div>
-    <div class="project-text-column">
-      <h3>Project: </h3>
-      <div class="project-meta">
-        <ul>
-          <li><strong>Duration:</strong> </li>
-          <li><strong>Team Size:</strong> </li>
-          <li><strong>My Roles:</strong> </li>
-        </ul>
-      </div> 
-      <div class="project-tools-summary">
-        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> 
-        <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span>
+    <div class="stage-description">
+      <ul>
+        <li>
+          <strong>Multi-Function Wristwatch:</strong> I designed and implemented a wristwatch UI worn by the player. Its screen can be toggled between two modes:
+          <br>- <strong>Navigation Mode:</strong> Displays a real-time compass and GPS with objective markers.
+          <br>- <strong>Vitals Mode:</strong> Functions as a heart-rate monitor that serves as a diegetic health bar. The display changes color from green to yellow to red based on health, and flatlines upon death, providing clear at-a-glance feedback.
+        </li>
+        <li>
+          <strong>"SATCOM" Tablet Menu:</strong> To handle more complex information, I created a handheld tablet that functions as the game's menu system. The player physically raises the device to interact with it. I prototyped the framework for multiple tabs including SATCOM (Map/Objectives), Team Status, Briefing, and a fully functional Inventory screen.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="process-stage">
+  <h3>Outcome & Reflection</h3>
+  <div class="stage-description">
+    <p>The result is a successful proof-of-concept demonstrating how multiple layers of player information can be integrated into the game world. The biggest challenge was balancing the realism of the devices with the need for clear, instantly readable information during gameplay. This project was a valuable exploration into creating immersive player feedback systems.</p>
+  </div>
+</div>
+            </div>
+        </details>
       </div>
-      <p></p>  
-      <blockquote class="testimonial">
-        <p>""</p>
-        <cite>– </cite>
-      </blockquote>
-    </div>
-  </div>
-
-  <div class="project-details-row">
-    <details>
-      <summary>Read more about the UI/UX design process</summary>
-      <div class="details-content">
-        <div class="process-stage">
-          <h3>Alpha Stage: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
-            </div>
-            <div class="stage-description">
-              <p></p>
-              <ul>
-                <li></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="process-stage">
-          <h3>Beta Stage: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
-            </div>
-            <div class="stage-description">
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="process-stage">
-          <h3>Gold Stage: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Results & Details:</p>
-              <a href="{{ '/Images/phg.png' | relative_url }}" target="_blank"><img src="{{ '/Images/phg.png' | relative_url }}" alt="" class="gallery-thumbnail"></a>
-            </div>
-            <div class="stage-description">
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="process-stage">
-          <h3>Post-Mortem: </h3>
-          <div class="stage-content-flex">
-            <div class="stage-gallery">
-              <p class="gallery-label">Key Takeaway:</p>
-              <blockquote class="testimonial">
-                <p></p>
-              </blockquote>
-            </div>
-            <div class="stage-description">
-              <h4>What Went Well:</h4>
-              <ul><li></li></ul>
-              <h4>What Could Be Improved:</h4>
-              <ul><li></li></ul>
-            </div>
-          </div>
-        </div> </div>   </details>
-  </div> <hr style="border-color: #555;">    </div>       
+    </div> 
+  </div> 
+</div>
