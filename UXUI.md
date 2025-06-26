@@ -1,13 +1,13 @@
 <div class="project-card">
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/py3img2.jpg' | relative_url }}" alt="First-person view of the diegetic UI">
+      <img src="{{ '/Images/py3img2.png' | relative_url }}" alt="First-person view of the diegetic UI">
     </div>
     <div class="project-text-column">
       <h3>Project: Diegetic UI Prototype</h3>
       <div class="project-meta">
         <ul>
-          <li><strong>Duration:</strong> </li>
+          <li><strong>Duration:</strong> 4 Days </li>
           <li><strong>Team Size:</strong> Solo Project</li>
           <li><strong>My Roles:</strong> UI/UX Designer, Systems Designer</li>
         </ul>
@@ -34,8 +34,8 @@
   <div class="stage-content-flex">
     <div class="stage-gallery">
       <p class="gallery-label">In-game examples:</p>
-      <a href="{{ '/Images/py3img1.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/py3img1.jpg' | relative_url }}" alt="The multi-function watch UI" class="gallery-thumbnail"></a>
-      <a href="{{ '/Images/py3img3.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/py3img3.jpg' | relative_url }}" alt="The SATCOM tablet menu" class="gallery-thumbnail"></a>
+      <a href="{{ '/Images/py3img1.png' | relative_url }}" target="_blank"><img src="{{ '/Images/py3img1.png' | relative_url }}" alt="The multi-function watch UI" class="gallery-thumbnail"></a>
+      <a href="{{ '/Images/py3img3.png' | relative_url }}" target="_blank"><img src="{{ '/Images/py3img3.png' | relative_url }}" alt="The SATCOM tablet menu" class="gallery-thumbnail"></a>
     </div>
     <div class="stage-description">
       <ul>
