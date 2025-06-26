@@ -128,7 +128,7 @@ My most significant contribution was prototyping the central "echo mechanic". Th
         </ul>
       </div>
       <div class="project-tools-summary">
-        <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine</span> 
+        <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine 5</span> 
         <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
       </div>
       <p><p>This work-in-progress prototype is a deep dive into creating a modular and tactical weapon system in Unreal Engine. The focus is purely on systems design, featuring procedural recoil, a dynamic two-slot inventory, hit-zone based damage, and procedural animations using Inverse Kinematics (IK) to create a responsive feel for any weapon.</p>
