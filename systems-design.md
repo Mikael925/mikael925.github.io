@@ -33,7 +33,7 @@
 
   <div class="project-details-row">
     <details>
-      <summary>Read more about the sound design process</summary>
+      <summary>Read more about the design process</summary>
       <div class="details-content">
         <div class="process-stage">
           <h3>3C's Design </h3>
