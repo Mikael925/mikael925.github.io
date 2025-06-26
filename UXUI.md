@@ -7,14 +7,13 @@
       <h3>Project: Diegetic UI Prototype</h3>
       <div class="project-meta">
         <ul>
-          <li><strong>Duration:</strong> 2 Weeks</li>
+          <li><strong>Duration:</strong> 4 Days</li>
           <li><strong>Team Size:</strong> Solo Project</li>
           <li><strong>My Roles:</strong> UI/UX Designer, Systems Designer</li>
         </ul>
       </div>
       <div class="project-tools-summary">
         <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine</span>
-        <span class="tool-tag"><i class="fa-solid fa-mobile-screen"></i> UMG</span>
         <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
       </div>
       <p>This prototype explores the power of diegetic UI to create a more immersive player experience. The goal was to remove traditional on-screen HUD elements and instead integrate all essential information—like navigation, health, and team status—directly onto devices the player character carries and wears in the game world.</p>
