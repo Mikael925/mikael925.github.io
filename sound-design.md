@@ -2,8 +2,8 @@
 
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/Gp3.jpg' | relative_url }}" alt="">
-      <a href="" class="https://futuregames.itch.io/echoes-of-stella" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="">
+      <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
       </a>
     </div>
