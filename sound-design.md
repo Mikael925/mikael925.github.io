@@ -13,7 +13,7 @@
         <ul>
           <li><strong>Duration:</strong> 6 weeks </li>
           <li><strong>Team Size:</strong> 14 </li>
-          <li><strong>My Roles:</strong> Sound Design, 3C's Design, Narrative Design </li>
+          <li><strong>My Roles:</strong> Sound Design, Narrative Design, 3C's Design (Character, Controls, Camera) </li>
         </ul>
       </div> 
       <div class="project-tools-summary">
