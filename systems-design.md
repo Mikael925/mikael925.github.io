@@ -3,7 +3,7 @@
   <div class="project-flex-container">
     <div class="project-image-column">
       <img src="{{ '/Images/Gp3.jpg' | relative_url }}" alt="">
-      <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
+      <a href="https://futuregames.itch.io/echoes-of-stella" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> Go to Itch.io
       </a>
     </div>
@@ -23,10 +23,10 @@
   <span class="tool-tag"><i class="fa-solid fa-wave-square"></i> Audacity</span>
   <span class="tool-tag"><i class="fa-solid fa-film"></i> Sequencer</span>
 </div>
-      <p></p>  
+      <p>What if sight itself was a risk? This first-person horror adventure is built around a unique echolocation mechanic. Plunged into darkness, you must make sound to see your surroundings, but every noise also alerts a relentless monster to your position. This creates a tense risk-reward loop where vision comes at the cost of survival.</p>  
       <blockquote class="testimonial">
-        <p>""</p>
-        <cite>– </cite>
+        <p></p>
+        <cite></cite>
       </blockquote>
     </div>
   </div>
