@@ -40,7 +40,7 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp3gif1.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp3gif1.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p></p>
@@ -55,7 +55,7 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp3gif2.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp3gif2.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p></p>
@@ -70,7 +70,8 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Results & Details:</p>
-              <a href="{{ '/Images/phg.png' | relative_url }}" target="_blank"><img src="{{ '/Images/phg.png' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp3gif3.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp3gif3.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp3gif4.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp3gif4.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p></p>
