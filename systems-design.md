@@ -40,7 +40,7 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp3gif5.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp3gif5.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p>3C's Design: Crafting a Vulnerable Player Experience</p>
@@ -63,7 +63,7 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">Process images:</p>
-              <a href="{{ '/Images/ph.jpg' | relative_url }}" target="_blank"><img src="{{ '/Images/ph.jpg' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/gp3gif4.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/gp3gif4.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p>As a systems designer on this project, I was responsible for several key interactive elements that shaped the core gameplay.
