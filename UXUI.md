@@ -34,8 +34,8 @@
           <div class="stage-content-flex">
             <div class="stage-gallery">
               <p class="gallery-label">In-game examples:</p>
-              <a href="{{ '/Images/py3img1.png' | relative_url }}" target="_blank"><img src="{{ '/Images/py3img1.png' | relative_url }}" alt="The multi-function watch UI" class="gallery-thumbnail"></a>
-              <a href="{{ '/Images/py3img3.png' | relative_url }}" target="_blank"><img src="{{ '/Images/py3img3.png' | relative_url }}" alt="The SATCOM tablet menu" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/WatchPreview.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/WatchPreview.gif' | relative_url }}" alt="The multi-function watch UI" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/PhonePreview.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/PhonePreview.gif' | relative_url }}" alt="The SATCOM tablet menu" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <ul>
