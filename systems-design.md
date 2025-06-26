@@ -113,7 +113,7 @@ My most significant contribution was prototyping the central "echo mechanic". Th
 
   <div class="project-flex-container">
     <div class="project-image-column">
-      <img src="{{ '/Images/ph.jpg' | relative_url }}" alt="">
+      <img src="{{ '/Images/py2img1.png' | relative_url }}" alt="">
       <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-itch-io"></i> TBA on Itch.io
       </a>
