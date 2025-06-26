@@ -109,7 +109,7 @@
       <img src="{{ '/Images/phg.png' | relative_url }}" alt="Showcase of the weapon system">
     </div>
     <div class="project-text-column">
-      <h3>Project: Modular Weapon System <span class="wip-tag">Work in Progress</span></h3>      
+      <h3>Prototype: Modular Weapon System <span class="wip-tag">Work in Progress</span></h3>      
       <div class="project-meta">
         <ul>
           <li><strong>Duration:</strong> Work in Progress</li>
@@ -127,6 +127,49 @@
         <details>
           <summary>Read more about the design and systems</summary>
           <div class="details-content">
+            <div class="process-stage">
+  <h3>Project Goal & Core Philosophy</h3>
+  <div class="stage-description">
+    <p>The goal of this solo project is to build a robust, modular, and data-driven weapon and inventory system that feels tactical and responsive. The philosophy is "systems over assets," focusing entirely on gameplay mechanics by using placeholder models and sounds. The prototype serves as a foundation for my planned graduation project.</p>
+  </div>
+</div>
+
+<div class="process-stage">
+  <h3>Key System Features</h3>
+  <div class="stage-description">
+    <ul>
+      <li>
+        <strong>Modular Two-Slot Inventory:</strong> The player can carry two weapons at a time. The system is built to be modular, allowing for easy expansion. Players can drop, throw, and pick up weapons dynamically from the environment.
+      </li>
+      <li>
+        <strong>Procedural Recoil & Weapon Stats:</strong> To enhance the tactical feel, all 5 prototyped weapons (3 full-auto, 2 semi-auto) use a procedural recoil system. While the first shot is always accurate, subsequent shots have calculated deviation based on each weapon's unique stats.
+      </li>
+      <li>
+        <strong>Procedural Animation w/ IK:</strong> To avoid creating unique animations for every weapon, the system uses procedural animations with Inverse Kinematics (IK). This allows the character's hands to realistically adapt to any weapon model. The system also includes weapon collision, pulling the gun back when aiming near a wall.
+      </li>
+      <li>
+        <strong>Dynamic Damage Model:</strong> The prototype features different hit-zone checks. A weapon's damage output and the resulting sound effect vary depending on whether a shot hits an armored or unarmored surface.
+      </li>
+      <li>
+        <strong>Interactable Objects:</strong> I created a system for interactive objects that can trigger events, such as playing specific voice lines to deliver information.
+      </li>
+      <li>
+        <strong>Stealth & Traversal Mechanics:</strong> To support tactical gameplay, I designed and implemented systems for hide spots and secret passages, giving the player more strategic movement options.
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="process-stage">
+  <h3>Future Development & Vision</h3>
+  <div class="stage-description">
+    <p>This prototype is an ongoing effort and the foundation for what I envision as my graduation project. The immediate next steps in the design process include:</p>
+    <ul>
+      <li>Implementing a stamina system that affects the player's ability to Aim Down Sights (ADS) for extended periods, adding another layer of tactical decision-making.</li>
+      <li>Continuously iterating to find the perfect balance between challenging, tactical gameplay and a fun, engaging player experience.</li>
+    </ul>
+  </div>
+</div>
             </div>
         </details>
       </div>
