@@ -11,7 +11,8 @@
           <li><strong>Team Size:</strong> Solo Project</li>
           <li><strong>My Roles:</strong> UI/UX Designer, Systems Designer</li>
         </ul>
-      </div> 
+      </div>
+      </div>
       <div class="project-tools-summary">
         <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine</span> 
         <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
