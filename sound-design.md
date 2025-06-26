@@ -13,7 +13,7 @@
         <ul>
           <li><strong>Duration:</strong> 6 weeks </li>
           <li><strong>Team Size:</strong> 14 </li>
-          <li><strong>My Roles:</strong> A first-person horror game built on a single, terrifying premise: you must make sound to see, but every sound also guides a relentless monster to your location. As Ella, you must survive a deadly game of hide-and-seek where the price of vision could be your life. </li>
+          <li><strong>My Roles:</strong> Sound Design, 3C's Design, Narrative Design </li>
         </ul>
       </div> 
       <div class="project-tools-summary">
@@ -23,10 +23,10 @@
   <span class="tool-tag"><i class="fa-solid fa-wave-square"></i> Audacity</span>
   <span class="tool-tag"><i class="fa-solid fa-film"></i> Sequencer</span>
 </div>
-      <p></p>  
+      <p>A first-person horror game built on a single, terrifying premise: you must make sound to see, but every sound also guides a relentless monster to your location. As Ella, you must survive a deadly game of hide-and-seek where the price of vision could be your life.</p>  
       <blockquote class="testimonial">
-        <p>""</p>
-        <cite>– </cite>
+        <p></p>
+        <cite></cite>
       </blockquote>
     </div>
   </div>
