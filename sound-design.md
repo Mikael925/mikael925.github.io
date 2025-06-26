@@ -17,9 +17,12 @@
         </ul>
       </div> 
       <div class="project-tools-summary">
-        <span class="tool-tag"><i class="fa-brands fa-unity"></i> Unity</span> 
-        <span class="tool-tag"><i class="fa-solid fa-code"></i> C#</span>
-      </div>
+  <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine 5</span>
+  <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
+  <span class="tool-tag"><i class="fa-solid fa-wave-square"></i> Metasounds</span>
+  <span class="tool-tag"><i class="fa-solid fa-wave-square"></i> Audacity</span>
+  <span class="tool-tag"><i class="fa-solid fa-film"></i> Sequencer</span>
+</div>
       <p></p>  
       <blockquote class="testimonial">
         <p>""</p>
