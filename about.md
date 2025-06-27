@@ -27,7 +27,7 @@
 
   <hr style="border-color: #555;">
 
-  <div class="page-content">
+ <div class="page-content">
     <h1 class="page-title">The Generalist Advantage</h1>
     <p>My core strength is seeing the bigger picture. For me, being a generalist is about understanding the entirety of game development, which allows me to help the team find fitting solutions for whatever problems we encounter. I am a determined team player, focused on seeing every task through to the end. My loyalty is to the project and the team's success—a principle reinforced by my 8 years of service in the Swedish Armed Forces. My approach is built on a simple foundation: executing my own assigned tasks to the highest standard, and then leveraging my broad knowledge to elevate the entire team. </p>
     <div class="project-details-row">
@@ -35,12 +35,28 @@
         <summary>Read more about my approach as a Generalist</summary>
         <div class="details-content">
           <div class="strengths-list">
+            <div class="strength-item">
+              <h3>1. A Communication Hub and Translator</h3>
+              <p>Because I understand the fundamentals of level design, sound design, scripting, and art pipelines, I can 'speak the language' of each department...</p>
+              <p class="strength-value"><strong>Value:</strong> This drastically reduces friction, prevents misunderstandings, and saves valuable time...</p>
             </div>
+            <div class="strength-item">
+              <h3>2. Proactive Workflow and Structure</h3>
+              <p>My broad knowledge allows me to anticipate the needs of different departments...</p>
+              <p class="strength-value"><strong>Value:</strong> This foresight leads to better planning, a smoother workflow, and fewer unexpected delays...</p>
+            </div>
+            <div class="strength-item">
+              <h3>3. Agile Support and Problem-Solving</h3>
+              <p>In any project, small but critical tasks inevitably pop up that fall outside a specialist's main duties...</p>
+              <p class="strength-value"><strong>Value:</strong> This prevents bottlenecks and keeps the project's momentum going...</p>
+            </div>
+          </div>
           <div class="summary-block">
-            </div>
+            <h3>Summary</h3>
+            <p>My function as a generalist is to empower the team by providing support, structure, and clarity...</p>
+          </div>
         </div>
       </details>
-    </div>
-    
+    </div>    
   </div>
 </div>
