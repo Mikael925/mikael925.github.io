@@ -22,8 +22,8 @@ layout: default
   (Courage and Wisdom)
 </p>
   <div class="image-banner">
-    <img src="/Images/AboutMeHike.JPG" alt="Vandringsbild">
-    <img src="/Images/AboutMeHike2.jpg" alt="Vandringsbild 2">
+    <img src="/Images/Profile2.jpg" alt="Vandringsbild">
+    <img src="/Images/Profile3.png" alt="Vandringsbild 2">
     <img src="/Images/SAF2.JPG" alt="Bild från Försvarsmakten">
     <img src="/Images/AboutMeMC.JPG" alt="Motorcykelbild">
   </div>
