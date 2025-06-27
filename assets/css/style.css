@@ -532,6 +532,80 @@ details[open] > summary {
   color: #f39c12; /* Din orangea temafärg när man för muspekaren över */
 }
 /* =============================================================================
+   Välkomstsida / Hero Section
+   ========================================================================== */
+
+.hero-section {
+  height: 100vh; /* Fyller hela skärmens höjd */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  overflow: hidden; /* Döljer video som sticker utanför */
+}
+
+.hero-video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ser till att videon täcker hela ytan */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Svart overlay med 60% opacitet */
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.5em;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 35px;
+  border: 2px solid #f39c12;
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #f39c12;
+  color: #2c2c2c;
+}
+
+/* =============================================================================
    Anpassning för Mobil
    ========================================================================== */
 
