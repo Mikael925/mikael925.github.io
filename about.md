@@ -29,9 +29,8 @@ layout: default
   </div>
 
 </div>
----
-layout: default
----
+
+<hr style="border-color: #555;">
 
 <div class="page-content">
   <h1 class="page-title">The Generalist Advantage</h1>
