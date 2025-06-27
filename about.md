@@ -23,7 +23,6 @@ layout: default
 </p>
   <div class="image-banner">
     <img src="/Images/Profile2.jpg" alt="Vandringsbild">
-    <img src="/Images/Profile3.png" alt="Vandringsbild 2">
     <img src="/Images/SAF2.JPG" alt="Bild från Försvarsmakten">
     <img src="/Images/AboutMeMC.JPG" alt="Motorcykelbild">
   </div>
