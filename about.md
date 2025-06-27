@@ -9,7 +9,13 @@
         <summary>Read more about my background and journey</summary>
         <div class="details-content">
           <p>My passion for games goes back to playing Unreal Tournament, at just 6 years old. That spark from my first game has never left me. That interest has been with me ever since. During my technical studies in high school, I started learning Blender and created my first 3D models. However, I then took a long pause for my voluntary military service, where I served for 8 years. Now, I feel ready to return to my passion for games, using my creative mindset and the tools I've learned along the way to guide me.</p>
-          <p>My 8 years of service as a veteran in the Swedish Armed Forces taught me to enjoy structure, to be drawn to challenges, and to thrive when I have a clear goal and responsibility. I am a problem-solver who expects high standards and values an open environment where all ideas can be discussed. Finding the path forward is my specialty.</p>
+          <p>My 8 years of service as a veteran in the Swedish Armed Forces taught me to enjoy structure, to be drawn to challenges, and to thrive when I have a clear goal and responsibility. I am a problem-solver who expects high standards and values an open environment where all ideas can be discussed. Finding the path forward is my specialty.</p>      
+          <div class="image-banner">
+            <img src="/Images/Profile2.jpg" alt="Vandringsbild">
+            <img src="/Images/Profile4.png" alt="Vandringsbild">
+            <img src="/Images/SAF2.JPG" alt="Bild från Försvarsmakten">
+            <img src="/Images/AboutMeMC.JPG" alt="Motorcykelbild">
+          </div>
         </div>
       </details>
     </div>
@@ -17,13 +23,7 @@
       Fortitudo et sapientia<br>
       (Courage and Wisdom)
     </p>
-    <div class="image-banner">
-      <img src="/Images/Profile2.jpg" alt="Vandringsbild">
-      <img src="/Images/Profile4.png" alt="Vandringsbild">
-      <img src="/Images/SAF2.JPG" alt="Bild från Försvarsmakten">
-      <img src="/Images/AboutMeMC.JPG" alt="Motorcykelbild">
     </div>
-  </div>
 
   <hr style="border-color: #555;">
 
@@ -35,26 +35,9 @@
         <summary>Read more about my approach as a Generalist</summary>
         <div class="details-content">
           <div class="strengths-list">
-            <div class="strength-item">
-              <h3>1. A Communication Hub and Translator</h3>
-              <p>Because I understand the fundamentals of level design, sound design, scripting, and art pipelines, I can 'speak the language' of each department...</p>
-              <p class="strength-value"><strong>Value:</strong> This drastically reduces friction, prevents misunderstandings, and saves valuable time...</p>
             </div>
-            <div class="strength-item">
-              <h3>2. Proactive Workflow and Structure</h3>
-              <p>My broad knowledge allows me to anticipate the needs of different departments...</p>
-              <p class="strength-value"><strong>Value:</strong> This foresight leads to better planning, a smoother workflow, and fewer unexpected delays...</p>
-            </div>
-            <div class="strength-item">
-              <h3>3. Agile Support and Problem-Solving</h3>
-              <p>In any project, small but critical tasks inevitably pop up that fall outside a specialist's main duties...</p>
-              <p class="strength-value"><strong>Value:</strong> This prevents bottlenecks and keeps the project's momentum going...</p>
-            </div>
-          </div>
           <div class="summary-block">
-            <h3>Summary</h3>
-            <p>My function as a generalist is to empower the team by providing support, structure, and clarity...</p>
-          </div>
+            </div>
         </div>
       </details>
     </div>
