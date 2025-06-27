@@ -9,9 +9,12 @@
         <summary>Read more about my background and journey</summary>
         <div class="details-content">
           <p>My passion for games goes back to playing Unreal Tournament, at just 6 years old. That spark from my first game has never left me. That interest has been with me ever since. During my technical studies in high school, I started learning Blender and created my first 3D models. However, I then took a long pause for my voluntary military service, where I served for 8 years. Now, I feel ready to return to my passion for games, using my creative mindset and the tools I've learned along the way to guide me.</p>
-          <p>My 8 years of service as a veteran in the Swedish Armed Forces taught me to enjoy structure, to be drawn to challenges, and to thrive when I have a clear goal and responsibility. I am a problem-solver who expects high standards and values an open environment where all ideas can be discussed. Finding the path forward is my specialty.</p>      
+          <p>My 8 years of service as a veteran in the Swedish Armed Forces taught me to enjoy structure, to be drawn to challenges, and to thrive when I have a clear goal and responsibility. I am a problem-solver who expects high standards and values an open environment where all ideas can be discussed. Finding the path forward is my specialty.</p>   
+<p style="text-align: center; margin-top: 40px; font-style: italic;">
+      Fortitudo et sapientia<br>
+      (Courage and Wisdom)
+    </p>   
           <div class="image-banner">
-            <img src="/Images/Profile2.jpg" alt="Vandringsbild">
             <img src="/Images/Profile4.png" alt="Vandringsbild">
             <img src="/Images/SAF2.JPG" alt="Bild från Försvarsmakten">
             <img src="/Images/AboutMeMC.JPG" alt="Motorcykelbild">
@@ -19,10 +22,7 @@
         </div>
       </details>
     </div>
-    <p style="text-align: center; margin-top: 40px; font-style: italic;">
-      Fortitudo et sapientia<br>
-      (Courage and Wisdom)
-    </p>
+    
     </div>
 
   <hr style="border-color: #555;">
