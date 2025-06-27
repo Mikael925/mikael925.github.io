@@ -6,6 +6,10 @@
     <title>Rosenhed - Game Designer Generalist</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ '/android-chrome-192x192.png' | relative_url }}">
   </head>
   
   <body>
@@ -20,13 +24,13 @@
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
               <p class="site-description">{{ site.description }}</p>
               <div class="social-icons">
-                <a href="https://www.linkedin.com/in/mikael925/" target=" " title="Visit LinkedIn">
+                <a href="https://www.linkedin.com/in/mikael925/" target="_blank" title="Visit LinkedIn">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="https://Mikael925.itch.io" target=" " title="Visit Itch.io">
+                <a href="https://Mikael925.itch.io" target="_blank" title="Visit Itch.io">
                   <i class="fa-brands fa-itch-io"></i>
                 </a>
-                <a href="https://steamcommunity.com/id/Mikael925" target=" " title="Visit my Steam Profile">
+                <a href="https://steamcommunity.com/id/Mikael925" target="_blank" title="Visit my Steam Profile">
                   <i class="fa-brands fa-steam"></i>
                 </a>
                 <a href="mailto:mikael925@gmail.com" title="Send me an email">
@@ -49,7 +53,9 @@
           <li><a href="{{ site.baseurl }}/generalist/" {% if page.url == "/generalist/" %}class="active"{% endif %}>My Approach</a></li>
         </ul>
       </nav>
-    </div> <div id="main" role="main" class="container">
+    </div>
+    
+    <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
