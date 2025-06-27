@@ -52,9 +52,7 @@
             </div>
           </div>
           <div class="summary-block">
-            <h3>Summary</h3>
-            <p>My function as a generalist is to empower the team by providing support, structure, and clarity...</p>
-          </div>
+         </div>
         </div>
       </details>
     </div>    
