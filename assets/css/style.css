@@ -553,15 +553,68 @@ details[open] > summary {
 }
 
 /* Själva kortet */
-.skill-card {
-  background-color: #3a3a3a;
-  border: 1px solid #555;
-  border-radius: 5px;
-  padding: 30px;
-  text-align: center;
+/* Denna regel har du redan, men se till att den finns */
+.welcome-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* NY STYLING FÖR DE NYA KORTEN */
+.welcome-card {
   display: flex;
-  flex-direction: column;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  aspect-ratio: 16 / 9; /* Håller korten i 16:9-format */
+  border-radius: 5px;
+  overflow: hidden; /* Döljer video som sticker utanför */
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.welcome-card:hover {
+  transform: scale(1.03); /* Skalar upp kortet lite vid hover */
+}
+
+.card-video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.card-video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Fyller hela ytan utan att förvrängas */
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Mörk overlay för text-läsbarhet */
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+.welcome-card:hover .card-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Mörkare overlay vid hover */
+}
+
+.card-title {
+  position: relative;
+  z-index: 3;
+  font-size: 1.5em;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* Skugga för bättre läsbarhet */
 }
 
 .skill-card:hover {
