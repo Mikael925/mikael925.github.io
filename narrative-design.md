@@ -43,7 +43,6 @@
               <a href="{{ '/Images/py1gif2.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py1gif2.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
               <a href="{{ '/Images/py1gif3.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py1gif3.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
               <a href="{{ '/Images/py1gif4.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py1gif4.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
-              <a href="{{ '/Images/py1gif5.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py1gif5.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
             </div>
             <div class="stage-description">
               <p></p>
