@@ -1,8 +1,8 @@
 <div class="page-content">
-  <h1 class="page-title">About Me</h1>
+  <h1 class="page-title">My Approach</h1>
     
   <div class="content-text">
-    <h3>Welcome to my portfolio.</h3>
+    <h3>About Me.</h3>
     <p>My name is Mikael Johan Rosenhed, born in Sweden 1995, and I am currently a Game Design student at Future Games. A disciplined Game Designer leveraging 8 years of military experience to bring strategic leadership and resilient problem-solving to game development.</p>
     <div class="project-details-row">
       <details>
