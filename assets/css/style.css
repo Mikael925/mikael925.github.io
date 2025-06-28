@@ -458,18 +458,17 @@ details > summary:hover {
 .stage-description ul {
   padding-left: 20px;
 }
-
-/* Styling för innehållet inuti <details> drop-down */
+  /* Styling för innehållet inuti <details> drop-down */
 .details-content {
-  max-height: 70vh; /* Sätter en max-höjd till 70% av fönstrets höjd */
-  overflow-y: auto;  /* Lägger till en scrollbar om innehållet är högre än max-height */
-  
+  /* max-height: 70vh; */ /* BORTKOMMENTERAD ELLER RADERAD */
+  /* overflow-y: auto;  */ /* BORTKOMMENTERAD ELLER RADERAD */
   padding: 20px;
-  background-color: #252525; /* En något avvikande bakgrund för att visa att det är en egen yta */
+  background-color: #252525;
   border: 1px solid #555;
-  border-top: none; /* Kanten tas bort upptill för att smälta ihop med <summary> */
-  border-radius: 0 0 5px 5px; /* Runda nedre hörn */
+  border-top: none;
+  border-radius: 0 0 5px 5px;
   margin-bottom: 10px;
+}
 }
 
 details > summary {
