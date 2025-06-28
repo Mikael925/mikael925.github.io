@@ -460,7 +460,7 @@ details > summary:hover {
 }
   /* Styling för innehållet inuti <details> drop-down */
 .details-content {
-  /* max-height: 70vh; */ /* BORTKOMMENTERAD ELLER RADERAD */
+  max-height: 70vh; /* Sätter en max-höjd */
   /* overflow-y: auto;  */ /* BORTKOMMENTERAD ELLER RADERAD */
   padding: 20px;
   background-color: #252525;
