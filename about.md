@@ -3,7 +3,7 @@
     
   <div class="content-text">
     <h3>Welcome to my portfolio.</h3>
-    <p>My name is Mikael Johan Rosenhed, born in Sweden 1995, and I am currently a Game Design student at Future Games.</p>
+    <p>My name is Mikael Johan Rosenhed, born in Sweden 1995, and I am currently a Game Design student at Future Games. A disciplined Game Designer leveraging 8 years of military experience to bring strategic leadership and resilient problem-solving to game development.</p>
     <div class="project-details-row">
       <details>
         <summary>Read more about my background and journey</summary>
