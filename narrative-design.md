@@ -3,8 +3,8 @@
   <div class="project-flex-container">
     <div class="project-image-column">
       <img src="{{ '/Images/py1img1.png' | relative_url }}" alt="">
-      <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-itch-io"></i> TBA on Itch.io
+      <a href="https://mikael925.itch.io/junkbotdogprototype" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> Play on Itch.io
       </a>
     </div>
     <div class="project-text-column">
