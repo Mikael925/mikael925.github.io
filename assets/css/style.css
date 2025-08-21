@@ -313,30 +313,6 @@ nav a.active {
   gap: 25px; /* Mellanrum mellan bild och text */
 }
 
-/* Styr bild-kolumnen i ett projektkort */
-/* Regel för projektbilderna */
-/* Ny, slutgiltig regel för projektbilderna */
-.project-image-column img {
-  width: 100%;       /* Fyller kolumnens bredd */
-  max-height: 350px; /* Sätter en max-höjd (justera vid behov) */
-  object-fit: cover; /* Ser till att bilden fyller ytan snyggt utan att förvrängas */
-  object-position: center; /* Centrerar bilden i ramen */
-}
-
-/* Add this new rule */
-.project-image-column {
-  flex: 0 0 55%; /* The column will be 55% of the container's width */
-  max-width: 55%; /* A fallback to prevent it from ever getting larger */
-}
-
-/* This is your existing rule for the image inside the column */
-.project-image-column img {
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
 /* Styr text-kolumnen i ett projektkort */
 .project-text-column {
     flex: 1;
@@ -515,6 +491,8 @@ details[open] > summary {
   height: 450px;      /* SÄTT EN FAST HÖJD! Justera detta värde efter smak. */
   object-fit: cover;  /* "Smart beskärning" för att undvika förvrängning */
   border-radius: 5px; /* Samma rundning som du hade innan */
+    flex: 0 0 55%; /* The column will be 55% of the container's width */
+  max-width: 55%; /* A fallback to prevent it from ever getting larger */
 }
 /* Styling för verktygs-taggar på projektkortet */
 .project-tools-summary {
