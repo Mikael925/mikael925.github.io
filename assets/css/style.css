@@ -323,6 +323,20 @@ nav a.active {
   object-position: center; /* Centrerar bilden i ramen */
 }
 
+/* Add this new rule */
+.project-image-column {
+  flex: 0 0 55%; /* The column will be 55% of the container's width */
+  max-width: 55%; /* A fallback to prevent it from ever getting larger */
+}
+
+/* This is your existing rule for the image inside the column */
+.project-image-column img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
 /* Styr text-kolumnen i ett projektkort */
 .project-text-column {
     flex: 1;
