@@ -314,10 +314,11 @@ nav a.active {
 }
 
 .project-image-column img {
-  width: 100%;       /* Fyller kolumnens bredd */
-  max-height: 350px; /* Sätter en max-höjd (justera vid behov) */
-  object-fit: cover; /* Ser till att bilden fyller ytan snyggt utan att förvrängas */
-  object-position: center; /* Centrerar bilden i ramen */
+  /* Uppdaterad CSS */
+  width: 100%;
+  height: 450px;
+  object-fit: contain; /* TILL DENNA */
+  border-radius: 5px;
 }
 
 /* Styr text-kolumnen i ett projektkort */
