@@ -306,25 +306,17 @@ nav a.active {
   padding: 0 25px;   /* Samma som din .post-klass för att linjera med headern */
 }
 
-/* Styr hela flex-behållaren för ett projektkort */
-.project-card-portrait .project-flex-container {
-  flex-direction: column; /* Denna rad har du redan */
-  max-width: 700px;       /* LÄGG TILL DENNA RAD */
-  margin: 0 auto;         /* LÄGG TILL DENNA RAD (för att centrera) */
+/* Steg 1: Ändra hur bilden passar i rutan för BARA stående projekt */
+.project-card-portrait .project-image-column img {
+  object-fit: contain; /* Visa hela bilden istället för att beskära den */
 }
 
-/* Add this new, correct rule for the image column */
-.project-image-column {
-  flex: 0 0 55%; /* The column will be 55% of the container's width */
-  max-width: 55%; /* A fallback to prevent it from ever getting larger */
-}
-
-/* This is the corrected rule for the image INSIDE the column */
-.project-image-column img {
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
-  border-radius: 5px;
+/* Steg 2: Centrera bilden snyggt och lägg till en bakgrund för att rama in den */
+.project-card-portrait .project-image-column {
+  background-color: #222; /* En mörkare bakgrund för att fylla ut tomrummet */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Styr text-kolumnen i ett projektkort */
@@ -335,7 +327,6 @@ nav a.active {
     min-width: 0; /* Add this line */
     word-wrap: break-word; /* And add this line */
 }
-/* Justering för drop-down menyn */
 /* Justering för drop-down menyn */
 .project-details-row {
   margin-top: auto; /* ÄNDRA TILL 'auto': Puttar ner knappen till botten */
