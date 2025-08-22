@@ -9,91 +9,14 @@ body {
   margin: 0;
   padding: 0;
 }
-/* =============================================================================
-   Sidfot (Footer)
-   ========================================================================== */
-.footer {
-  /* Denna regel behövs egentligen inte för centrering längre, 
-     men kan vara bra att ha kvar för annat innehåll i framtiden. */
-  text-align: center;
-  padding: 30px 0;
-}
-
-.link-separator {
-  margin: 0 15px; /* Luft på sidorna om strecket */
-  color: #555;   /* Gör strecket mörkgrått och diskret */
-}
-
-/* DENNA REGEL SAKNADES - LÄGG TILL DEN */
-.contact-info {
-  width: fit-content; /* Gör lådan precis så bred som sitt innehåll */
-  margin-left: auto;   /* Centrerar själva lådan horisontellt */
-  margin-right: auto;  /* Centrerar själva lådan horisontellt */
-  margin-top: 20px;      /* Ger luft ovanför länken */
-}
-
-/* Denna regel har du redan, men vi samlar den här */
-.contact-info a {
-  color: #f39c12;
-  text-decoration: none;
-  font-size: 1.1em;
-  transition: color 0.2s ease-in-out;
-}
-
-/* Denna regel har du redan, men vi samlar den här */
-.contact-info a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-/* Styling för länk till Itch.io under projektbild */
-.itchio-link {
-  display: block; /* Gör så att vi kan centrera den och ge den marginal */
-  text-align: center; /* Centrerar ikon och text */
-  margin-top: 15px; /* Luft mellan bilden och länken */
-  padding: 8px; /* Lite extra utrymme runt länken */
-  color: #e0e0e0; /* Samma färg som din brödtext */
-  text-decoration: none; /* Tar bort understrykningen */
-  border-radius: 5px; /* Samma rundning som dina bilder */
-  background-color: #3a3a3a; /* En något ljusare bakgrund för att sticka ut */
-  transition: all 0.2s ease-in-out; /* Snygg övergång vid hover */
-}
-
-.itchio-link:hover {
-  color: #ffffff; /* Vit text vid hover */
-  background-color: #f39c12; /* Byt färg till din temafärg */
-}
-
-/* Styling för huvudrubriken på en sida */
-.page-title {
-  text-align: center;
-  margin-bottom: 40px; /* Ger extra luft under rubriken, före första projektet */
-  font-size: 2.5em;    /* Frivilligt: Gör sidtiteln lite större och tydligare */
-  color: #f39c12;       /* Frivilligt: Använder din temafärg för att den ska sticka ut */
-}
-
-/* Justering för själva ikonen */
-.itchio-link i {
-  margin-right: 8px; /* Lite luft mellan ikonen och texten */
-  font-size: 1.1em; /* Gör ikonen lite större än texten */
-}
-
-/* Denna regel gällde en gammal layout, men kan återanvändas.
-   Behåll den för framtida bruk på projektsidor. */
-.post {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 25px;
-}
 
 header {
-  display: flex;             /* Aktiverar Flexbox */
-  justify-content: center; /* Centrerar hela gruppen (avatar + text) i sidled */
-  align-items: center;     /* Centrerar avatar och text i höjdled med varandra */
-  gap: 25px;                 /* Skapar ett mellanrum mellan avataren och textblocket */
-  
-  padding: 10px 0;           /* Vi kan minska luften nu när headern är mer kompakt */
-  position: relative;          /* Behåll denna */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 10px 0;
+  position: relative;
 }
 
 .site-avatar img {
@@ -118,7 +41,7 @@ header h1 a {
 }
 
 .social-icons a {
-  text-decoration: none; /* LÄGG TILL DENNA RAD */
+  text-decoration: none;
   font-size: 1.8rem;
   color: #f39c12;
   margin-left: 15px;
@@ -130,11 +53,17 @@ header h1 a {
 }
 
 /* =============================================================================
-   Navigeringsmeny
+   Navigeringsmeny & Sticky Wrapper
    ========================================================================== */
 
+.header-sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #2c2c2c;
+}
+
 nav {
-  /* REGLERNA FÖR STICKY ÄR BORTTAGNA HÄRIFRÅN */
   background-color: #2c2c2c;
   width: 100%;
   margin: 0 auto;
@@ -159,6 +88,7 @@ nav a {
   padding: 15px 20px;
   text-decoration: none;
   color: #f39c12;
+  transition: all 0.2s;
 }
 
 nav a:hover {
@@ -166,219 +96,31 @@ nav a:hover {
   color: #ffffff;
 }
 
-/* =============================================================================
-   Header & Sticky Wrapper
-   ========================================================================== */
-
-.header-sticky-wrapper {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #2c2c2c; /* LÄGG TILL DENNA RAD */
-}
-
-/* Du kan byta namn på denna sektion för att inkludera den nya regeln */
-header {
-  /* ...dina header-regler... */
-}
-
-/* ... etc ... */
-/* Styling för den för tillfället aktiva fliken i menyn */
 nav a.active {
-  color: #ffffff; /* Gör texten vit (eller en annan stark färg) */
-  background-color: #444; /* Samma som din hover-effekt */
-}
-
-.project-roles {
-  margin-top: 20px; /* Lite extra luft ovanför roll-blocket */
-  padding-top: 15px;
-  border-top: 1px solid #555; /* En tunn linje för att separera från texten */
-}
-
-.project-roles h4 {
-  margin-bottom: 10px; /* Luft mellan rubriken "My Roles" och listan */
-}
-
-.project-roles ul {
-  list-style-type: square; /* Eller 'disc'. Ändrar punkterna i listan */
-  padding-left: 20px; /* Justerar indraget på listan */
-  margin: 0;
-}
-/* =============================================================================
-   Innehåll på "About Me"-sidan
-   ========================================================================== */
-
-.content-text p {
-  margin-bottom: 1.2em; /* Skapar ett mellanrum under varje stycke. 'em' anpassar sig efter textstorleken. */
-  line-height: 1.6;     /* Ökar radavståndet inuti varje stycke för bättre läsbarhet. */
-}
-
-/* Bildbanner */
-.image-banner {
-  display: flex;
-  gap: 15px;
-  margin-top: 40px; /* Flyttat från .content-text för bättre kontroll */
-}
-
-.image-banner img {
-  flex: 1;
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-/* Individuell justering av bilder i bannern */
-.image-banner img:nth-child(1) {
-  object-position: center 25%; /* Flyttar bilden uppåt */
-}
-
-.image-banner img:nth-child(2) {
-  object-position: center 70%; /* Flyttar bilden nedåt */
-}
-
-.image-banner img:nth-child(3) {
-  object-position: center 10%;
-}
-
-.image-banner img:nth-child(4) {
-  object-position: center 10%;
-}
-
-.content-text {
-  max-width: 800px;
-  margin: 0 auto 40px auto; /* Centrera textblocket och lägg marginal under */
-}
-/* =============================================================================
-   Projektkort (Level Design, etc.)
-   ========================================================================== */
-/* Styling för faktarutan i ett projektkort */
-.project-meta {
-  background-color: rgba(0,0,0,0.2); /* Mörk, diskret bakgrund */
-  border-radius: 4px;
-  padding: 15px;
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-
-/* Styling för verktyg-taggarna */
-.project-tools-summary {
-  margin-top: 20px;
-}
-
-.tool-tag {
-  display: inline-block;
-  background-color: #333;
-  color: #ccc;
-  padding: 4px 10px;
-  border-radius: 4px;
-  margin-right: 8px;
-  margin-bottom: 8px; /* För att hantera radbyte snyggt */
-  font-size: 0.85em;
-  white-space: nowrap; /* Hindrar texten från att brytas */
-}
-
-.project-meta ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; /* Lägger punkterna på en rad */
-  flex-wrap: wrap; /* Gör att de byter rad snyggt på små skärmar */
-  gap: 10px 25px; /* 10px mellanrum vertikalt, 25px horisontellt */
-}
-
-.project-meta li {
-  font-size: 0.9em;
-  color: #ccc;
-  margin: 0; /* Tar bort den extra marginalen vi lade till på andra listor */
-  line-height: 1.4; /* Samma här */
-}
-
-/* Gör etiketten (t.ex. "Engine:") vit och tydlig */
-.project-meta strong {
   color: #ffffff;
+  background-color: #444;
 }
 
-/* Används för att centrera innehållet på sidor som Level Design */
+/* =============================================================================
+   Generellt sidinnehåll
+   ========================================================================== */
+
 #main.container {
-  max-width: 1100px; /* Samma som din .post-klass för enhetlighet */
-  margin: 40px auto; /* Centrerar blocket och ger marginal uppe/nere */
-  padding: 0 25px;   /* Samma som din .post-klass för att linjera med headern */
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 25px;
 }
 
-/* Steg 1: Ändra hur bilden passar i rutan för BARA stående projekt */
-.project-card-portrait .project-image-column img {
-  object-fit: contain; /* Visa hela bilden istället för att beskära den */
+.page-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #f39c12;
 }
 
-/* Steg 2: Centrera bilden snyggt och lägg till en bakgrund för att rama in den */
-.project-card-portrait .project-image-column {
-  background-color: #222; /* En mörkare bakgrund för att fylla ut tomrummet */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Styr text-kolumnen i ett projektkort */
-.project-text-column {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    min-width: 0; /* Add this line */
-    word-wrap: break-word; /* And add this line */
-}
-/* Justering för drop-down menyn */
-.project-details-row {
-  margin-top: auto; /* ÄNDRA TILL 'auto': Puttar ner knappen till botten */
-}
-
-details > summary {
-    cursor: pointer;
-    color: #f39c12; /* Samma färg som dina länkar för enhetlighet */
-    font-weight: bold;
-}
-
-details > summary:hover {
-    text-decoration: underline;
-}
-
-/* Styling för listan med styrkor på Generalist-sidan */
-.strengths-list {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.strength-item {
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #555; /* Linje som separerar punkterna */
-}
-
-/* Tar bort linjen och marginalen för den sista punkten i listan */
-.strength-item:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.strength-item h3 {
-    color: #f39212; /* Din temafärg för rubrikerna */
-    margin-bottom: 15px;
-}
-
-/* Särskild styling för att lyfta fram "Värdet" för teamet */
-.strength-value {
-    background-color: rgba(0, 0, 0, 0.2); /* Mörk, lätt genomskinlig bakgrund */
-    border-left: 4px solid #f39212; /* Accentlinje i din temafärg */
-    padding: 15px 20px;
-    margin-top: 20px;
-    font-style: italic;
-    color: #f0f0f0; /* Lite ljusare text för att sticka ut */
-}
-
-.summary-block h3 {
-    color: #f39212;
-}
+/* =============================================================================
+   Projektkort (Standard liggande layout)
+   ========================================================================== */
 
 .project-card {
   margin-bottom: 40px;
@@ -386,96 +128,106 @@ details > summary:hover {
   border-bottom: 1px solid #555;
 }
 
-/* Denna regel tar bort linjen och marginalen för det allra sista kortet på en sida */
 .project-card:last-of-type {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
 }
 
-/* Styling för process-stegen (Alpha, Beta, Gold) inuti en drop-down */
-
-.process-stage {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-top: 1px dashed #555; /* Linje för att separera stegen */
+.project-flex-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
 }
 
-.process-stage:first-child {
-  border-top: none;
-  padding-top: 10px;
-  margin-top: 20px; /* LÄGG TILL DENNA RAD för luft inuti */
+/* KORREKT REGEL FÖR BILD-KOLUMNEN */
+.project-image-column {
+  flex: 0 0 55%;
+  max-width: 55%;
+  background-color: #222; /* Bakgrund för att rama in bilder snyggt */
+  border-radius: 5px; /* Samma som bilden för snygga kanter */
 }
 
-.process-stage h3 {
-  color: #f39c12; /* Din temafärg */
+/* KORREKT REGEL FÖR BILDEN INUTI KOLUMNEN */
+.project-image-column img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover; /* Standard: Beskär för att fylla rutan */
+  border-radius: 5px;
+  display: block; /* Tar bort extra luft under bilden */
+}
+
+.project-text-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+}
+
+.itchio-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  padding: 8px;
+  color: #e0e0e0;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #3a3a3a;
+  transition: all 0.2s ease-in-out;
+}
+
+.itchio-link:hover {
+  color: #ffffff;
+  background-color: #f39c12;
+}
+
+.itchio-link i {
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+
+/* =============================================================================
+   Projekt-detaljer (Faktarutor, drop-downs etc.)
+   ========================================================================== */
+
+.project-meta {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 
-.stage-description li {
-  margin-bottom: 12px;
-  line-height: 1.6; /* Ökar avståndet mellan textraderna för bättre läsbarhet */
-}
-
-.stage-content-flex {
+.project-meta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 10px 25px;
 }
 
-.stage-gallery {
-  flex: 0 0 40%; /* Bildkolumnen tar upp 40% av bredden */
-}
-
-.gallery-label {
-  font-weight: bold;
-  margin-top: 0;
+.project-meta li {
   font-size: 0.9em;
   color: #ccc;
 }
 
-.gallery-thumbnail {
-  width: 100%;
-  height: auto;
-  border: 2px solid #555;
-  border-radius: 4px;
-  margin-bottom: 10px; /* Luft mellan bilderna i galleriet */
-  display: block;
-  transition: border-color 0.2s;
+.project-meta strong {
+  color: #ffffff;
 }
 
-.gallery-thumbnail:hover {
-  border-color: #f39c12; /* Byt färg på ramen vid hover */
-  cursor: pointer;
-}
-
-.stage-description {
-  flex: 1; /* Textkolumnen tar upp resten av utrymmet */
-}
-
-.stage-description ul {
-  padding-left: 20px;
-}
-  /* Styling för innehållet inuti <details> drop-down */
-.details-content {
-  max-height: 70vh; /* Sätter en max-höjd */
-  /* overflow-y: auto;  */ /* BORTKOMMENTERAD ELLER RADERAD */
-  padding: 20px;
-  background-color: #252525;
-  border: 1px solid #555;
-  border-top: none;
-  border-radius: 0 0 5px 5px;
-  margin-bottom: 10px;
+.project-details-row {
+  margin-top: auto; /* Puttar ner "Read more"-knappen i botten */
 }
 
 details > summary {
   cursor: pointer;
   color: #f39c12;
   font-weight: bold;
-
-  /* Nya regler för att få den att se ut som en knapp */
   padding: 15px;
   background-color: #3a3a3a;
-  border-radius: 5px; /* Runda alla hörn som standard */
+  border-radius: 5px;
   transition: all 0.2s;
   margin-top: 15px;
 }
@@ -484,210 +236,79 @@ details > summary:hover {
   background-color: #444;
 }
 
-/* Denna regel tar bort rundningen på nedre hörnen när drop-downen är ÖPPEN */
 details[open] > summary {
   border-radius: 5px 5px 0 0;
 }
 
-/* Ny regel för att standardisera projektbildernas höjd */
-.project-image-column img {
-  width: 100%;        /* Bilden ska fylla hela kolumnens bredd */
-  height: 450px;      /* SÄTT EN FAST HÖJD! Justera detta värde efter smak. */
-  object-fit: cover;  /* "Smart beskärning" för att undvika förvrängning */
-  border-radius: 5px; /* Samma rundning som du hade innan */
-  flex: 0 0 55%; /* The column will be 55% of the container's width */
-  max-width: 55%; /* A fallback to prevent it from ever getting larger */
-}
-/* Styling för verktygs-taggar på projektkortet */
-.project-tools-summary {
-  margin-top: 25px;
-  padding-top: 15px;
-  border-top: 1px solid #555;
+.details-content {
+  padding: 20px;
+  background-color: #252525;
+  border: 1px solid #555;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
 }
 
-.tool-tag {
-  display: inline-block;
-  background-color: #3a3a3a;
-  color: #ccc;
-  padding: 5px 12px;
-  border-radius: 15px;
-  font-size: 0.9em;
+/* =============================================================================
+   Sidfot (Footer)
+   ========================================================================== */
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
 }
 
-.tool-tag i {
-  margin-right: 6px;
-  color: #f39c12; /* Din temafärg på ikonen */
+.contact-info {
+  width: fit-content;
+  margin: 20px auto 0 auto;
 }
-/* Styling för länken i ett citat/testimonial */
-.testimonial cite a {
-  color: inherit; /* Ärver färgen från texten runt omkring (ljusgrå) */
-  text-decoration: underline; /* Lägger till en diskret understrykning för att visa att den är klickbar */
+
+.contact-info a {
+  color: #f39c12;
+  text-decoration: none;
+  font-size: 1.1em;
   transition: color 0.2s ease-in-out;
 }
 
-.testimonial cite a:hover {
-  color: #f39c12; /* Din orangea temafärg när man för muspekaren över */
-}
-/* =============================================================================
-   Välkomstsida / 
-   ========================================================================== */
-/* Styling för den inledande pitchen */
-.welcome-pitch {
-  font-size: 1.2em;
-  text-align: center;
-  font-style: italic;
-  color: #ccc;
-  max-width: 800px;
-  margin: 0 auto 40px auto;
+.contact-info a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
-/* Rutnätet som håller i korten */
-.welcome-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin-top: 40px;
+.link-separator {
+  margin: 0 15px;
+  color: #555;
 }
 
-/* Själva kortet */
-/* Denna regel har du redan, men se till att den finns */
-.welcome-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 40px;
-}
-
-/* NY STYLING FÖR DE NYA KORTEN */
-.welcome-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  aspect-ratio: 16 / 9; /* Håller korten i 16:9-format */
-  border-radius: 5px;
-  overflow: hidden; /* Döljer video som sticker utanför */
-  text-decoration: none;
-  color: white;
-  transition: transform 0.2s ease-in-out;
-}
-
-.welcome-card:hover {
-  transform: scale(1.03); /* Skalar upp kortet lite vid hover */
-}
-
-.card-video-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-.card-video-wrapper video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Fyller hela ytan utan att förvrängas */
-}
-
-.card-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* Mörk overlay för text-läsbarhet */
-  transition: background-color 0.3s ease;
-  z-index: 2;
-}
-
-.welcome-card:hover .card-overlay {
-  background-color: rgba(0, 0, 0, 0.6); /* Mörkare overlay vid hover */
-}
-
-.card-title {
-  position: relative;
-  z-index: 3;
-  font-size: 1.5em;
-  padding: 20px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* Skugga för bättre läsbarhet */
-}
-
-.skill-card:hover {
-  transform: translateY(-5px); /* Lyfter kortet lite */
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-/* Ikonen på kortet */
-.skill-card i {
-  font-size: 2.5em;
-  color: #f39c12; /* Din temafärg */
-  margin-bottom: 20px;
-}
-
-/* Rubriken på kortet */
-.skill-card h2 {
-  font-size: 1.5em;
-  margin-bottom: 15px;
-  color: #fff;
-}
-
-/* Beskrivande text på kortet */
-.skill-card p {
-  color: #ccc;
-  line-height: 1.6;
-  flex-grow: 1; /* Gör att texten tar upp tillgängligt utrymme */
-}
-
-/* Knappen på kortet */
-.skill-card-button {
-  display: inline-block;
-  padding: 10px 25px;
-  margin-top: 20px; /* Skapar utrymme mellan text och knapp */
-  border: 2px solid #f39c12;
-  color: #f39c12;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: all 0.2s ease;
-}
-
-.skill-card-button:hover {
-  background-color: #f39c12;
-  color: #2c2c2c;
-}
 /* =============================================================================
    Anpassning för Mobil
    ========================================================================== */
 
 @media (max-width: 768px) {
-  /* Anpassning för bildbanner på mobil (Horisontell scroll) */
-  .image-banner {
-    overflow-x: auto; /* Tillåter scroll i sidled */
-    /* Vi tar bort flex-direction: column; */
-  }
-
-  .image-banner img {
-    flex: 0 0 75%; /* Varje bild tar 75% av skärmens bredd, krymper inte */
-    height: 200px;
-  }
-
-  /* Anpassning för projektkort på mobil -- DENNA DEL ÄR NY */
   .project-flex-container {
-    flex-direction: column; /* Staplar bild och text ovanpå varandra */
+    flex-direction: column; /* Staplar bild och text på mobil */
   }
 
-  .project-image-column {
-    max-width: 100%; /* Låter bilden ta upp full bredd i den staplade vyn */
+  .project-image-column,
+  .project-text-column {
+    max-width: 100%; /* Låter båda kolumner ta full bredd */
   }
 }
 
-/* Specifik bildjustering för mobil för att rädda ansikten */
-  .image-banner img:nth-child(1) {
-    object-position: center 58%; /* Justera denna siffra! Prova 40%, 60% etc. */
-  }
+/* =============================================================================
+   SLUTGILTIG LÖSNING för stående bilder (t.ex. Junkbot)
+   ========================================================================== */
 
-  .image-banner img:nth-child(2) {
-    object-position: center 30%; /* Justera även denna! */
-  }
+/* Vi centrerar innehållet i bildkolumnen för stående projekt */
+.project-card-portrait .project-image-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Vi säger åt den stående bilden att fylla höjden istället för bredden */
+.project-card-portrait .project-image-column img {
+  object-fit: contain;  /* Visa hela bilden, krymp för att passa */
+  width: auto;          /* Låt bredden anpassa sig automatiskt */
+  height: 100%;         /* Fyll hela den tillgängliga höjden (450px) */
+}
