@@ -307,10 +307,10 @@ nav a.active {
 }
 
 /* Styr hela flex-behållaren för ett projektkort */
-.project-flex-container {
-  display: flex; /* Aktiverar flexbox */
-  align-items: flex-start; /* Linjerar toppen av bild och text */
-  gap: 25px; /* Mellanrum mellan bild och text */
+.project-card-portrait .project-flex-container {
+  flex-direction: column; /* Denna rad har du redan */
+  max-width: 700px;       /* LÄGG TILL DENNA RAD */
+  margin: 0 auto;         /* LÄGG TILL DENNA RAD (för att centrera) */
 }
 
 /* Add this new, correct rule for the image column */
