@@ -10,7 +10,7 @@
       <h3>Project: Tom the dragon</h3>
       <div class="project-meta">
         <ul>
-          <li><strong>Duration:</strong> 8 Weeks</li>
+          <li><strong>Duration:</strong> 4 Weeks</li>
           <li><strong>Team Size:</strong> 15</li>
           <li><strong>My Roles:</strong> Product Owner, Level Designer</li>
         </ul>
