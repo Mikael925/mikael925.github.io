@@ -26,11 +26,11 @@
   <hr style="border-color: #555;">
 
  <div class="content-text">
-    <h1 class="page-title">The Generalist Advantage</h1>
-   <p>My function as a generalist is to empower the team by providing support, structure, and clarity. I thrive on taking ownership of the development process, ensuring all disciplines work in harmony to deliver a high-quality game on schedule. At my core, I'm the proactive team member who constantly asks, "What's needed to get this done?" and then ensures it happens.</p>
+    <h1 class="page-title">The Advantage</h1>
+   <p>My function as a system designer is to empower the team by providing support, structure, and clarity. I thrive on taking ownership of the development process, ensuring all disciplines work in harmony to deliver a high-quality game on schedule. At my core, I'm the proactive team member who constantly asks, "What's needed to get this done?" and then ensures it happens.</p>
     <div class="project-details-row">
       <details>
-        <summary>Read more about my approach as a Generalist</summary>
+        <summary>Read more about my approach as a System Designer</summary>
         <div class="details-content">
           <div class="strengths-list">
             <div class="strength-item">
