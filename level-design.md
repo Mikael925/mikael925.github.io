@@ -135,7 +135,7 @@
       <h3>Project: Shattered Veil</h3>
       <div class="project-meta">
         <ul>
-          <li><strong>Duration:</strong> 8 Weeks</li>
+          <li><strong>Duration:</strong> 6 Weeks</li>
           <li><strong>Team Size:</strong> 20</li>
           <li><strong>My Roles:</strong> Sound Designer, Level Designer</li>
         </ul>
