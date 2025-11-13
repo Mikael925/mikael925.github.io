@@ -34,13 +34,13 @@
         <div class="details-content">
           <div class="strengths-list">
             <div class="strength-item">
-             <h3>1. A Communication Hub and Translator</h3>Add commentMore actions
+             <h3>1. A Communication Hub and Translator</h3>
         <p>Because I understand the fundamentals of level design, sound design, scripting, and art pipelines, I can 'speak the language' of each department. I can effectively translate an artist's needs to a programmer or explain a technical constraint to a designer.</p>
         <p class="strength-value"><strong>Value:</strong> This drastically reduces friction, prevents misunderstandings, and saves valuable time that would otherwise be lost in translation. It ensures everyone is aligned and working towards the same vision.</p>
             </div>
             <div class="strength-item">
-              <h3>2. Proactive Workflow and Structure</h3>Add commentMore actions
-        <p>My broad knowledge allows me to anticipate the needs of different departments. I can see the bigger picture and identify potential dependencies or bottlenecks before they become critical problems. For example, knowing what a sound designer needs from the level design early on, or how a new character feature will impact the animation pipeline.</p>Add commentMore actions
+              <h3>2. Proactive Workflow and Structure</h3>
+        <p>My broad knowledge allows me to anticipate the needs of different departments. I can see the bigger picture and identify potential dependencies or bottlenecks before they become critical problems. For example, knowing what a sound designer needs from the level design early on, or how a new character feature will impact the animation pipeline.</p>
         <p class="strength-value"><strong>Value:</strong> This foresight leads to better planning, a smoother workflow, and fewer unexpected delays. It allows me to help structure tasks in a logical order, ensuring that no one is left waiting for a deliverable.</p>
             </div>
             <div class="strength-item">
