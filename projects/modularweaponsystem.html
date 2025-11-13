@@ -4,27 +4,81 @@ title: Modular Weapon System
 permalink: /modularweaponsystem/
 ---
 
-<div class="page-content">
-  <div class="project-card">
-    <div class="project-flex-container">
-      <div class="project-image-column">
-        <!-- Replace with actual poster/gif -->
-        <img src="{{ '/Images/mws-poster.png' | relative_url }}" alt="Modular Weapon System poster">
-        <a href="#" class="itchio-link" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-itch-io"></i> View
-        </a>
+<div class="project-card">
+
+  <div class="project-flex-container">
+    <div class="project-image-column">
+      <img src="{{ '/Images/py2img1.png' | relative_url }}" alt="">
+      <a href="" class="itchio-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-itch-io"></i> TBA on Itch.io
+      </a>
+    </div>
+    <div class="project-text-column">
+     <h3>Project: Modular Weapon System <span class="wip-tag">Work in Progress</span></h3>
+     <div class="project-meta">
+        <ul>
+          <li><strong>Duration:</strong> Work in Progress</li>
+          <li><strong>Team Size:</strong> Solo Project</li>
+          <li><strong>My Roles:</strong> Systems Designer</li>
+        </ul>
       </div>
-      <div class="project-text-column">
-        <h3>Project: Modular Weapon System</h3>
-        <div class="project-meta">
-          <ul>
-            <li><strong>Duration:</strong> Prototype</li>
-            <li><strong>Team Size:</strong> TBD</li>
-            <li><strong>My Roles:</strong> Systems Designer</li>
-          </ul>
-        </div>
-        <p>Placeholder card for the modular weapon system prototype. Replace with details and media as needed.</p>
+      <div class="project-tools-summary">
+        <span class="tool-tag"><i class="fa-brands fa-unreal"></i> Unreal Engine 5</span> 
+        <span class="tool-tag"><i class="fa-solid fa-diagram-project"></i> Blueprints</span>
       </div>
+      <p><p>This work-in-progress prototype is a deep dive into creating a modular and tactical weapon system in Unreal Engine. The focus is purely on systems design, featuring procedural recoil, a dynamic two-slot inventory, hit-zone based damage, and procedural animations using Inverse Kinematics (IK) to create a responsive feel for any weapon.</p>
+      </p>  
+      <blockquote class="testimonial">
+        <p></p>
+        <cite></cite>
+      </blockquote>
     </div>
   </div>
+
+  <div class="project-details-row">
+    <details>
+      <summary>Read more about the design and systems</summary>
+      <div class="details-content">
+        <div class="process-stage">
+          <h3>Key System Features</h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Process images:</p>
+              <a href="{{ '/Images/py2gif6.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py2gif6.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+              <a href="{{ '/Images/py2gif7.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py2gif7.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+            </div>
+            <div class="stage-description">
+              <p></p>
+               <ul>
+                 <li>
+    <strong>Data-Driven Architecture (Data Tables & Structs):</strong> The entire weapon system is built on a data-driven foundation using Unreal Engine's Structures and Data Tables. I designed a master 'Weapon Data' Struct to hold every variable—from damage and recoil stats to the assets themselves, including weapon models, animation sets, muzzle flash FX, and impact sounds. This makes the system highly modular and scalable; new weapons can be created and balanced entirely within the Data Table.
+  </li>
+      <li>
+        <strong>Modular Two-Slot Inventory:</strong> The player can carry two weapons at a time. The system is built to be modular, allowing for easy expansion. Players can drop, throw, and pick up weapons dynamically from the environment.
+      </li>
+      <li>
+        <strong>Procedural Recoil & Weapon Stats:</strong> To enhance the tactical feel, all 5 prototyped weapons (3 full-auto, 2 semi-auto) use a procedural recoil system. While the first shot is always accurate, subsequent shots have calculated deviation based on each weapon's unique stats.
+      </li>
+      <li>
+        <strong>Procedural Animation w/ IK:</strong> To avoid creating unique animations for every weapon, the system uses procedural animations with Inverse Kinematics (IK). This allows the character's hands to realistically adapt to any weapon model. The system also includes weapon collision, pulling the gun back when aiming near a wall.
+      </li>
+      <li>
+        <strong>Dynamic Damage Model:</strong> The prototype features different hit-zone checks. A weapon's damage output and the resulting sound, splatter effect vary depending on whether a shot hits an armored or unarmored surface.
+      </li>
+    </ul>
+            </div>
 </div>
+        <div class="process-stage">
+          <h3>Future Development & Vision</h3>
+          <div class="stage-content-flex">
+            <div class="stage-gallery">
+              <p class="gallery-label">Process images:</p>
+              <a href="{{ '/Images/py2gif8.gif' | relative_url }}" target="_blank"><img src="{{ '/Images/py2gif8.gif' | relative_url }}" alt="" class="gallery-thumbnail"></a>
+            </div>
+            <div class="stage-description">
+              <p> <p>This prototype is an ongoing effort and the foundation for what I envision as my graduation project. The immediate next steps in the design process include:</p>
+              <ul>
+      <li>Implementing a stamina system that affects the player's ability to Aim Down Sights (ADS) for extended periods, adding another layer of tactical decision-making.</li>
+      <li>Continuously iterating to find the perfect balance between challenging, tactical gameplay and a fun, engaging player experience.</li>
+    </ul>
+             <hr style="border-color: #555;">    
