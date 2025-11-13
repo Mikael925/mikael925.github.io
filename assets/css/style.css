@@ -1,6 +1,32 @@
 /* =============================================================================
    Grundläggande sidinställningar & Header
    ========================================================================== */
+/* Split columns for Projects / Prototypes */
+.projects-split {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Each column takes ~50% on wide screens, stacks on narrow screens */
+.projects-column {
+  flex: 1 1 48%;
+  min-width: 300px;
+}
+
+/* Keep the existing welcome-grid layout inside each column */
+.projects-column .welcome-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* two cards per row inside a column */
+  gap: 1rem;
+}
+
+/* Ensure video/img inside card doesn't intercept clicks so anchor always works */
+.welcome-card video,
+.welcome-card img {
+  pointer-events: none;
+}
 
 body {
   background-color: #2c2c2c;
