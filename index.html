@@ -4,7 +4,18 @@ layout: default
 
 <div class="page-content">
   <h1 class="page-title">Welcome</h1>
-  <p class="welcome-pitch">A versatile and disciplined System Designer, combining 8 years of military experience with a passion for building robust and engaging gameplay systems. Below are my Projects and Prototypes.</p>
+  <p class="welcome-pitch">A versatile and disciplined System Designer, combining 8 years of military experience with a passion for building robust and engaging gameplay systems. Below are my Projects and Prototypes.</p> 
+  <div class="about-card-wrap" style="margin-top:1.5rem;">
+        <a href="{{ '/about/' | relative_url }}" class="welcome-card">
+          <div class="card-video-wrapper">
+            <video autoplay loop muted playsinline poster="{{ '/Images/Profile2.jpg' | relative_url }}">
+              <source src="{{ '/Images/Profile2.jpg' | relative_url }}" type="image/jpeg">
+            </video>
+          </div>
+          <div class="card-overlay"></div>
+          <h3 class="card-title">About Me</h3>
+        </a>
+      </div>
   <hr style="border-color: #555;">
 
   <!-- Split layout: Projects (left) / Prototypes (right) -->
@@ -100,17 +111,7 @@ layout: default
       <!-- Add additional prototype cards above this comment when you have more -->
  <hr style="border-color: #555;">
       <!-- About Me (always at bottom of right column) -->
-      <div class="about-card-wrap" style="margin-top:1.5rem;">
-        <a href="{{ '/about/' | relative_url }}" class="welcome-card">
-          <div class="card-video-wrapper">
-            <video autoplay loop muted playsinline poster="{{ '/Images/Profile2.jpg' | relative_url }}">
-              <source src="{{ '/Images/Profile2.jpg' | relative_url }}" type="image/jpeg">
-            </video>
-          </div>
-          <div class="card-overlay"></div>
-          <h3 class="card-title">About Me</h3>
-        </a>
-      </div>
+      
 
     </div>
   </div>
